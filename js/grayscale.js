@@ -41,14 +41,14 @@
 
 })(jQuery); // End of use strict
 
-// typewriter 
+/*// typewriter 
 var typewriter = new Typewriter(app, {
   delay: 35,
   deleteSpeed: 35,
-  loop: false
+  loop: false,
 });
 
-typewriter.typeString("PABLO HERRERO")
+typewriter.typeString("PABLO HERRERO<br/>")
     .pauseFor(1300)
     .start();
 
@@ -61,4 +61,7 @@ var typewriter2 = new Typewriter(app2, {
 
 typewriter2.typeString('<strong>I &hearts; development!</strong>')
     .pauseFor(1300)
-    .start();
+    .start();*/
+
+
+// Type2 https://github.com/mattboldt/typed.js/blob/master/README.md
