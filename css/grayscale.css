@@ -110,7 +110,7 @@
   width:100%;
   text-align: center !important;
   font-family: 'one_dayregular';
-  font-size: 2.5rem;
+  font-size: 5.5rem !important;
   line-height: 2.5rem;
   letter-spacing: 0.8rem;
   background-color: #000000;
@@ -121,8 +121,24 @@
 .masthead h2 {
   text-align: center !important;
   max-width: 20rem;
-  font-size: 1rem;
+  font-size: 1.2rem !important;
   color: #000000 !important;
+}
+
+@media (max-width: 768px) {
+  .masthead h1 {
+    font-size: 3.5rem !important;
+    line-height: 4rem;
+  }
+  .masthead{
+    position: relative;
+    width: 100%;
+    height: auto;
+  }
+  .masthead h2 {
+    max-width: 30rem;
+    font-size: 1.2rem;
+  }
 }
 
 @media (min-width: 768px) {
@@ -148,31 +164,24 @@
   }
 }
 
-.btn {
-  box-shadow: 0 0.1875rem 0.1875rem 0 rgba(0, 0, 0, 0.1) !important;
-  padding: 1.25rem 2rem;
-  font-family: 'Varela Round';
-  font-size: 80%;
-  text-transform: uppercase;
-  letter-spacing: .15rem;
-  border: 0;
-}
-
-.btn-primary {
-  background-color: #959FA6;
-}
-
-.btn-primary:hover {
-  background-color: #737373;
-}
-
-.btn-primary:focus {
-  background-color: #737373;
-  color: white;
-}
-
-.btn-primary:active {
-  background-color: #737373 !important;
+@media (max-width: 768px){
+  .about-section {
+    padding-top: 10rem;
+    height: 780px !important;
+    background-color: #000000;
+  }
+  
+  .about-section p {
+    margin-bottom: 5rem;
+    font-size: 1.5rem !important;
+  }
+  
+  .about-section h2{
+    font-size: 1.2rem !important;
+    color: #fff !important;
+    text-align: left;
+  
+  }
 }
 
 .about-section {
@@ -220,6 +229,29 @@
   font-size: 100%;
 }
 
+@media (max-width: 768px) {
+  .projects-section .project-text {
+    padding: 5rem;
+  }
+  .projects-section .project-text hr {
+    border-color: #959FA6;
+    border-width: .25rem;
+    width: 30%;
+  }
+
+  .projects-section a{
+    color: #fff !important;
+    font-weight: 550 !important;
+    font-size: 1.5rem !important;
+
+  }
+
+  .projects-section p{
+    color: #959fa6 !important;
+    font-size: 1rem !important;
+  }
+}
+
 @media (min-width: 992px) {
   .projects-section .project-text {
     padding: 5rem;
@@ -241,6 +273,7 @@
     color: #959fa6 !important;
     font-size: 1.2rem !important;
   }
+}
 
 .contact-section {
   padding: 5rem 0 0;
@@ -263,6 +296,12 @@
   border-color: #959FA6;
   border-width: 0.25rem;
   width: 3rem;
+}
+
+@media (max-width: 768px){
+  .contact-section{
+    height: 750px !important;
+  }
 }
 
 .contact-section .social {
