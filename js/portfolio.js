@@ -42,24 +42,37 @@
 })(jQuery); // End of use strict
 
 // Typed.js
+$(function(){
+	$(".typed").typed({
+		strings: ["PABLO HERRERO"],
+		typeSpeed: 70,
+		startDelay: 10,
+		loop: false,
+		showCursor: false,
+		contentType: 'html',
+	});
+});
 
-$('document').ready(function(){
-  var typed = new Typed('#typed1',{
-    stringsElement: '#typed-strings',
-    typeSpeed: 70,
-    startDelay: 0,
-    loop: false,
-    showCursor: false
+$(function(){
+	$(".typed2").typed({
+		strings: ["<strong>I &hearts; development!</strong>"],
+		typeSpeed: 70,
+		startDelay: 1300,
+		backSpeed: 20,
+		backDelay: 500,
+		loop: true,
+		loopCount: 5,
+    showCursor: true,
+    smartBackspace: true,
+		contentType: 'html',
+		// call when done callback function
+		callback: function() {},
+		// starting callback function before each string
+		preStringTyped: function() {},
+		//callback for every typed string
+		onStringTyped: function() {},
+		// callback for reset
+		resetCallback: function() {}
+	});
+});
 
-});
-});
-
-$('document').ready(function(){
-  var typed = new Typed('#typed2',{
-    stringsElement: '#typed-strings2',
-    typeSpeed: 70,
-    startDelay: 1300,
-    loop: false,
-    showCursor: true
-});
-});
