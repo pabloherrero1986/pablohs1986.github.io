@@ -106,7 +106,7 @@
   background-size: cover;
 }
 
-.masthead #typed1 {
+.masthead h1 {
   width:100%;
   text-align: center !important;
   font-family: 'one_dayregular';
@@ -118,7 +118,7 @@
   -webkit-background-clip: text;
 }
 
-.masthead #typed2 {
+.masthead h2 {
   text-align: center !important;
   max-width: 20rem;
   font-size: 1.2rem !important;
@@ -126,7 +126,7 @@
 }
 
 @media (max-width: 768px) {
-  .masthead #typed1 {
+  .masthead h1 {
     font-size: 3.5rem !important;
     line-height: 4rem;
   }
@@ -135,14 +135,14 @@
     width: 100%;
     height: auto;
   }
-  .masthead #typed2 {
+  .masthead h2 {
     max-width: 30rem;
     font-size: 1.2rem;
   }
 }
 
 @media (min-width: 768px) {
-  .masthead #typed1 {
+  .masthead h1 {
     font-size: 4rem;
     line-height: 4rem;
   }
@@ -153,12 +153,12 @@
     height: 100vh;
     padding: 0;
   }
-  .masthead #typed1 {
+  .masthead h1 {
     font-size: 6.5rem;
     line-height: 6.5rem;
     letter-spacing: 0.8rem;
   }
-  .masthead #typed2 {
+  .masthead h2 {
     max-width: 30rem;
     font-size: 2rem;
   }
