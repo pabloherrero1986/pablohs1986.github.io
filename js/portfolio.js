@@ -41,27 +41,25 @@
 
 })(jQuery); // End of use strict
 
-/*// typewriter 
-var typewriter = new Typewriter(app, {
-  delay: 35,
-  deleteSpeed: 35,
-  loop: false,
+// Typed.js
+
+$('document').ready(function(){
+  var typed = new Typed('#typed1',{
+    stringsElement: '#typed-strings',
+    typeSpeed: 70,
+    startDelay: 0,
+    loop: false,
+    showCursor: false
+
+});
 });
 
-typewriter.typeString("PABLO HERRERO<br/>")
-    .pauseFor(1300)
-    .start();
-
-// typewriter 
-var typewriter2 = new Typewriter(app2, {
-  delay: 80,
-  deleteSpeed: 35,
-  loop: false
+$('document').ready(function(){
+  var typed = new Typed('#typed2',{
+    stringsElement: '#typed-strings2',
+    typeSpeed: 70,
+    startDelay: 1300,
+    loop: false,
+    showCursor: true
 });
-
-typewriter2.typeString('<strong>I &hearts; development!</strong>')
-    .pauseFor(1300)
-    .start();*/
-
-
-// Type2 https://github.com/mattboldt/typed.js/blob/master/README.md
+});
