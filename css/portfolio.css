@@ -10,7 +10,6 @@
        url('../css/fonts/oneday-webfont.woff') format('woff');
   font-weight: normal;
   font-style: normal;
-
 }
 
 #mainNav {
@@ -166,7 +165,7 @@
 
 @media (max-width: 768px){
   .about-section {
-    padding-top: 10rem;
+    padding-top: 7rem;
     height: 780px !important;
     background-color: #000000;
   }
@@ -184,7 +183,7 @@
 }
 
 .about-section {
-  padding-top: 10rem;
+  padding-top: 7rem;
   height: 650px;
   background-color: #000000;
 }
@@ -207,7 +206,7 @@
 }
 
 .projects-section {
-  padding: 10rem 0;
+  padding: 7rem 0;
   background-color: #F2F2F2 !important;
 }
 
@@ -274,7 +273,7 @@
 }
 
 .contact-section {
-  padding-top: 10rem;
+  padding-top: 7rem;
   height: 650px;
 }
 
@@ -287,7 +286,7 @@
 .contact-section button{
   font-family: 'Nunito';
   letter-spacing: 0.0625em;
-  font-size: 1.2rem;
+  font-size: 1rem;
   background-color: #959FA6;
 }
 
@@ -297,11 +296,7 @@
   }
 }
 
-.contact-section .social {
-  margin-top: 2rem;
-}
-
-.contact-section .social a {
+footer .social a {
   text-align: center;
   height: 3rem;
   width: 3rem;
@@ -313,12 +308,12 @@
   color: #F2F2F2;
 }
 
-.contact-section .social a:hover {
+footer .social a:hover {
   color: #000000;
   background: #F2F2F2;
 }
 
-.contact-section .social a:active {
+footer .social a:active {
   color: #F2F2F2;
 }
 
@@ -381,11 +376,11 @@ h1{
 
 
 footer {
-  padding: 5rem 0;
+  padding: 6rem 0;
 }
 
  /*Arrow*/
- .scroll-down {
+ /*.scroll-down {
   position: absolute;
   left: 50%;
   bottom: 10px;
@@ -407,7 +402,7 @@ footer {
   -webkit-animation: fade_move_down 4s ease-in-out infinite;
   -moz-animation:    fade_move_down 4s ease-in-out infinite;
   animation:         fade_move_down 4s ease-in-out infinite;
-}
+}*/
 
 
 /*animated scroll arrow animation*/
@@ -426,6 +421,45 @@ footer {
   50%  { opacity: 1;  }
   100% { transform:translate(0,10px) rotate(45deg); opacity: 0; }
 }
+
+.arrow{
+  position: absolute;
+  bottom: 10%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+}
+.arrow span{
+  display: block;
+  width: 20px;
+  height: 20px;
+  border-bottom: 5px solid #000000;
+  border-right: 5px solid #000000;
+  transform: rotate(45deg);
+  margin: -10px;
+  animation: animate 2s infinite;
+
+}
+.arrow span:nth-child(2){
+  animation-delay: -0.2s;
+}
+.arrow span:nth-child(3){
+  animation-delay: -0.4s;
+}
+@keyframes animate {
+  0%{
+      opacity: 0;
+      transform: rotate(45deg) translate(-20px,-20px);
+  }
+  50%{
+      opacity: 1;
+  }
+  100%{
+      opacity: 0;
+      transform: rotate(45deg) translate(20px,20px);
+  }
+}
+
+
 
 
 
