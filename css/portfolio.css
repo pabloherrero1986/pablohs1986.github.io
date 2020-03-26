@@ -110,7 +110,7 @@
   width:100%;
   text-align: center !important;
   font-family: 'one_dayregular';
-  font-size: 5.5rem !important;
+  font-size: 6.5rem !important;
   line-height: 2.5rem;
   letter-spacing: 0.8rem;
   background-color: #000000;
@@ -121,7 +121,7 @@
 .masthead h2 {
   text-align: center !important;
   max-width: 20rem;
-  font-size: 1.2rem !important;
+  font-size: 2rem !important;
   color: #000000 !important;
 }
 
@@ -290,7 +290,10 @@
   font-family: 'Varela Round';
   text-transform: uppercase;
   letter-spacing: 0.15rem;
+  color: #000000;
 }
+
+
 
 .contact-section .card hr {
   border-color: #959FA6;
@@ -312,18 +315,21 @@
   text-align: center;
   height: 3rem;
   width: 3rem;
-  background: #959FA6;
+  background: transparent;
+  color: #F2F2F2;
   border-radius: 100%;
+  border: 2px solid #959FA6;
   line-height: 3rem;
-  color: #DAE9F2;
-}
-
-.contact-section .social a:hover {
   color: #F2F2F2;
 }
 
+.contact-section .social a:hover {
+  color: #000000;
+  background: #F2F2F2;
+}
+
 .contact-section .social a:active {
-  color: #fff;
+  color: #F2F2F2;
 }
 
 body {
