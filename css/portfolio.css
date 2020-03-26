@@ -180,7 +180,6 @@
     font-size: 1.2rem !important;
     color: #fff !important;
     text-align: left;
-  
   }
 }
 
@@ -198,7 +197,6 @@
   font-size: 1.5rem;
   color: #fff !important;
   text-align: left;
-
 }
 
 .about-section p{
@@ -276,12 +274,14 @@
 }
 
 .contact-section {
-  padding: 5rem 0 0;
+  padding-top: 10rem;
   height: 650px;
 }
 
 .contact-section .card{
   background-color: transparent;
+  margin-top: -1rem;
+  width: 50%;
 }
 
 .contact-section button{
@@ -348,6 +348,16 @@ a:focus, a:hover {
   color: #959FA6 !important;
 }
 
+h1{
+  font-size: 2.5rem;
+}
+
+@media (max-width: 768px){
+  h1{
+    font-size: 1.7rem;
+  }
+}
+
 .divider-white {
   text-align: center !important;
   border-bottom: 1px solid #FFF;
@@ -355,7 +365,7 @@ a:focus, a:hover {
   background-color: #fff;
   height: 3px;
   margin-top: -2rem;
-  margin-bottom: 4rem;
+  margin-bottom: 6rem;
 }
 
 .divider-black {
@@ -365,8 +375,10 @@ a:focus, a:hover {
   background-color: #000000;
   height: 3px;
   margin-top: -2rem;
-  margin-bottom: 4rem;
+  margin-bottom: 6rem;
 }
+
+
 
 footer {
   padding: 5rem 0;
