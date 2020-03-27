@@ -291,7 +291,7 @@
   .projects-section a{
     color: #fff !important;
     font-weight: 550 !important;
-    font-size: 2rem !important;
+    font-size: 1.8rem !important; /*h4*/
 
   }
 
@@ -410,6 +410,7 @@ h1{
     font-size: 1.7rem;
   }
 }
+
 
 .divider-white {
   text-align: center !important;
