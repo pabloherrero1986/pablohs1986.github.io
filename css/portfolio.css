@@ -184,7 +184,7 @@
 
 .about-section {
   padding-top: 7rem;
-  height: 650px;
+  height: 700px;
   background-color: #000000;
 }
 
@@ -274,7 +274,7 @@
 
 .contact-section {
   padding-top: 7rem;
-  height: 650px;
+  height: 700px;
 }
 
 @media (max-width: 768px){
@@ -308,12 +308,14 @@
 .up a {
   font-size: 1.4rem;
   text-align: center;
-  width: 50px;
+  width: 45px;
   background: #F2F2F2;
   color: #000000;
-  line-height: 3.2rem;
+  line-height: 3rem;
   color:#000000;
-  margin-bottom: 50px;
+  margin-bottom: -35px;
+  position: relative;
+  bottom: 36px !important;
 }
 
 .up a:hover {
@@ -401,7 +403,8 @@ h1{
 }
 
 footer {
-  padding: 6rem 0;
+  padding: 10px 0 50px 0;
+  background-color: #1A1A1A;
 }
 
  /*animated scroll arrow animation*/
