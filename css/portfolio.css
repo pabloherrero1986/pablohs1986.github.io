@@ -167,7 +167,7 @@
 @media (max-width: 768px){
   .about-section {
     padding-top: 7rem;
-    height: 780px !important;
+    height: 1280px !important;
     background-color: #000000;
   }
   
@@ -184,30 +184,58 @@
 }
 
 .about-section {
-  padding-top: 7rem;
-  height: 700px;
+  padding-top: 3.5rem;
+  height: 750px;
   background-color: #000000;
 }
 
 .about-section p {
-  margin-bottom: 5rem;
+  margin-bottom: 2rem;
 }
 
 .about-section h2{
-  font-size: 1.5rem;
+  font-size: 1.2rem;
+  font-weight: bold;
   color: #fff !important;
-  text-align: left;
+  text-align: center;
+  margin-top:1.2rem;
 }
 
 .about-section p{
-  font-size:2rem;
+  font-size:1.2rem;
   color: #fff !important;
-  text-align: left;
+  text-align: center;
   max-width: 100%;
 }
 
+.about-section img{
+  max-width: 85%;
+  text-align: left !important; 
+  border-radius: 50%;
+}
+
+.about-section .progress{
+  margin: 0px 0px 16px 0px;
+}
+
+.about-section .progress{
+  width: 100%;
+}
+
+.about-section .progress-bar{
+  background-color: #959FA6 !important;
+}
+
+.about-section .label{
+  color:#fff;
+  font-size: 1rem;
+  font-weight: 700;
+  text-align: left;
+  margin-left: 1rem;
+}
+
 .projects-section {
-  padding: 7rem 0;
+  padding: 3.5rem 0;
   background-color: #F2F2F2 !important;
 }
 
@@ -274,8 +302,8 @@
 }
 
 .contact-section {
-  padding-top: 7rem;
-  height: 700px;
+  padding-top: 3.5rem;
+  height: 750px;
 }
 
 @media (max-width: 768px){
@@ -295,7 +323,7 @@
 .contact-section button{
   font-family: 'Nunito';
   letter-spacing: 0.0625em;
-  font-size: 1rem;
+  font-size: 1.2rem;
   background-color: #959FA6;
 }
 
