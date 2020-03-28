@@ -216,6 +216,14 @@
   max-width: 100%;
 }
 
+@media (max-width: 768px){
+  .about-section img{
+    max-width: 130% !important;
+    text-align: left !important; 
+    border-radius: 50%;
+  }
+}
+
 .about-section img{
   max-width: 85%;
   text-align: left !important; 
