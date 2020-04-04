@@ -96,7 +96,7 @@
 .masthead {
   position: relative;
   width: 100%;
-  height: auto;
+  height: 100vh;
   min-height: 35rem;
   padding: 15rem 0;
   background-color: #F2F2F2;
@@ -140,7 +140,7 @@
   .masthead{
     position: relative;
     width: 100%;
-    height: auto;
+    height: 100vh;
   }
   .masthead h2 {
     max-width: 30rem;
@@ -420,7 +420,7 @@
   color:#000000;
   margin-bottom: -35px;
   position: relative;
-  bottom: 36px !important;
+  bottom: 46px !important;
 }
 
 .up a:hover {
