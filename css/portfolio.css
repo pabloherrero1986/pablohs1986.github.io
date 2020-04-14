@@ -336,6 +336,12 @@
   object-fit: cover;
 }
 
+.projects-section a:hover{
+  color: rgba(255, 255, 255, 0.795) !important;
+}
+
+
+
 .contact-section {
   padding-top: 3.5rem;
   height: 750px;
