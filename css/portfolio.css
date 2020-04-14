@@ -330,6 +330,12 @@
   }
 }
 
+.projects-section img{
+  width: 100%;
+  object-fit: cover;
+  height: 300px !important;
+}
+
 .contact-section {
   padding-top: 3.5rem;
   height: 750px;
