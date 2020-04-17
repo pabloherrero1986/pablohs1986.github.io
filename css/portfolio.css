@@ -58,7 +58,13 @@
   #mainNav .navbar-brand {
     padding: .5rem 0;
     color:#000000;
+    margin-left: 48px;
   }
+
+  #mainNav .collapse{
+    margin-right: 48px;
+  }
+
   #mainNav .nav-link {
     transition: none;
     padding: 2rem 1.5rem;
@@ -335,9 +341,11 @@
 }
 
 .projects-section img{
-  width: 100%;
-  height: 300px !important;
+  width: 390px;
+  height: 260px !important;
   object-fit: cover;
+  border-radius: 15px 15px 15px 15px;
+
 }
 
 .projects-section a:hover{
