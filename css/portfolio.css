@@ -13,6 +13,7 @@
   font-style: normal;
 }
 
+/* Nav */
 #mainNav {
   min-height: 56px;
   background-color: #fff;
@@ -93,6 +94,7 @@
   }
 }
 
+/* Masthead */
 .masthead {
   position: relative;
   width: 100%;
@@ -175,6 +177,7 @@
   }
 }
 
+/* About section*/
 @media (max-width: 768px){
   .about-section {
     padding-top: 7rem;
@@ -261,6 +264,7 @@
   margin-left: 1rem;
 }
 
+/* Projects section */
 .projects-section {
   padding: 3.5rem 0;
   background-color: #F2F2F2 !important;
@@ -341,7 +345,7 @@
 }
 
 
-
+/* Contact section */
 .contact-section {
   padding-top: 3.5rem;
   height: 750px;
