@@ -203,7 +203,7 @@
 @media (max-width: 768px){
   .about-section {
     padding-top: 7rem;
-    height: 875px !important;
+    height: auto !important;
     background-color: #000000;
   }
   
@@ -229,7 +229,7 @@
 
 .about-section {
   padding-top: 3.5rem;
-  height: 750px;
+  height: auto;
   background-color: #000000;
 }
 
@@ -239,16 +239,17 @@
 
 .about-section h2{
   font-size: 21px;
-  font-weight: bold;
+  font-weight: 900;
   color: #fff !important;
-  text-align: center;
   margin-top:1.2rem;
+  letter-spacing: 0.25rem;
+
 }
 
 .about-section p{
   font-size: 21px;
   color: #fff !important;
-  text-align: left;
+  text-align: right;
   max-width: 100%;
 }
 
@@ -261,12 +262,37 @@
 }
 
 .about-section img{
-  max-width: 85%;
-  text-align: left !important; 
+  max-width: 55%;
   border-radius: 50%;
+  margin-left: 0px;
 }
 
-.about-section .progress{
+.about-section ul {
+  list-style-type: none;
+  padding: 0 0 0 0;
+  font-size: 19px;
+}
+
+.about-section li{
+  color: rgb(0, 0, 0);
+}
+
+.about-section .card{
+  background-color: #F2F2F2;
+  border-radius: 15px 15px 15px 15px;
+
+}
+.about-section .card h2{
+  font-size: 21px;
+  font-weight: 900;
+  color: rgb(0, 0, 0) !important;
+  margin-top:1.2rem;
+  letter-spacing: 0.0625em;
+}
+
+
+
+/*.about-section .progress{
   margin: 0px 0px 16px 0px;
 }
 
@@ -284,7 +310,7 @@
   font-weight: 700;
   text-align: left;
   margin-left: 1rem;
-}
+}*/
 
 /* Projects section */
 .projects-section {
@@ -357,7 +383,7 @@
 }
 
 .projects-section img{
-  width: 390px;
+  width: 100%;
   height: 260px !important;
   object-fit: cover;
   border-radius: 15px 15px 15px 15px;
@@ -381,7 +407,7 @@
   bottom: 0;
   left: 0;
   right: 0;
-  background-color: #008CBA;
+  background-color: #000000;
   overflow: hidden;
   width: 100%;
   height: 100%;
@@ -412,7 +438,7 @@
 /* Contact section */
 .contact-section {
   padding-top: 3.5rem;
-  height: 750px;
+  height: auto;
 }
 
 @media (max-width: 768px){
@@ -426,8 +452,19 @@
 .contact-section .card{
   background-color: transparent;
   margin-top: -1rem;
+  padding-bottom: 100px;
   width: 50%;
 }
+
+.contact-section input{
+  border-radius: 15px 15px 15px 15px;
+}
+
+.contact-section textarea{
+  border-radius: 15px 15px 15px 15px;
+}
+
+
 
 @media (max-width: 768px){
   .contact-section input, .contact-section textarea{
@@ -447,6 +484,7 @@
     letter-spacing: 0.0625em;
     font-size: 17px !important;
     background-color: #959FA6;
+    
   }
 }
 
@@ -455,15 +493,17 @@
   letter-spacing: 0.0625em;
   font-size: 21px;
   background-color: #959FA6;
+  border-radius: 15px 15px 15px 15px;
+
 }
 
 @media (max-width: 768px){
   .contact-section{
-    height: 750px !important;
+    height: auto !important;
   }
 }
 
-
+/* Footer */
 
 @media (max-width: 768px){
   .up a {
@@ -500,7 +540,9 @@
   color:#000000;
   margin-bottom: -35px;
   position: relative;
-  bottom: 46px !important;
+  bottom: 35px !important;
+  border-radius: 15px 15px 15px 15px;
+
 }
 
 .up a:hover {
@@ -520,6 +562,8 @@ footer .social a {
   color: #fff;
   line-height: 3.2rem;
   color: #fff;
+  border-radius: 15px 15px 15px 15px;
+
 }
 
 footer .social a:hover {
@@ -529,6 +573,12 @@ footer .social a:hover {
 
 footer .social a:active {
   color: #fff;
+}
+
+footer {
+  padding: 10px 0 50px 0;
+  background-color: #1A1A1A;
+  font-size: 15px !important;
 }
 
 body {
@@ -588,11 +638,7 @@ h1{
   margin-bottom: 5rem;
 }
 
-footer {
-  padding: 10px 0 50px 0;
-  background-color: #1A1A1A;
-  font-size: 15px !important;
-}
+
 
  /*animated scroll arrow animation*/
 @-webkit-keyframes fade_move_down {
