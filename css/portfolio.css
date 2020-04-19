@@ -63,7 +63,6 @@ h6 {
   letter-spacing: 0.0625em;
 }
 
-
 h1 {
   font-family: 'open_sans_condensedbold';
 }
@@ -75,12 +74,12 @@ body {
 }
 
 /* Dividers */
-
 .diagonal1 {
   display: block;
   width: 100%;
   height: 35px;
   background: #F2F2F2;
+  outline: none;
 }
 
 .diagonal2 {
@@ -89,6 +88,11 @@ body {
   height: 35px;
   background: #000000;
   fill: #F2F2F2;
+  outline: none;
+}
+
+polygon {
+  outline: none !important;
 }
 
 /* Nav */
@@ -117,7 +121,6 @@ body {
   font-weight: 700;
   padding: .9rem 0;
   margin-left: 18px;
-
 }
 
 #mainNav .navbar-nav .nav-item:hover {
@@ -132,38 +135,19 @@ body {
 }
 
 #mainNav .nav-link {
+  font-size: 14px;
   transition: none;
-  padding: 2rem 1.5rem;
+  padding: 1rem 1.5rem;
   color:#000000;
+  background-color: rgba(149, 159, 166, 0.411);
 }
 #mainNav .nav-link:hover {
   color: #737373;
 }
 #mainNav .nav-link:active {
-  color: #000000;
-}
-#mainNav.navbar-shrink {
-  background-color: #fff;
-}
-#mainNav.navbar-shrink .navbar-brand {
-  color: #000000;
-}
-#mainNav.navbar-shrink .nav-link {
-  color: #000000;
-  padding: 1.5rem 1.5rem 1.25rem;
-  border-bottom: 0.25rem solid transparent;
-}
-#mainNav.navbar-shrink .nav-link:hover {
   color: #959FA6;
 }
-#mainNav.navbar-shrink .nav-link:active {
-  color: #737373;
-}
-#mainNav.navbar-shrink .nav-link.active {
-  color: #959FA6;
-  outline: none;
-  border-bottom: 0.25rem solid #959FA6;
-}
+
 
 @media (min-width: 992px) {
   #mainNav{
@@ -177,6 +161,35 @@ body {
 
   #mainNav .collapse{
     margin-right: 48px;
+  }
+  #mainNav .nav-link {
+    font-size: 16px;
+    transition: none;
+    padding: 2rem 1.5rem;
+    color:#000000;
+  }
+  #mainNav .nav-link {
+    background-color: transparent;
+  }
+  #mainNav.navbar-shrink {
+    background-color: #fff;
+  }
+  #mainNav.navbar-shrink .navbar-brand {
+    color: #000000;
+  }
+  #mainNav.navbar-shrink .nav-link {
+    color: #000000;
+    padding: 1.5rem 1.5rem 1.25rem;
+    border-bottom: 0.25rem solid transparent;
+  }
+  #mainNav.navbar-shrink .nav-link:hover {
+    color: #959FA6;
+  }
+ 
+  #mainNav.navbar-shrink .nav-link.active {
+    color: #959FA6;
+    outline: none;
+    border-bottom: 0.25rem solid #959FA6;
   }
 }
 
