@@ -422,6 +422,10 @@ polygon {
     font-size: 20px;
     letter-spacing: 0.0625em;
   }
+
+  .card-deck{
+    margin-top: 50px !important;
+  }
 }
 
 /* Portfolio section */
