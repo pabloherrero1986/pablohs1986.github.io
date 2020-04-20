@@ -98,6 +98,7 @@
   font-family: 'one_dayregular';
   font-size: 16;
   color: black;
+  background-color: transparent;
  }
 
  @media (min-width: 992px){
@@ -110,5 +111,6 @@
 
  a:hover{
    color: #d6d6d6;
-    text-decoration: none;
+   text-decoration: none;
+   background-color: transparent;
  }

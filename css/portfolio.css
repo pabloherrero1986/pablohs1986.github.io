@@ -531,7 +531,19 @@ polygon {
 
 .contact-section input, .contact-section textarea{
   border-radius: 15px 15px 15px 15px;
+  font-family: "open_sansregular" !important;
   font-size: 16px !important;
+}
+
+.form-check-label{
+  font-family: "open_sanslight";
+  font-size: 12px;
+}
+
+.form-check-label a{
+  font-family: "open_sanslight";
+  color: #000000;
+  font-weight: bold;
 }
 
 .contact-section .card{
@@ -556,7 +568,10 @@ polygon {
   }
   .contact-section input, .contact-section textarea{
     border-radius: 15px 15px 15px 15px;
-    font-size: 20px;
+    font-size: 20px !important;
+  }
+  .form-group label{
+    font-size: 16px;
   }
 }
 
