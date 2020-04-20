@@ -1,4 +1,4 @@
-# **PORTFOLIO**
+# **PORTFOLIO** ![GitHub release](https://img.shields.io/badge/release-v.2.0-blue)
 
 My portfolio, handmade with love. It is a one page, flat design web built with Bootstrap 4. These are its features:
   - Mobile first design.
