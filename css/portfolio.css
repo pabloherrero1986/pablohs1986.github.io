@@ -442,7 +442,7 @@ polygon {
   margin-bottom: 48px;
 }
 
-.projects-section a{
+.projects-section h2{
   color: #fff;
   font-family: "open_sans_condensedbold";
   font-weight: normal;
@@ -457,7 +457,7 @@ polygon {
   width: 90%;
 }
 
-.projects-section a:hover{
+.projects-section h2:hover{
   color: rgba(255, 255, 255, 0.795);
   text-decoration: none;
 }
@@ -467,10 +467,6 @@ polygon {
   height: 300px !important;
   object-fit: cover;
   border-radius: 15px 15px 15px 15px;
-}
-
-.projects-section a:hover{
-  color: rgba(255, 255, 255, 0.795) !important;
 }
 
 .img-holder {
@@ -505,7 +501,7 @@ polygon {
     font-size: 60px;
   }
   
-  .projects-section a{
+  .projects-section h2{
     font-size: 20px;
   }
 }
