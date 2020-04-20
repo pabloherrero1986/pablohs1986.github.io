@@ -567,6 +567,15 @@ footer {
   font-size: 12px;
 }
 
+a{
+  text-decoration: none;
+}
+
+#legal:hover{
+  text-decoration: none;
+  color:#959FA6 !important;
+}
+
 .up a {
   font-size: 16px !important;
   text-align: center;

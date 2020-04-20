@@ -1,0 +1,114 @@
+  @font-face {
+    font-family: 'one_dayregular';
+    src: url('../css/fonts/oneday-webfont.woff2') format('woff2'),
+         url('../css/fonts/oneday-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+  }
+  
+  @font-face {
+    font-family: 'open_sansbold';
+    src: url('../css/fonts/opensans-bold-webfont.woff2') format('woff2'),
+         url('../css/fonts/opensans-bold-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+  }
+  
+  @font-face {
+    font-family: 'open_sansregular';
+    src: url('../css/fonts/opensans-regular-webfont.woff2') format('woff2'),
+         url('../css/fonts/opensans-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+  }
+  
+  @font-face {
+    font-family: 'open_sansextrabold';
+    src: url('../css/fonts/opensans-extrabold-webfont.woff2') format('woff2'),
+         url('../css/fonts/opensans-extrabold-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+  }
+  
+  @font-face {
+    font-family: 'open_sans_condensedbold';
+    src: url('../css/fonts/opensanscondensed-bold-webfont.woff2') format('woff2'),
+         url('../css/fonts/opensanscondensed-bold-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+  }
+  
+  @font-face {
+    font-family: 'open_sanslight';
+    src: url('../css/fonts/opensans-light-webfont.woff2') format('woff2'),
+         url('../css/fonts/opensans-light-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+  }
+  
+  body{
+    background-color: #F2F2F2;
+  }
+
+  h1{
+    font-family: 'one_dayregular';
+    font-size: 46px;
+  }
+
+  @media (min-width: 992px){
+    h1{
+      font-size: 60px;
+    }
+  }
+
+  h2{
+    font-family: 'open_sans_condensedbold';
+    font-size: 46px;
+  }
+
+  @media (min-width: 992px){
+    h2{
+      font-size: 60px;
+    }
+  }
+
+  p{
+    font-family: 'open_sansregular';
+    font-size: 16px;
+  }
+
+  @media (min-width: 992px){
+    p{
+      font-size: 20px;
+    }
+  }
+
+  li{
+    font-family: 'open_sansregular';
+    font-size: 16px;
+  }
+
+  @media (min-width: 992px){
+    li{
+      font-size: 20px;
+    }
+  }
+
+ a{
+  font-family: 'one_dayregular';
+  font-size: 16;
+  color: black;
+ }
+
+ @media (min-width: 992px){
+  a{
+    font-family: 'one_dayregular';
+    font-size: 20;
+    color: black;
+   }
+}
+
+ a:hover{
+   color: #d6d6d6;
+    text-decoration: none;
+ }

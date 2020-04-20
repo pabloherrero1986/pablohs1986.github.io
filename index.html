@@ -79,7 +79,7 @@
     </div>
   </header>
 
-  <svg class="diagonal1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 10" preserveAspectRatio="none" shape-rendering="crispEdges">
+  <svg class="diagonal1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 10" preserveAspectRatio="none">
     <polygon points="0 0 100 10 0 10" />
   </svg>
 
@@ -136,7 +136,7 @@
     </div>
   </section>
 
-  <svg class="diagonal2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 10" preserveAspectRatio="none" shape-rendering="crispEdges">
+  <svg class="diagonal2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 10" preserveAspectRatio="none">
     <polygon points="100 0 100 10 0 10" />
   </svg>
 
@@ -202,7 +202,7 @@
       </div>
   </section>
 
-  <svg class="diagonal1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 10" preserveAspectRatio="none" shape-rendering="crispEdges">
+  <svg class="diagonal1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 10" preserveAspectRatio="none">
     <polygon points="0 0 100 10 0 10" />
   </svg>
 
@@ -230,6 +230,10 @@
                     <div class="col-lg-12">
                       <textarea rows="6" placeholder="Your message" name="message2" id="message2" class="form-control mt-2" required=""></textarea>
                     </div>
+                </div>
+                <div class="form-group form-check">
+                  <input type="checkbox" class="form-check-input" id="legalCheck" required/>
+                  <label class="form-check-label">He leído y estoy de acuerdo con las condiciones legales</label>
                 </div>
                 <button type="submit" class="btn btn-lg float-left mt-2">SUBMIT</button>
               </fieldset>
@@ -260,8 +264,14 @@
         <i class="fab fa-twitter"></i>
       </a>
     </div>
+ 
     <div class="container text-secondary mt-5">
-      &copy; 2020 Pablo Herrero
+        <div class="flex-column col-lg-12 text-center">
+          <a id="legal" class="text-secondary" href="legal.html" target="_blank">Aviso Legal y Política de Privacidad</a>
+        </div>
+        <div id="copy" class="flex-column col-lg-12 text-center mt-2">
+          &copy; 2020 Pablo Herrero
+        </div>
     </div>
   </footer>
 
