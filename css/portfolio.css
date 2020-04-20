@@ -139,7 +139,7 @@ polygon {
   transition: none;
   padding: 1rem 1.5rem;
   color:#000000;
-  background-color: rgba(149, 159, 166, 0.411);
+  background-color: rgba(149, 159, 166, 0.295);
 }
 #mainNav .nav-link:hover {
   color: #737373;
@@ -148,6 +148,10 @@ polygon {
   color: #959FA6;
 }
 
+#mainNav.navbar-shrink .nav-link.active {
+  color: #959FA6;
+  outline: none;
+}
 
 @media (min-width: 992px) {
   #mainNav{
@@ -189,7 +193,6 @@ polygon {
   #mainNav.navbar-shrink .nav-link.active {
     color: #959FA6;
     outline: none;
-    border-bottom: 0.25rem solid #959FA6;
   }
 }
 
