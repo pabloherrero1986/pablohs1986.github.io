@@ -17,6 +17,6 @@ My portfolio, handmade with love. It is a one page, flat design web built with B
     - CSS animations (thanks @daneden https://github.com/daneden/animate.css).
     - Animated arrow (thanks @raf187 https://codepen.io/raf187/pen/BvgGRQ).
     
-Use my design if you want, always with love and under MIT license.
+Use my design if you want, always with love and under MIT license :smiley:
 
 > © 2020 Pablo Herrero
