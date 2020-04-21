@@ -8,13 +8,13 @@ My portfolio, handmade with love. It is a one page, flat design web built with B
   - Portfolio grid showing details when hovering over an image and acting as a link.
   - Contact section with a form that includes a confirmation check linked to the legal conditions and send you to the thank you page when submit.
   - Footer section with go up button, social links, copyright reference and link to legal conditions.
-  - Scroll animations.
+  - Animated elements as you scroll down and up.
   - Scrollspy
   - Diagonal sections dividers.
   - Custom button styles.
   - Some amazing libraries:
     - Typed.js JavaScript typing animation (thanks @mattboldt https://github.com/mattboldt/typed.js/).
-    - Animate On Scroll (thanks @michalsnik https://github.com/michalsnik/aos).
+    - Animate On Scroll (thanks @michalsnik https://github.com/michalsnik/aos/tree/v2).
     - CSS animations (thanks @daneden https://github.com/daneden/animate.css).
     - Animated arrow (thanks @raf187 https://codepen.io/raf187/pen/BvgGRQ).
     
