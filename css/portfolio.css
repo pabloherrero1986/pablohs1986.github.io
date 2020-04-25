@@ -71,6 +71,16 @@ h1 {
 body {
   font-family: 'open_sansregular';
   letter-spacing: 0.0625em;
+  overflow-y: scroll;
+}
+
+body::-webkit-scrollbar {
+  display: none;
+}
+
+/* Hide scrollbar for IE and Edge */
+body {
+  -ms-overflow-style: none;
 }
 
 /* Dividers */
