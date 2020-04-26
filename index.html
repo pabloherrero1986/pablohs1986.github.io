@@ -65,10 +65,12 @@
   <!-- Header -->
   <header class="masthead">
     <div class="container d-flex h-100 align-items-center">
-      <div class="mx-auto text-center">
-        <h1 class="mx-auto my-0 text-uppercase text-center"><span class="typed"></span>
+      <div class="text-center">
+        <h1 id="name" class="my-0 text-uppercase text-left"><span class="typed"></span>
         </h1>
-        <h2 class="mx-auto mt-2 mb-5"><span class="typed2"></span></h2>
+        <h1 id="surname" class="my-0 text-uppercase text-left"><span class="typed2"></span>
+        </h1>
+        <h2 id="message" class="mt-2 mb-5"><span class="typed3"></span></h2>
       </div>
     </div>
     <div>
@@ -80,9 +82,6 @@
     </div>
   </header>
 
-  <svg class="diagonal1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 10" preserveAspectRatio="none">
-    <polygon points="0 0 100 10 0 10" />
-  </svg>
 
   <!-- About Section -->
   <section id="about" class="about-section text-center">
@@ -137,9 +136,7 @@
     </div>
   </section>
 
-  <svg class="diagonal2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 10" preserveAspectRatio="none">
-    <polygon points="100 0 100 10 0 10" />
-  </svg>
+ 
 
   <!-- Portfolio Section -->
   <section id="projects" class="projects-section">
@@ -148,8 +145,8 @@
         <h1 id="titles" class="text-center" data-aos="fade" data-aos-offset="50" data-aos-delay="70" data-aos-anchor-placement="top-bottom">PORTFOLIO</h1>
       </div>
 
-      <div class="d-flex flex-row flex-wrap justify-content-center">
-        <div class="flex-column col-lg-4 mb-4 mt-2" data-aos="zoom-in-right">
+      <div class="d-flex flex-row flex-wrap justify-content-center no-gutters">
+        <div class="flex-column col-lg-4 mt-2" data-aos="zoom-in-right">
           <div class="img-holder">
             <img class="img-fluid" src="img/r31_web.jpg" alt="Room 31 Studio website">
             <a class="overlay" href="https://github.com/pablohs1986/Room31Studio" target="_blank">
@@ -158,7 +155,7 @@
           </div>
         </div>
 
-        <div class="flex-column col-lg-4 mb-4" data-aos="zoom-in">
+        <div class="flex-column col-lg-4" data-aos="zoom-in">
           <div class="img-holder">
             <img class="img-fluid" src="img/javaexercises3.png" alt="Java exercises 3">
             <a class="overlay" href="https://github.com/pablohs1986/javaexercises3" target="_blank">
@@ -166,7 +163,7 @@
             </a> 
           </div> 
         </div>
-        <div class="flex-column col-lg-4 mb-4" data-aos="zoom-in-left">
+        <div class="flex-column col-lg-4" data-aos="zoom-in-left">
           <div class="img-holder">
             <img class="img-fluid" src="img/javaexercises2.png" alt="Java exercises 2">
             <a class="overlay" href="https://github.com/pablohs1986/javaexercises2" target="_blank">
@@ -175,7 +172,7 @@
           </div>  
         </div>
       </div>
-      <div class="d-flex flex-row flex-wrap justify-content-center">
+      <div class="d-flex flex-row flex-wrap justify-content-center no-gutters">
         <div class="flex-column col-lg-4 mb-4" data-aos="zoom-in-right">
           <div class="img-holder">
             <img class="img-fluid" src="img/strings.png" alt="Playing with Java strings">
@@ -203,9 +200,7 @@
       </div>
   </section>
 
-  <svg class="diagonal1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 10" preserveAspectRatio="none">
-    <polygon points="0 0 100 10 0 10" />
-  </svg>
+
 
   <!-- Contact Section -->
   <section class="contact-section bg-black" id="contact">

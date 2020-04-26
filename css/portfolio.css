@@ -212,7 +212,6 @@ polygon {
   width: 100%;
   height: 100vh;
   min-height: 35rem;
-  padding: 15rem 0;
   background-color: #F2F2F2;
   background-position: center;
   background-repeat: no-repeat;
@@ -222,7 +221,7 @@ polygon {
 
 .masthead h1 {
   width:100%;
-  text-align: center;
+  text-align: left;
   font-family: 'one_dayregular';
   font-size: 60px;
   font-weight: 500;
@@ -233,13 +232,29 @@ polygon {
   -webkit-background-clip: text;
 }
 
+.masthead #name{
+  position: absolute;
+  top: 30%;
+}
+
+.masthead #surname{
+  position: absolute;
+  top: 42%;
+}
+
+
 .masthead h2 {
-  text-align: center;
-  max-width: 60rem;
+  position: absolute;
+  top: 55%;
+  text-align: left;
   font-size: 16px;
   font-weight: 500;
   color: #000000;
   letter-spacing: 0.2rem;
+}
+
+.masthead .text-center {
+  width: 1000px;
 }
 
 @media (min-width: 768px) {
@@ -261,7 +276,6 @@ polygon {
     letter-spacing: 0.8rem;
   }
   .masthead h2 {
-    max-width: 21rem;
     font-size: 26px;
     letter-spacing: 0.3rem;
   }
@@ -338,11 +352,17 @@ polygon {
   padding-bottom: 0.66rem;
   height: auto;
   width: 100%;
+  background-color: #f2f2f2;
+}
+
+.about-section .wrapper{
   background-color: #000000;
+  box-shadow: 1px 1px 30px grey;
+  padding: 50px 50px 50px 50px;
 }
 
 .about-section h1{
-  color: #fff;
+  color: #000000;
   font-size: 46px;
   margin-bottom: 48px;
 }
@@ -352,14 +372,14 @@ polygon {
   text-align: left;
   font-size: 20px;
   font-weight: bolder;
-  color: #fff;
+  color: rgb(0, 0, 0);
   margin-top:1.2rem;
   letter-spacing: 0.1rem;
 }
 
 .about-section p{
   font-size: 16px;
-  color: #fff;
+  color: rgb(0, 0, 0);
   text-align: left;
   max-width: 100%;
 }
@@ -367,6 +387,7 @@ polygon {
 .about-section img{
   max-width: 60%;
   border-radius: 50%;
+  box-shadow: 0.5px 0.5px 25px rgba(128, 128, 128);
 }
 
 .about-section ul {
@@ -377,19 +398,20 @@ polygon {
 }
 
 .about-section li{
-  color: rgb(0, 0, 0);
+  color: #fff;
 }
 
 .about-section .card{
-  background-color: #F2F2F2;
-  border-radius: 15px 15px 15px 15px;
-
+  background-color: #000;
+  border-width: 0px;
+  border-radius: 5px 5px 5px 5px;
+  box-shadow: 0.5px 0.5px 25px rgb(128, 128, 128);
 }
 .about-section .card h2{
   font-family: "open_sans_condensedbold";
   font-size: 16px;
   font-weight: 900;
-  color: #000000;
+  color: #fff;
   letter-spacing: 0.0625em;
   text-transform: uppercase;
 }
@@ -404,13 +426,11 @@ polygon {
   }
   .about-section img{
     max-width: 80%;
-    border-radius: 50%;
   }
 }
 
 @media (min-width: 992px){
   .about-section h1{
-    color: #fff;
     font-size: 60px;
   }
   .about-section h2{
@@ -425,7 +445,6 @@ polygon {
   
   .about-section img{
     max-width: 60%;
-    border-radius: 50%;
   }
   .about-section ul {
     font-size: 20px;
@@ -479,7 +498,14 @@ polygon {
   width: 100%;
   height: 300px !important;
   object-fit: cover;
-  border-radius: 15px 15px 15px 15px;
+  border-width: 0px;
+  border-style: solid;
+  border-color: #fff;
+}
+
+.projects-section .container-fluid{
+  padding: 0 0 0 0;
+  
 }
 
 .img-holder {
@@ -496,7 +522,6 @@ polygon {
   overflow: hidden;
   width: 100%;
   height: 100%;
-  border-radius: 15px 15px 15px 15px;
   opacity: 0;
   transition: .4s ease;
 }
@@ -525,17 +550,19 @@ polygon {
   padding-bottom: 4.5rem;
   height: auto;
   width: 100%;
-  background-color: #000000;
+  background-color: #f2f2f2;
 }
 
 .contact-section h1{
-  color: #ffffff;
+  color: #000;
   font-size: 46px;
   margin-bottom: 48px;
 }
 
 .contact-section .card-body{
   background-color: #F2F2F2;
+  box-shadow: 0.5px 0.5px 25px rgba(128, 128, 128);
+
 }
 
 .contact-section input, .contact-section textarea{

@@ -41,10 +41,34 @@
 
 })(jQuery); // End of use strict
 
+
+// Make navbar appear on scroll
+(function ($) {
+  $(document).ready(function(){
+
+    // hide .navbar first
+    $(".navbar").hide();
+
+    // fade in .navbar
+    $(function () {
+        $(window).scroll(function () {
+
+                 // set distance user needs to scroll before we start fadeIn
+            if ($(this).scrollTop() > 150) {
+                $('.navbar').fadeIn();
+            } else {
+                $('.navbar').hide();
+            }
+        });
+    });
+
+});
+  }(jQuery));
+
 // Typed.js
 $(function(){
 	$(".typed").typed({
-		strings: ["PABLO HERRERO"],
+		strings: ["PABLO"],
 		typeSpeed: 70,
 		startDelay: 10,
 		loop: false,
@@ -55,10 +79,23 @@ $(function(){
 
 $(function(){
 	$(".typed2").typed({
-		strings: ["<strong>I &hearts; development!</strong>"],
+		strings: ["HERRERO"],
+		typeSpeed: 70,
+    startDelay: 10,
+		startDelay: 600,
+    
+		loop: false,
+		showCursor: false,
+		contentType: 'html',
+	});
+});
+
+$(function(){
+	$(".typed3").typed({
+		strings: ["Back-end developer", "Front-end developer", "Developer student", "<strong>I &hearts; development!</strong>"],
 		typeSpeed: 70,
 		startDelay: 1300,
-		loop: false,
+		loop: true,
     showCursor: true,
     smartBackspace: true,
 		contentType: 'html',
