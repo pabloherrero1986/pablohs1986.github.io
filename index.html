@@ -65,18 +65,22 @@
   <!-- Header -->
   <header class="masthead">
     <div class="container d-flex h-100 align-items-center">
-      <div class="text-center">
-        <h1 id="name" class="my-0 text-uppercase text-left"><span class="typed"></span>
-        </h1>
-        <h1 id="surname" class="my-0 text-uppercase text-left"><span class="typed2"></span>
-        </h1>
-        <h2 id="message" class="mt-2 mb-5"><span class="typed3"></span></h2>
+      <div class="row align-items-between">
+        <div id="name" class="col-sm-6 mx-auto text-lg my-auto">
+          <h1 id="name" class="my-0 text-uppercase text-left"><span class="">Pablo</span>
+          </h1>
+          <h1 id="surname" class="my-0 text-uppercase text-left"><span class="">Herrero</span>
+          </h1>
+          <h2 id="message" class="mt-2 mb-5"><span class="typed3"></span></h2>
+        </div>
+
+        <div id="photo" class="col-sm-6 text-lg">
+         <img src="img/phProfile.jpg" class="text-right" data-aos="zoom-in-left">
+        </div>
       </div>
     </div>
     <div>
       <a href="#about" class="arrow js-scroll-trigger animated fadeIn">
-      <span></span>
-      <span></span>
       <span></span>
     </a>
     </div>
@@ -86,53 +90,53 @@
   <!-- About Section -->
   <section id="about" class="about-section text-center">
     <div class="container">
-      <div> 
-        <h1 class="mx-auto" data-aos="fade" data-aos-offset="50" data-aos-delay="70" data-aos-anchor-placement="top-bottom">ABOUT</h1>
-      </div>
-      <div class="row align-items-between">
-        <div class="col-sm-6 mx-auto text-lg my-auto">
-          <h2  class="mx-auto mt-2 mb-1" data-aos="zoom-in-right">Hi! I am Pablo, a Multiplatform Application Development student and audiovisual producer in Gijón (Asturias).
+      <div id="intro" class="mx-auto text-lg my-auto">
+          <h1>Hi, it's Pablo!</h1>
+          <h2  class="mx-auto mt-2 mb-1" data-aos="zoom-in-right">I am a Multiplatform Application Development student and audiovisual producer in Gijón (Asturias).
           </h2>
-          <p class="mx-auto mt-3 mb-4" data-aos="zoom-in-right">I really love solving problems, innovate and create new things. I really <strong>love development</strong>.
+          <p class="mx-auto mt-3 mb-2" data-aos="zoom-in-right">I really love solving problems, innovate and create new things. I really <strong>love development</strong>!
           <br/>Here I show my evolution, my work and my passion.<p>
-        </div> 
-        <div class="col-sm-6 mx-auto text-lg-center mb-4">
-         <img src="img/phProfile.jpg" data-aos="zoom-in-left">
-        </div>
       </div>
-      <div class="card-deck mt-4">
-        <div class="card mb-5" data-aos="zoom-in-up" data-aos-offset="140" data-aos-anchor-placement="top-bottom">
-          <div class="card-body text-center">
-          <h2 class="text-center">Languages</h2>
+    </div>
+    <div class="container-fluid">
+    <div id="skillsWrapp" class="mt-5">
+      <div class="mx-auto text-lg my-auto">
+        <h1 id="skills">Skills</h1>
+      </div>
+     <div class="row align-items-between no-gutters">
+        <div id="card1" class="col-sm-4 mx-auto text-lg">
+          <div class="text-center">
+          <h2 class="text-center">Rocking at</h2>
           <ul>
             <li>Java</li>
-            <li>Python</li>
             <li>SQL</li>
             <li>XML</li>
             <li>CSS3</li>
             <li>HTML5</li>
+            <li>Git</li>
+          </ul>
+          </div>
+        </div>
+        <div id="card2" class="col-sm-4 mx-auto text-lg">
+          <div class="text-center">
+          <h2 class="text-center">Learning</h2>
+          <ul>
+            <li>PL/SQL</li>
             <li>JavaScript</li>
           </ul>
           </div>
         </div>
-        <div class="card mb-5" data-aos="zoom-in-up" data-aos-offset="140" data-aos-anchor-placement="top-bottom">
-          <div class="card-body text-center">
-            <h2 class="text-center">Dev tools</h2>
+        <div id="card3" class="col-sm-4 mx-auto text-lg">
+          <div class="text-center">
+            <h2 class="text-center">Wanna learn</h2>
             <ul>
-              <li>NetBeans</li>
-              <li>IntelliJ</li>
-              <li>PyCharm</li>
-              <li>SQL Developer</li>
-              <li>Visual Studio Code</li>
-              <li>Brackets</li>
-              <li>Atom</li>
-              <li>Bootstrap 4</li>
-              <li>Terminal</li>
-              <li>GitHub</li>
-              <li>GitKraken</li>
+              <li>Python</li>
+              <li>NodeJS</li>
             </ul>
           </div>
         </div>
+    </div>
+    </div> 
     </div>
   </section>
 
@@ -141,12 +145,14 @@
   <!-- Portfolio Section -->
   <section id="projects" class="projects-section">
     <div class="container-fluid mx-auto text-center">
-      <div> 
-        <h1 id="titles" class="text-center" data-aos="fade" data-aos-offset="50" data-aos-delay="70" data-aos-anchor-placement="top-bottom">PORTFOLIO</h1>
+    <div id="skillsWrapp" class="mt-5">
+
+      <div class="mx-auto text-lg my-auto">
+        <h1 class="text-center" data-aos="fade" data-aos-offset="50" data-aos-delay="70" data-aos-anchor-placement="top-bottom">PORTFOLIO</h1>
       </div>
 
       <div class="d-flex flex-row flex-wrap justify-content-center no-gutters">
-        <div class="flex-column col-lg-4 mt-2" data-aos="zoom-in-right">
+        <div class="flex-column col-lg-6 mt-2" data-aos="zoom-in-right">
           <div class="img-holder">
             <img class="img-fluid" src="img/r31_web.jpg" alt="Room 31 Studio website">
             <a class="overlay" href="https://github.com/pablohs1986/Room31Studio" target="_blank">
@@ -197,6 +203,7 @@
               </a>
           </div>
         </div>
+      </div>
       </div>
   </section>
 

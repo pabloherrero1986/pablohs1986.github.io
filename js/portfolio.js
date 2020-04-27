@@ -92,9 +92,9 @@ $(function(){
 
 $(function(){
 	$(".typed3").typed({
-		strings: ["Back-end developer", "Front-end developer", "Developer student", "<strong>I &hearts; development!</strong>"],
+		strings: ["Back-end developer", "Front-end developer", "Developer student"],
 		typeSpeed: 70,
-		startDelay: 1300,
+		startDelay: 10,
 		loop: true,
     showCursor: true,
     smartBackspace: true,
