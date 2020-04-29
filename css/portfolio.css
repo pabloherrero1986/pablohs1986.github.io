@@ -78,32 +78,10 @@ body::-webkit-scrollbar {
   display: none;
 }
 
-/* Hide scrollbar for IE and Edge */
 body {
   -ms-overflow-style: none;
 }
 
-/* Dividers */
-.diagonal1 {
-  display: block;
-  width: 100%;
-  height: 35px;
-  background: #F2F2F2;
-  outline: none;
-}
-
-.diagonal2 {
-  display: block;
-  width: 100%;
-  height: 35px;
-  background: #000000;
-  fill: #F2F2F2;
-  outline: none;
-}
-
-polygon {
-  outline: none !important;
-}
 
 /* Nav */
 #mainNav {
@@ -132,6 +110,7 @@ polygon {
   padding: .9rem 0;
   margin-left: 18px;
 }
+
 
 #mainNav .navbar-nav .nav-item:hover {
   color: fade(white, 80%);
@@ -171,6 +150,7 @@ polygon {
     padding: .5rem 0;
     color:#000000;
     margin-left: 48px;
+    background-color: transparent;
   }
 
   #mainNav .collapse{
@@ -178,31 +158,48 @@ polygon {
   }
   #mainNav .nav-link {
     font-size: 16px;
+    font-weight: 500;
     transition: none;
     padding: 2rem 1.5rem;
     color:#000000;
+    
+    
   }
   #mainNav .nav-link {
     background-color: transparent;
   }
   #mainNav.navbar-shrink {
-    background-color: #fff;
+    background-color: transparent;
   }
   #mainNav.navbar-shrink .navbar-brand {
     color: #000000;
+    padding: 0.3rem 0.5rem 0.3rem;
+
+    background-color: hsla(0, 0%, 95%, 0.486);
+    border-radius: 5px 5px 5px 5px;
+
+
+
   }
   #mainNav.navbar-shrink .nav-link {
     color: #000000;
-    padding: 1.5rem 1.5rem 1.25rem;
+    padding: 0.5rem 1.5rem 0.5rem;
+    margin-left: 25px;
     border-bottom: 0.25rem solid transparent;
+    background-color: rgba(255, 255, 255, 0.486);
+    border-radius: 5px 5px 5px 5px;
+
   }
   #mainNav.navbar-shrink .nav-link:hover {
     color: #959FA6;
   }
  
   #mainNav.navbar-shrink .nav-link.active {
-    color: #959FA6;
+    color: rgb(255, 255, 255);
     outline: none;
+    background-color: rgba(0, 0, 0, 0.486);
+    border-radius: 5px 5px 5px 5px;
+
   }
 }
 
@@ -212,7 +209,7 @@ polygon {
   width: 100%;
   height: 100vh;
   min-height: 35rem;
-  background-color: #F2F2F2;
+  background-color:#f2f2f2;
   background-position: center;
   background-repeat: no-repeat;
   background-attachment: scroll;
@@ -223,14 +220,14 @@ polygon {
 
 
 .masthead h1 {
-  position: relative;
   width:100%;
   text-align: left;
-  font-family: 'one_dayregular';
+  text-justify: inter-word;
+  font-family: 'open_sans_condensedbold';
   font-size: 60px;
-  font-weight: 500;
-  line-height: 4rem;
-  letter-spacing: 0.4rem;
+  font-weight: 600;
+  line-height: 1.6;
+  letter-spacing: 6.5rem;
 
   background-color: #000000;
   -webkit-text-fill-color: transparent;
@@ -238,22 +235,14 @@ polygon {
   z-index: 1;
 }
 
-.masthead .row{
-  width: 100%;
+.masthead #nameWrapper{
+  width: 50%;
 }
-
-
-
-
-
-.masthead #surname{
-
-}
-
 
 .masthead h2 {
-  position: relative;
-  text-align: left;
+  text-align: justify;
+  text-justify: inter-word;
+  margin-left: 6px;
   font-size: 16px;
   font-weight: 500;
 
@@ -263,15 +252,8 @@ polygon {
 
 }
 
-.masthead img{
-  position: relative;
-  text-align: right;
 
-  z-index: 0;
-  max-width: 100%;
-  box-shadow: -570px 20px 0px 100px rgba(216, 216, 216, 0.562), 1px 1px 10px #d6d6d6;
-  
-}
+
 @media (min-width: 768px) {
   .masthead h1 {
     font-size: 70px !important;
@@ -286,9 +268,9 @@ polygon {
 
 @media (min-width: 992px) {
   .masthead h1 {
-    font-size: 95px !important;
+    font-size: 135px !important;
     line-height: 6.5rem;
-    letter-spacing: 0.8rem;
+    letter-spacing: 0.1rem;
   }
   .masthead h2 {
     font-size: 26px;
@@ -363,19 +345,31 @@ polygon {
 
 /* About section*/
 .about-section {
-  padding-top: 10.5rem;
+  padding-top: 6.5rem;
   padding-bottom: 0.66rem;
   height: 100%;
   width: 100%;
   background-color: #f2f2f2;
 }
 
+.about-section img{
+    text-align: center;
+    z-index: 0;
+    max-width: 15%;
+    display: block;
+    margin: auto auto;
+    margin-bottom: 20px;
+    border-radius: 50%;
+    box-shadow: 0px 0px 20px 1px #0000003a;
+}
 
 
 .about-section h1{
-  color: #000000;
+  color: #ffffff;
   font-size: 46px;
   margin-bottom: 48px;
+  letter-spacing: 0.1rem;
+
 }
 
 .about-section h2{
@@ -388,6 +382,10 @@ polygon {
   letter-spacing: 0.1rem;
 }
 
+.about-section .col-sm-4 h2{
+  color: #fff;
+}
+
 .about-section p{
   font-size: 16px;
   color: rgb(0, 0, 0);
@@ -395,17 +393,6 @@ polygon {
   max-width: 100%;
 }
 
-
-
-.about-section #skillsWrapp {
-  height: auto;
-  width: auto;
-  padding: 50px 0 50px 0;
-  margin: 0 100px 0 100px;
-  background-color: rgb(255, 255, 255);
-  box-shadow: 1px 1px 10px #d6d6d6;
-
-}
 
 .about-section ul {
   list-style-type: none;
@@ -415,7 +402,8 @@ polygon {
 }
 
 .about-section li{
-  color: #000;
+  color: rgb(255, 255, 255);
+  
 }
 
 .about-section .col-sm-4{
@@ -423,16 +411,26 @@ polygon {
 }
 
 #card1{
-  background-color:  rgba(216, 216, 216, 0.562);
+  background-color:  rgba(0, 0, 0, 0.562);
+  box-shadow: 0px 25px 0px rgba(0, 0, 0, 0.562);
 }
 
 #card2{
-  background-color:  rgba(216, 216, 216, 0.418);
+  background-color:  rgba(0, 0, 0, 0.418);
+  box-shadow: 0px 50px 0px rgba(0, 0, 0, 0.418);
+
 }
 
 #card3{
-  background-color:  rgba(216, 216, 216, 0.322);
+  background-color:  rgba(0, 0, 0, 0.322);
+  box-shadow: 0px 100px 0px rgba(0, 0, 0, 0.322);
 }
+
+.about-section .row{
+  margin: 0 200px 0 200px;
+  padding-bottom: 60px;
+}
+
 
 
 .about-section .card h2{
@@ -460,6 +458,7 @@ polygon {
 @media (min-width: 992px){
   #intro{
     width: 70%;
+    padding-bottom: 15px;
   }
   .about-section h1{
     text-align: left;
@@ -472,18 +471,19 @@ polygon {
   }
 
   .about-section h2{
-    text-align: left;
+    text-align: justify;
     font-size: 26px;
+    
   }
 
   .about-section p{
-    text-align: left;
+    text-align: justify;
     font-size: 20px;
     padding-bottom: 1.5rem;
   }
   
   .about-section img{
-    max-width: 60%;
+    max-width: 25%;
   }
   .about-section ul {
     font-size: 20px;
@@ -497,14 +497,12 @@ polygon {
 }
 
 /* Portfolio section */
-
-.projects-section #skillsWrapp {
+.projects-section #projectsWrapp {
   height: auto;
   width: auto;
   padding: 50px 0 50px 0;
   margin: 0 100px 0 100px;
-  background-color: rgb(255, 255, 255);
-  box-shadow: 1px 1px 10px #d6d6d6;
+  background-color: rgba(216, 216, 216, 0.562);
 
 }
 
@@ -516,9 +514,14 @@ polygon {
 }
 
 .projects-section h1{
+  
   color: #000000;
   font-size: 46px;
   margin-bottom: 48px;
+    letter-spacing: 0.1rem;
+    line-height: 3.2rem;
+
+
 }
 
 .projects-section h2{
@@ -534,6 +537,8 @@ polygon {
   transform: translate(-50%, -50%);
   text-align: center;
   width: 90%;
+  letter-spacing: 0.1rem;
+
 }
 
 .projects-section h2:hover{
@@ -543,12 +548,17 @@ polygon {
 
 .projects-section img{
   width: 100%;
-  height: 600px !important;
+  height: 400px !important;
   object-fit: cover;
   border-width: 0px;
   border-style: solid;
   border-color: #fff;
+  box-shadow: 0px 0px 20px 1px #0000003a;
+
+
+
 }
+
 
 .projects-section .container-fluid{
   padding: 0 0 0 0;
@@ -558,6 +568,8 @@ polygon {
 .img-holder {
   position: relative;
   width: 100%;
+  margin-bottom: 25px;
+
 }
 
 .overlay {
@@ -565,36 +577,52 @@ polygon {
   bottom: 0;
   left: 0;
   right: 0;
-  background-color: #000000;
+  background-color: #000000c2;
   overflow: hidden;
   width: 100%;
   height: 100%;
   opacity: 0;
   transition: .4s ease;
+  
+  
+  
 }
 
 .img-holder:hover .overlay {
   opacity: 1;
 }
 
+
+
 @media (min-width: 992px){
+  #portfolio{
+    width: 70%;
+  }
+
   .projects-section .flex-column{
     margin-top: 0px !important;
   }
 
   .projects-section h1{
-    font-size: 60px;
+    text-align: left;
+    font-size: 100px;
+    letter-spacing: 0.1rem;
+    line-height: 5.2rem;
   }
   
   .projects-section h2{
     font-size: 20px;
+    letter-spacing: 0.1rem;
+
   }
+
+  
 }
 
 /* Contact section */
 .contact-section {
-  padding-top: 3.5rem;
-  padding-bottom: 4.5rem;
+  padding-top: 6.5rem;
+  padding-bottom: 10.5rem;
   height: auto;
   width: 100%;
   background-color: #f2f2f2;
@@ -606,9 +634,12 @@ polygon {
   margin-bottom: 48px;
 }
 
-.contact-section .card-body{
-  background-color: #F2F2F2;
-  box-shadow: 0.5px 0.5px 25px rgba(128, 128, 128);
+.contact-section .card .card-body{
+  border: none;
+  background-color: transparent;
+  box-shadow: 0px 0px 20px 1px #0000003a;
+  margin: 0 0 0 0;
+
 
 }
 
@@ -647,7 +678,10 @@ polygon {
 
 @media (min-width: 992px){
   .contact-section h1{
-    font-size: 60px;
+    text-align: left;
+    font-size: 100px;
+    letter-spacing: 0.1rem;
+    line-height: 5.2rem;
   }
   .contact-section input, .contact-section textarea{
     border-radius: 15px 15px 15px 15px;
@@ -678,14 +712,15 @@ a{
   font-size: 16px !important;
   text-align: center;
   width: 45px;
-  background: #F2F2F2;
+  background: rgb(149, 159, 166);
   color: #000000;
   line-height: 3rem;
   color:#000000;
   margin-bottom: -35px;
   position: relative;
   bottom: 36px !important;
-  border-radius: 15px 15px 15px 15px;
+  border-radius: 5px 5px 5px 5px;
+
 }
 
 .up a:hover {
@@ -701,11 +736,12 @@ footer .social a {
   font-size: 16px !important;
   text-align: center;
   width: 50px;
-  background: #959FA6;
+  background: rgb(149, 159, 166);
   color: #fff;
   line-height: 3.2rem;
   color: #fff;
-  border-radius: 15px 15px 15px 15px;
+  border-radius: 5px 5px 5px 5px;
+
 }
 
 footer .social a:hover {
