@@ -57,7 +57,7 @@
             if ($(this).scrollTop() > 150) {
                 $('.navbar').fadeIn();
             } else {
-                $('.navbar').hide();
+                $('.navbar').fadeOut();
             }
         });
     });
