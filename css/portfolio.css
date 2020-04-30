@@ -360,10 +360,11 @@ body {
 }
 
 .about-section p{
+  text-align: justify;
   font-size: 16px;
   color: rgb(0, 0, 0);
-  text-align: left;
   max-width: 100%;
+  padding-bottom: 5px;
 }
 
 .about-section ul {
@@ -424,6 +425,7 @@ body {
   }
   .about-section p{
     text-align: justify;
+    padding-bottom: 10px;
   }
   .about-section img{
     max-width: 35%;
@@ -461,7 +463,6 @@ body {
   .about-section p{
     text-align: justify;
     font-size: 20px;
-    padding-bottom: 1.5rem;
   }
   .about-section img{
     max-width: 25%;
