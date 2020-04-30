@@ -3,7 +3,7 @@
 My portfolio, handmade with love. It's a one page, flat design web built with Bootstrap 4. These are its features:
   - HTML5 + CSS3 + Bootstrap4.
   - Mobile first design.
-  - Transparent fixed top navigation that becomes solid on scroll.
+  - Fixed top navigation that appears on scroll.
   - About section with photo, description and skills columns to describe you.
   - Portfolio grid showing details when hovering over an image and acting as a link.
   - Contact section with a form that includes a confirmation check linked to the legal conditions and send you to the thank you page when submit.
