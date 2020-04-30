@@ -541,7 +541,10 @@ body {
 }
 
 .projects-section .container-fluid{
-  padding-bottom: 100px;
+  padding-right: 0px;
+  padding-left: 0px;
+
+  padding-bottom: 71px;
 }
 
 .img-holder {
@@ -575,7 +578,7 @@ body {
     width: 70%;
   }
   .projects-section .container-fluid{
-    padding-bottom: 100px;
+    padding-bottom: 71px;
   }
   .projects-section img{
     height: 400px !important;
