@@ -377,6 +377,10 @@ body {
   color: rgb(255, 255, 255);
 }
 
+.about-section .d-flex h2{
+  padding-top: 5px;
+}
+
 .about-section .col-sm-4{
   width: 100%;
   min-height: 25vh;
@@ -432,6 +436,9 @@ body {
   .about-section .d-flex{
     padding-top: 0.5rem;
     padding-bottom: 200px;
+  }
+  .about-section .d-flex h2{
+    padding-top: 10px;
   }
   #card1{
     box-shadow: 0px 25px 0px rgba(0, 0, 0, 0.562);
