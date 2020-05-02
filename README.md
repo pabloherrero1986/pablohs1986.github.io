@@ -1,4 +1,4 @@
-# **PORTFOLIO** ![GitHub release](https://img.shields.io/badge/release-v.3.1-blue)
+# **PORTFOLIO** ![GitHub release](https://img.shields.io/badge/release-v.3.1-blue) ![GitHub license](https://img.shields.io/badge/license-MIT-red)
 
 My portfolio, handmade with love. It's a one page, flat design web built with Bootstrap 4. These are its features:
   - HTML5 + CSS3 + Bootstrap4.
