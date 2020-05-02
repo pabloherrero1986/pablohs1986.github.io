@@ -47,7 +47,7 @@ h6 {
   letter-spacing: 0.0625em;
 }
 
-h1 {
+h1, h2 {
   font-family: 'open_sans_condensedbold';
 }
 
@@ -210,6 +210,7 @@ body {
 }
 
 .masthead h2 {
+  font-family: 'open_sansregular';
   text-align: center;
   text-justify: inter-word;
   font-size: 16px;
@@ -337,24 +338,16 @@ body {
   box-shadow: 0px 0px 20px 1px #0000003a;
 }
 
-.about-section h1{
-  text-align: center;
-  color: #ffffff;
-  font-size: 46px;
-  margin-bottom: 48px;
-  letter-spacing: 0.1rem;
-}
-
-.about-section h2{
+.about-section h3{
   font-family: "open_sansextrabold";
   text-align: left;
   font-size: 20px;
   font-weight: bolder;
   color: rgb(0, 0, 0);
-  letter-spacing: 0.1rem;
+  letter-spacing: 0.15rem;
 }
 
-.about-section .col-sm-4 h2{
+.about-section .col-sm-4 h3{
   color: #fff;
 }
 
@@ -377,7 +370,7 @@ body {
   color: rgb(255, 255, 255);
 }
 
-.about-section .d-flex h2{
+.about-section .d-flex h3{
   padding-top: 5px;
 }
 
@@ -403,14 +396,7 @@ body {
   padding-bottom: 100px;
 }
 
-.about-section .card h2{
-  font-family: "open_sans_condensedbold";
-  font-size: 16px;
-  font-weight: 900;
-  color: #000;
-  letter-spacing: 0.0625em;
-  text-transform: uppercase;
-}
+
 
 @media (min-width: 768px) {
   .about-section {
@@ -423,7 +409,7 @@ body {
   #intro{
     width: 70%;
   }
-  .about-section h2{
+  .about-section h3{
     text-align: left;
   }
   .about-section p{
@@ -437,7 +423,7 @@ body {
     padding-top: 0.5rem;
     padding-bottom: 200px;
   }
-  .about-section .d-flex h2{
+  .about-section .d-flex h3{
     padding-top: 10px;
   }
   #card1{
@@ -462,7 +448,7 @@ body {
     text-align: left;
     font-size: 60px;
   }
-  .about-section h2{
+  .about-section h3{
     text-align: left;
     font-size: 26px;
   }
@@ -479,10 +465,6 @@ body {
   }
   .about-section ul {
     font-size: 20px;
-  }
-  .about-section .card h2{
-    font-size: 20px;
-    letter-spacing: 0.0625em;
   }
   .about-section .col-sm-4{
     min-height: 60vh;
@@ -505,17 +487,17 @@ body {
   width: 90%;
 }
 
-.projects-section h1{
+.projects-section h2{
   text-align: center;
   color: #000000;
-  font-size: 66px;
+  font-size: 46px;
   padding-top: 20px;
   margin-bottom: 65px;
   letter-spacing: 0.1rem;
   line-height: 3.2rem;
 }
 
-.projects-section h2{
+.projects-section h3{
   color: #fff;
   font-family: "open_sans_condensedbold";
   font-weight: normal;
@@ -532,7 +514,7 @@ body {
 
 }
 
-.projects-section h2:hover{
+.projects-section h3:hover{
   color: rgba(255, 255, 255, 0.795);
   text-decoration: none;
 }
@@ -599,12 +581,12 @@ body {
   .projects-section .flex-column{
     margin-top: 0px !important;
   }
-  .projects-section h1{
-    font-size: 100px;
+  .projects-section h2{
+    font-size: 80px;
     letter-spacing: 0.1rem;
     line-height: 5.2rem;
   }
-  .projects-section h2{
+  .projects-section h3{
     font-size: 20px;
     letter-spacing: 0.1rem;
   }
@@ -629,10 +611,10 @@ body {
   width: 90%;
 }
 
-.contact-section h1{
+.contact-section h2{
   text-align: center;
   color: #000;
-  font-size: 66px;
+  font-size: 46px;
   padding-top: 20px;
   margin-bottom: 48px;
   letter-spacing: 0.1rem;
@@ -680,8 +662,8 @@ body {
 }
 
 @media (min-width: 992px){
-  .contact-section h1{
-    font-size: 100px;
+  .contact-section h2{
+    font-size: 80px;
     letter-spacing: 0.1rem;
     line-height: 5.2rem;
   }
@@ -714,7 +696,7 @@ a{
   font-size: 16px !important;
   text-align: center;
   width: 45px;
-  background: rgb(149, 159, 166);
+  background: #959fa6;
   color: #000000;
   line-height: 3rem;
   color:#000000;
@@ -722,7 +704,6 @@ a{
   position: relative;
   bottom: 36px !important;
   border-radius: 5px 5px 5px 5px;
-
 }
 
 .up a:hover {
