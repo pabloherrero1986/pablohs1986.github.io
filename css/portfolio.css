@@ -470,7 +470,7 @@ body {
   }
   .about-section .d-flex{
     padding-top: 26px;
-    padding-bottom: 250px;
+    padding-bottom: 178px;
   }
   .about-section .d-flex h3{
     padding-top: 26px;
@@ -598,6 +598,7 @@ body {
     font-size: 54px;
     letter-spacing: 0.1rem;
     line-height: 100%;
+    padding-top: 26px;
     margin-bottom: 48px !important;
   }
   .projects-section h3{
@@ -605,7 +606,7 @@ body {
     letter-spacing: 0.1rem;
   }
   .projects-section .container-fluid{
-    padding-bottom: 125px;
+    padding-bottom: 78px;
   }
   .projects-section img{
     height: 400px !important;
@@ -686,6 +687,7 @@ body {
     font-size: 54px;
     letter-spacing: 0.1rem;
     line-height: 100%;
+    padding-top: 26px;
     margin-bottom: 48px !important;
   }
   .contact-section input, .contact-section textarea{
