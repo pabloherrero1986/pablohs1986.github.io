@@ -330,7 +330,7 @@ body {
   max-width: 55%;
   display: block;
   margin: auto auto;
-  margin-bottom: 23px;
+  margin-bottom: 46px;
   border-radius: 50%;
   box-shadow: 0px 0px 20px 1px #0000003a;
 }
@@ -361,7 +361,7 @@ body {
 }
 
 .about-section .d-flex{
-  padding-top: 23px;
+  padding-top: 46px;
   padding-bottom: 69px;
 }
 
@@ -422,7 +422,7 @@ body {
     max-width: 27%;
   }
   .about-section .d-flex{
-    padding-top: 23px;
+    padding-top: 46px;
     padding-bottom: 200px;
   }
   .about-section .d-flex h3{
@@ -448,7 +448,7 @@ body {
   }
   .about-section img{
     max-width: 25%;
-    margin-bottom: 26px;
+    margin-bottom: 52px;
   }
   .about-section h1{
     text-align: left;
@@ -469,7 +469,7 @@ body {
     word-spacing: 2px;
   }
   .about-section .d-flex{
-    padding-top: 26px;
+    padding-top: 52px;
     padding-bottom: 178px;
   }
   .about-section .d-flex h3{
@@ -504,7 +504,7 @@ body {
   padding-top: 23px;
   line-height: 100%;
   letter-spacing: 0.05em;
-  margin-bottom: 23px !important;
+  margin-bottom: 46px !important;
 }
 
 .projects-section h3{
@@ -599,7 +599,7 @@ body {
     letter-spacing: 0.1rem;
     line-height: 100%;
     padding-top: 26px;
-    margin-bottom: 48px !important;
+    margin-bottom: 52px !important;
   }
   .projects-section h3{
     font-size: 20px;
@@ -633,7 +633,7 @@ body {
   padding-top: 23px;
   line-height: 100%;
   letter-spacing: 0.05em;
-  margin-bottom: 23px !important;
+  margin-bottom: 46px !important;
   
 }
 
@@ -688,7 +688,7 @@ body {
     letter-spacing: 0.1rem;
     line-height: 100%;
     padding-top: 26px;
-    margin-bottom: 48px !important;
+    margin-bottom: 52px !important;
   }
   .contact-section input, .contact-section textarea{
     border-radius: 5px 5px 5px 5px;
