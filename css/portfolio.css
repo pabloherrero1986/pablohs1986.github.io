@@ -330,7 +330,7 @@ body {
   max-width: 55%;
   display: block;
   margin: auto auto;
-  margin-bottom: 46px;
+  margin-bottom: 23px;
   border-radius: 50%;
   box-shadow: 0px 0px 20px 1px #0000003a;
 }
@@ -448,7 +448,7 @@ body {
   }
   .about-section img{
     max-width: 25%;
-    margin-bottom: 52px;
+    margin-bottom: 26px;
   }
   .about-section h1{
     text-align: left;
@@ -616,7 +616,7 @@ body {
 /* Contact section */
 .contact-section {
   padding-top: 23px;
-  padding-bottom: 92px;
+  padding-bottom: 123px;
   height: auto;
   width: 100%;
   background-color: #f2f2f2;
@@ -680,7 +680,7 @@ body {
 @media (min-width: 992px){
   .contact-section {
     padding-top: 26px;
-    padding-bottom: 104px;
+    padding-bottom: 152px;
   }
   
   .contact-section h2{
