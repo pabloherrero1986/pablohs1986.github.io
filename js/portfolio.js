@@ -94,10 +94,9 @@ $(function(){
 	$(".typed3").typed({
 		strings: ["Development student", "Back-end developer", "Front-end developer"],
 		typeSpeed: 70,
-		startDelay: 10,
+		startDelay: 250,
 		loop: true,
     showCursor: true,
-    smartBackspace: true,
 		contentType: 'html',
 		// call when done callback function
 		callback: function() {},
