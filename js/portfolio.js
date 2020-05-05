@@ -94,7 +94,7 @@ $(function(){
 	$(".typed3").typed({
 		strings: ["Development student", "Back-end developer", "Front-end developer"],
 		typeSpeed: 70,
-		startDelay: 250,
+		startDelay: 100,
 		loop: true,
     showCursor: true,
 		contentType: 'html',
