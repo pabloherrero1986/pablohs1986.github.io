@@ -703,6 +703,8 @@ footer {
   padding: 10px 0 50px 0;
   background-color: #1A1A1A;
   font-size: 12px;
+  box-shadow: 0px 0px 10px 1px #0000003a;
+
 }
 
 a{
@@ -726,6 +728,8 @@ a{
   position: relative;
   bottom: 36px !important;
   border-radius: 5px 5px 5px 5px;
+  box-shadow: 0px 0px 10px 1px #0000003a;
+
 }
 
 .up a:hover {
