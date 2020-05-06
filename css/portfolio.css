@@ -73,6 +73,7 @@ body {
   padding: 0 0 0 0;
   border-bottom: none;
   transition: background-color 0.3s ease-in-out;
+  box-shadow: 0px 0px 5px #0000003a;
 }
 
 #mainNav .navbar-toggler {
@@ -663,13 +664,13 @@ body {
 }
 
 .contact-section button{
-  font-family: 'open_sans_condensedbold';
+  font-family: 'open_sansregular';
   color: white;
   letter-spacing: 0.05em;
   font-size: 16px;
   background-color: #959FA6;
   border-radius: 5px 5px 5px 5px;
-  box-shadow: 0px 0px 20px 1px #0000003a;
+  box-shadow: 0px 0px 5px 1px #0000003a;
 
 }
 
@@ -721,15 +722,13 @@ a{
   text-align: center;
   width: 45px;
   background: #959fa6;
-  color: #000000;
+  color: #ffffff;
   line-height: 3rem;
-  color:#000000;
   margin-bottom: -35px;
   position: relative;
   bottom: 36px !important;
   border-radius: 5px 5px 5px 5px;
   box-shadow: 0px 0px 10px 1px #0000003a;
-
 }
 
 .up a:hover {
