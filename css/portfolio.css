@@ -637,17 +637,18 @@ body {
   
 }
 
-.contact-section .card .card-body{
+.contact-section .d-flex .card-body{
   border: none;
   background-color: transparent;
-  box-shadow: 0px 0px 20px 1px #0000003a;
   margin: 0 0 0 0;
+  padding: 0 0 0 0;
 }
 
 .contact-section input, .contact-section textarea{
   border-radius: 5px 5px 5px 5px;
   font-family: "open_sansregular" !important;
   font-size: 16px !important;
+
 }
 
 .form-check-label{
@@ -661,13 +662,6 @@ body {
   font-weight: bold;
 }
 
-.contact-section .card{
-  background-color: white;
-  margin: 0 0 0 0;
-  padding-bottom: 0px;
-  width: 100%;
-}
-
 .contact-section button{
   font-family: 'open_sans_condensedbold';
   color: white;
@@ -675,6 +669,8 @@ body {
   font-size: 16px;
   background-color: #959FA6;
   border-radius: 5px 5px 5px 5px;
+  box-shadow: 0px 0px 20px 1px #0000003a;
+
 }
 
 @media (min-width: 992px){
