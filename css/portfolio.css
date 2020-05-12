@@ -235,11 +235,11 @@ body {
 
 @media (min-width: 992px) {
   .masthead #nameWrapper{
-    width: 50%;
+    width: 100%;
   }
   .masthead h1 {
-    font-size: 135px !important;
-    line-height: 6.5rem;
+    font-size: 220px !important;
+    line-height: 10.5rem;
     letter-spacing: 0.1rem;
   }
   .masthead h2 {
