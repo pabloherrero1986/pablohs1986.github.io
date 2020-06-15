@@ -156,7 +156,7 @@ body {
   #mainNav.navbar-shrink .navbar-brand {
     display: unset;
     padding: 0.3rem 0.5rem 0.3rem;
-    background-color: hsla(0, 0%, 95%, 0.486);
+    background-color: transparent;
     border-radius: 5px 5px 5px 5px;
   }
   #mainNav.navbar-shrink .nav-link {
