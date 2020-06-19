@@ -95,6 +95,31 @@ body {
   margin-left: 18px;
 }
 
+#mainNav .navbar-brand img {
+  border-radius: 50%;
+}
+
+#mainNav h1 {
+  width:100%;
+  text-align: left;
+  font-family: 'open_sans_condensedbold';
+  font-size: 40px;
+  font-weight: 600;
+  font-kerning: none;
+  line-height: 0.8;
+  letter-spacing: 0.01rem;
+}
+
+#mainNav p {
+  font-family: 'open_sansregular';
+  text-align: left;
+  text-justify: inter-word;
+  font-size: 24px;
+  font-weight: 500;
+  color: #000000;
+  letter-spacing: 0.01em;
+}
+
 #mainNav .navbar-nav .nav-item:hover {
   color: fade(white, 80%);
   outline: none;
@@ -199,8 +224,6 @@ body {
   font-kerning: none;
   line-height: 0.8;
   letter-spacing: 0.01rem;
-  color: #000000;
-  z-index: 1;
 }
 
 .masthead #nameWrapper{
@@ -215,7 +238,6 @@ body {
   font-weight: 500;
   color: #000000;
   letter-spacing: 0.01em;
-  z-index: 1;
 }
 
 @media (min-width: 768px) {
@@ -463,7 +485,7 @@ body {
     margin-bottom: 26px;
   }
   .about-section p{
-    text-align: center;
+    text-align: left;
     font-size: 18px;
     line-height: 145%;
     letter-spacing: normal;
