@@ -209,11 +209,11 @@ body {
   width:100%;
   text-align: center;
   font-family: 'open_sansregular';
-  font-size: 70px;
+  font-size: 38px;
   font-weight: 600;
   font-kerning: none;
   line-height: 0.8;
-  letter-spacing: 0.1rem;
+  letter-spacing: 0.05rem;
 }
 
 .masthead #nameWrapper{
@@ -224,7 +224,7 @@ body {
   font-family: 'open_sansregular';
   text-align: center;
   text-justify: inter-word;
-  font-size: 27px;
+  font-size: 24px;
   font-weight: 500;
   color: #000000;
   letter-spacing: 0.01em;
@@ -242,12 +242,12 @@ body {
     text-align: left;
     font-size: 80px !important; 
     line-height: 6.4rem;
-    letter-spacing: 0.1rem;
+    letter-spacing: 0.05rem;
   }
   .masthead h2 {
     text-align: left;
     font-size: 30px;
-    letter-spacing: 0.1rem;
+    letter-spacing: 0.05rem;
   }
 }
 
@@ -291,7 +291,7 @@ body {
 
 .arrow{
   position: absolute;
-  bottom: 20%;
+  bottom: 25%;
   left: 50%;
   transform: translate(-50%,-50%);
 }
