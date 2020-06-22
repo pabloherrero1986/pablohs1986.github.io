@@ -3,7 +3,7 @@
  * Copyright 2020 Pablo Herrero | MIT License
  */
 
- /* Fonts */
+ /******* Fonts *******/
 @font-face {
   font-family: 'open_sansregular';
   src: url('../css/fonts/opensans-regular-webfont.woff2') format('woff2'),
@@ -51,7 +51,58 @@ h1, h2 {
   font-family: 'open_sansregular';
 }
 
-/* Body */
+/******* Preloader *******/
+.spinner-wrapper {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: #1A1A1A;
+  z-index: 999999;
+  }
+
+  .title {
+    width: 40px;
+    height: 40px;
+    align-items: center;
+  
+    position: relative;
+    top: 48%;
+  }
+  
+  .ph {
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    
+    -webkit-animation: sk-bounce 2.0s infinite ease-in-out;
+    animation: sk-bounce 2.0s infinite ease-in-out;
+    -webkit-animation-delay: -1.0s;
+    animation-delay: -1.0s;
+  }
+
+  @-webkit-keyframes sk-bounce {
+    0%, 100% { -webkit-transform: scale(0.5) }
+    50% { -webkit-transform: scale(1.0) }
+  }
+  
+  @keyframes sk-bounce {
+    0%, 100% { 
+      transform: scale(0.0);
+      -webkit-transform: scale(1.0);
+    } 50% { 
+      transform: scale(1.0);
+      -webkit-transform: scale(0.7);
+    }
+  }
+
+  
+
+/******* Body *******/
 body {
   font-family: 'open_sansregular';
   letter-spacing: normal;
@@ -66,7 +117,7 @@ body {
   -ms-overflow-style: none;
 }
 
-/* Nav */
+/******* Nav *******/
 #mainNav {
   min-height: 56px;
   background-color: #1A1A1A;
@@ -177,7 +228,7 @@ body {
   }
 }
 
-/* Masthead */
+/******* Masthead *******/
 .masthead {
   position: relative;
   width: 100%;
@@ -336,7 +387,7 @@ body {
 }
 /* /Arrow */
 
-/* About section*/
+/******* About section *******/
 .about-section {
   padding-bottom: 0.66rem;
   height: 80vh;
@@ -419,7 +470,7 @@ body {
   }
 }
 
-/* Portfolio section */
+/******* Portfolio section *******/
 .projects-section {
   padding: 23px 0 0.66rem 0;
   height: auto;
@@ -594,7 +645,7 @@ body {
 
 }
 
-/* Contact section */
+/******* Contact section *******/
 .contact-section {
   padding-top: 23px;
   padding-bottom: 123px;
@@ -679,7 +730,7 @@ body {
   }
 }
 
-/* Footer */
+/******* Footer *******/
 footer {
   padding: 10px 0 50px 0;
   background-color: #1A1A1A;
@@ -752,7 +803,7 @@ footer .social a:active {
   }
 }
 
-/* Dividers styles */
+/******* Dividers styles *******/
 .diagonal1 {
   display: block;
   width: 100%;
