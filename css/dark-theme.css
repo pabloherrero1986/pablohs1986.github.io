@@ -410,30 +410,25 @@ body {
   text-align: left;
   font-size: 24px;
   font-weight: 600;
-  color: #fff;
+  color: #000;
   line-height: 100%;
   letter-spacing: 0.05em;
   margin-bottom: 23px;
 }
 
 .about-section .col-sm-4 h3{
-  color: #fff;
+  color: #000;
 }
-
 
 .about-section p{
   text-align: left;
   font-size: 16px;
   line-height: 145%;
-  color: #fff;
+  color: rgb(0, 0, 0);
   max-width: 100%;
   letter-spacing: normal;
   word-spacing: 2px;
 }
-
-
-
-
 
 @media (min-width: 768px) {
   .about-section {
