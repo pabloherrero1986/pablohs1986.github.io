@@ -118,15 +118,15 @@ document.addEventListener('DOMContentLoaded', () => {
       // if it's light -> go dark
       if(themeStylesheet.href.includes('light')){
           themeStylesheet.href = 'css/dark-theme.css';
-          themeIcon.toggleClass('far fa-sun');
-          themeIcon.toggleClass('far fa-moon');
+          themeIcon.toggleClass('fas fa-sun');
+          themeIcon.toggleClass('fas fa-moon');
 
 
       } else {
           // if it's dark -> go light
           themeStylesheet.href = 'css/light-theme.css';
-          themeIcon.toggleClass('far fa-moon');
-          themeIcon.toggleClass('far fa-sun');
+          themeIcon.toggleClass('fas fa-moon');
+          themeIcon.toggleClass('fas fa-sun');
 
       }
   })
