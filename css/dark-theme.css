@@ -584,7 +584,7 @@ body {
 }
 
 .projects-section .mx-3:hover{
-  color: #9c9c9c;
+  color: #9c9c9c !important;
   text-decoration: none;
 } 
 
