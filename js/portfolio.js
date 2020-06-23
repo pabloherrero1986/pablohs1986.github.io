@@ -109,6 +109,7 @@ $(function(){
 	});
 });
 
+// Dark mode
 document.addEventListener('DOMContentLoaded', () => {
 
   const themeStylesheet = document.getElementById('theme');
