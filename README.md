@@ -1,10 +1,11 @@
-# **PORTFOLIO** ![GitHub release](https://img.shields.io/badge/release-v.4.0-brightgreen) ![GitHub license](https://img.shields.io/badge/license-MIT-blue)
+# **PORTFOLIO** ![GitHub release](https://img.shields.io/badge/release-v.4.1-brightgreen) ![GitHub license](https://img.shields.io/badge/license-MIT-blue)
 
 My portfolio, handmade with love. It's a one page, flat design web. These are its features:
   - HTML5 + CSS3 + Bootstrap4.
   - Mobile first design.
   - Preloader animation.
   - Diagonal section dividers.
+  - Dark mode with toggle button.
   - Fixed top navigation that appears on scroll.
   - About section to describe you.
   - Portfolio grid showing details when hovering over an image and acting as a link.
