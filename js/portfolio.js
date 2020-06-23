@@ -94,7 +94,7 @@ $(function(){
 	$(".typed3").typed({
 		strings: ["Development student", "Back-end developer", "Front-end developer"],
 		typeSpeed: 70,
-		startDelay: 2600,
+    startDelay: 2500,
 		loop: true,
     showCursor: true,
 		contentType: 'html',
@@ -109,3 +109,25 @@ $(function(){
 	});
 });
 
+document.addEventListener('DOMContentLoaded', () => {
+
+  const themeStylesheet = document.getElementById('theme');
+  const themeToggle = document.getElementById('theme-toggle');
+  const themeIcon = $('#theme-icon');
+  themeToggle.addEventListener('click', () => {
+      // if it's light -> go dark
+      if(themeStylesheet.href.includes('light')){
+          themeStylesheet.href = 'css/dark-theme.css';
+          themeIcon.toggleClass('far fa-sun');
+          themeIcon.toggleClass('far fa-moon');
+
+
+      } else {
+          // if it's dark -> go light
+          themeStylesheet.href = 'css/light-theme.css';
+          themeIcon.toggleClass('far fa-moon');
+          themeIcon.toggleClass('far fa-sun');
+
+      }
+  })
+})
