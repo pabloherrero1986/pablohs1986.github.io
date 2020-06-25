@@ -708,6 +708,10 @@ body {
 
 }
 
+.contact-section button:hover{
+  color: #9c9c9c;
+}
+
 @media (min-width: 992px){
   .contact-section {
     padding-top: 26px;
