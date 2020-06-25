@@ -11,7 +11,7 @@ My portfolio, handmade with love. It's a one page, flat design web. These are it
   - Portfolio grid showing details when hovering over an image and acting as a link.
   - Contact section with a form that includes a confirmation check linked to the legal conditions and send you to the thank you page when submit.
   - Footer section with go up button, social links, copyright reference and link to legal conditions.
-  - Animated elements as you scroll down and up.
+  - Animated elements as you scroll down.
   - Scrollspy
   - Custom button styles.
   - Some amazing libraries:
@@ -20,6 +20,6 @@ My portfolio, handmade with love. It's a one page, flat design web. These are it
     - Animate On Scroll (thanks @michalsnik https://github.com/michalsnik/aos/tree/v2).
     - CSS animations (thanks @daneden https://github.com/daneden/animate.css).
     
-Use my design if you want, always with love and under MIT license :smiley:
+Use my design if you want, always with love and under MIT license :metal:
 
 > © 2020 Pablo Herrero
