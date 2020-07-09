@@ -500,6 +500,7 @@ body {
   line-height: 100%;
   letter-spacing: 0.05em;
   margin-bottom: 46px !important;
+  padding-top: 34px;
 }
 
 .projects-section h3{
@@ -625,7 +626,7 @@ body {
     font-size: 35px;
     letter-spacing: 0.1rem;
     line-height: 100%;
-    padding-top: 26px;
+    padding-top: 49px;
     margin-bottom: 52px !important;
   }
   .projects-section h3{
@@ -639,7 +640,7 @@ body {
   }
  
   .projects-section .container{
-    padding-bottom: 78px;
+    padding-bottom: 49px;
   }
   .projects-section img{
     height: 400px !important;
@@ -648,7 +649,6 @@ body {
     color: #000000;
     font-size: 18px;
   }
-  
   .projects-section .mx-3:hover{
     color: #9c9c9c;
     text-decoration: none;
@@ -679,7 +679,7 @@ body {
   text-align: left;
   color: #9c9c9c;
   font-size: 24px;
-  padding-top: 23px;
+  padding-top: 34px;
   line-height: 100%;
   letter-spacing: 0.05em;
   margin-bottom: 46px !important;
@@ -731,6 +731,7 @@ body {
     font-size: 35px;
     letter-spacing: 0.1rem;
     line-height: 100%;
+    padding-top: 49px;
     margin-bottom: 52px !important;
   }
   .contact-section input, .contact-section textarea{
