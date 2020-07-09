@@ -419,12 +419,12 @@ body {
   color: rgb(0, 0, 0);
   line-height: 100%;
   letter-spacing: 0.05em;
+  margin-bottom: 34px;
 }
 
 .about-section .col-sm-4 h3{
   color: #fff;
 }
-
 
 .about-section p{
   text-align: left;
@@ -447,10 +447,10 @@ body {
     width: 70%;
   }
   .about-section h3{
-    text-align: center;
+    text-align: left;
   }
   .about-section p{
-    text-align: center;
+    text-align: left;
     padding-bottom: 23px;
   }
 
