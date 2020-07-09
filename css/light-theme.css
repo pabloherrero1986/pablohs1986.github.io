@@ -103,6 +103,7 @@ body {
   font-family: 'open_sansregular';
   letter-spacing: normal;
   overflow-y: scroll;
+  background-color:#f2f2f2;
 }
 
 body::-webkit-scrollbar {
@@ -397,12 +398,18 @@ body {
 
 /******* About section *******/
 .about-section {
-  padding-bottom: 0.66rem;
+  padding-top: 23px;
+  padding-bottom: 23px;
   height: 80vh;
   width: 100%;
   background-color: #fff;
+  clip-path: polygon(
+    0 calc(0% + 4vw) , /* left top */
+    100% 0, /* right top */ 
+    100% 100%, /* right bottom */
+    0 calc(100% - 4vw) /* left bottom */
+  );
 }
-
 
 .about-section h3{
   font-family: "open_sansregular";
@@ -412,7 +419,6 @@ body {
   color: rgb(0, 0, 0);
   line-height: 100%;
   letter-spacing: 0.05em;
-  margin-bottom: 23px;
 }
 
 .about-section .col-sm-4 h3{
@@ -430,14 +436,10 @@ body {
   word-spacing: 2px;
 }
 
-
-
-
-
 @media (min-width: 768px) {
   .about-section {
     padding-bottom: 0.66rem;
-    height: 70vh;
+    height: 80vh;
     width: 100%;
     background-color: #fff;
   }
@@ -455,8 +457,9 @@ body {
 }
 
 @media (min-width: 992px){
-  #intro{
-    padding-bottom: 0px;
+  .about-section {
+    padding-top: 66px;
+    padding-bottom: 66px;
   }
   .about-section h1{
     text-align: left;
@@ -613,7 +616,7 @@ body {
     width: 100%;
   }
   .projects-section {
-    padding: 26px 0 0.66rem 0;
+    padding: 0px 0 0px 0;
   }
   .projects-section .flex-column{
     margin-top: 0px !important;
@@ -660,6 +663,12 @@ body {
   height: auto;
   width: 100%;
   background-color: #fff;
+  clip-path: polygon(
+    0 calc(0% + 4vw) , /* left top */
+    100% 0, /* right top */ 
+    100% 100%, /* right bottom */
+    0 100% /* left bottom */
+  );
 }
 
 #contact{
@@ -674,7 +683,6 @@ body {
   line-height: 100%;
   letter-spacing: 0.05em;
   margin-bottom: 46px !important;
-  
 }
 
 .contact-section .d-flex .card-body{
@@ -715,15 +723,14 @@ body {
 
 @media (min-width: 992px){
   .contact-section {
-    padding-top: 26px;
-    padding-bottom: 152px;
+    padding-bottom: 66px;
+    padding-top: 66px;
   }
   
   .contact-section h2{
     font-size: 35px;
     letter-spacing: 0.1rem;
     line-height: 100%;
-    padding-top: 26px;
     margin-bottom: 52px !important;
   }
   .contact-section input, .contact-section textarea{
@@ -809,23 +816,4 @@ footer .social a:active {
   footer .social a {
     font-size: 20px !important;
   }
-}
-
-/******* Dividers styles *******/
-.diagonal1 {
-  display: block;
-  width: 100%;
-  height: 35px; /* Change the height */
-  background: #f2f2f2; /* Top color */
-  fill: #fff; /* Bottom color */
-  outline: none;
-}
-
-.diagonal2 {
-  display: block;
-  width: 100%;
-  height: 35px; /* Change the height */
-  background: #fff; /* Top color */
-  fill: #f2f2f2; /* Bottom color */
-  outline: none;
 }
