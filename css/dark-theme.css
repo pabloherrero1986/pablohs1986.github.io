@@ -243,7 +243,6 @@ body {
   position: relative;
   width: 100%;
   height: 100vh;
-  min-height: 35rem;
   background-color:#212121;
   background-position: center;
   background-repeat: no-repeat;
@@ -293,24 +292,69 @@ body {
   letter-spacing: 0.01em;
 }
 
+@media (min-width: 480px) and (orientation:landscape){
+  .masthead #nameWrapper{
+    width: 100%;
+  }
+
+  .masthead img{
+    max-width: 50%;
+    display: none;
+
+  }
+  .masthead h1 {
+    text-align: center;
+    font-size: 35px; 
+    line-height: 0.8;
+    letter-spacing: 0.05rem;
+  }
+  .masthead h2 {
+    text-align: center;
+    font-size: 24px;
+    letter-spacing: 0.01rem;
+  }
+}
+
 @media (min-width: 768px) {
   .masthead #nameWrapper{
     width: 100%;
   }
 
   .masthead img{
-    max-width: 80%;
+    max-width: 50%;
   }
   .masthead h1 {
-    text-align: left;
+    text-align: center;
     font-size: 80px; 
     line-height: 6.4rem;
     letter-spacing: 0.05rem;
   }
   .masthead h2 {
-    text-align: left;
+    text-align: center;
     font-size: 30px;
     letter-spacing: 0.05rem;
+  }
+}
+
+@media (min-width: 768px) and (orientation:landscape) {
+  .masthead #nameWrapper{
+    width: 100%;
+  }
+
+  .masthead img{
+    max-width: 25%;
+    display: none;
+  }
+  .masthead h1 {
+    text-align: center;
+    font-size: 80px; 
+    line-height: 0.8;
+    letter-spacing: 0.05rem;
+  }
+  .masthead h2 {
+    text-align: center;
+    font-size: 30px;
+    letter-spacing: 0.01rem;
   }
 }
 
@@ -322,6 +366,7 @@ body {
   .masthead img{
     max-width: 100%;
     margin-bottom: 26px;
+    display: unset;
   }
   .masthead h1 {
     text-align: left;
@@ -359,6 +404,15 @@ body {
   bottom: 25%;
   left: 50%;
   transform: translate(-50%,-50%);
+}
+
+@media (max-width: 480px){
+  .arrow{
+    position: absolute;
+    bottom: 15%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+  }
 }
 
 @media (min-width: 768px){
