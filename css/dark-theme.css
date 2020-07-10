@@ -399,13 +399,6 @@ body {
   100% { transform:translate(0,10px) rotate(45deg); opacity: 0; }
 }
 
-.arrow{
-  position: absolute;
-  bottom: 25%;
-  left: 50%;
-  transform: translate(-50%,-50%);
-}
-
 @media (max-width: 480px){
   .arrow{
     position: absolute;
@@ -413,6 +406,13 @@ body {
     left: 50%;
     transform: translate(-50%,-50%);
   }
+}
+
+.arrow{
+  position: absolute;
+  bottom: 25%;
+  left: 50%;
+  transform: translate(-50%,-50%);
 }
 
 @media (min-width: 768px){
