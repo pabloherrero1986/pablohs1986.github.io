@@ -531,7 +531,7 @@ body {
 @media (min-width: 768px) and (orientation:landscape) {
   .about-section {
     padding-bottom: 0.66rem;
-    height: 100vh;
+    height: 120vh;
     width: 100%;
   }
   #intro{
@@ -550,6 +550,7 @@ body {
   .about-section {
     padding-top: 66px;
     padding-bottom: 66px;
+    height: 80vh;
   }
   .about-section h1{
     text-align: left;
