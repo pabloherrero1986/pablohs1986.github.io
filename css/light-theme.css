@@ -300,7 +300,7 @@ body {
   }
   .masthead h1 {
     text-align: left;
-    font-size: 80px !important; 
+    font-size: 80px; 
     line-height: 6.4rem;
     letter-spacing: 0.05rem;
   }
@@ -321,11 +321,13 @@ body {
     margin-bottom: 26px;
   }
   .masthead h1 {
+    text-align: left;
     font-size: 85px;
     line-height: 5.0rem;
     letter-spacing: 0.05rem;
   }
   .masthead h2 {
+    text-align: left;
     font-size: 36px;
     letter-spacing: 0.05em;
     margin-left: 2.5px;
