@@ -407,7 +407,7 @@ body {
 
 .arrow{
   position: absolute;
-  bottom: 25%;
+  bottom: 23%;
   left: 50%;
   transform: translate(-50%,-50%);
 }
@@ -506,7 +506,7 @@ body {
   }
   .about-section p{
     text-align: left;
-    padding-bottom: 23px;
+    padding-bottom: 0px;
   }
 }
 
@@ -524,7 +524,7 @@ body {
   }
   .about-section p{
     text-align: left;
-    padding-bottom: 23px;
+    padding-bottom: 0px;
   }
 }
 
@@ -542,7 +542,7 @@ body {
   }
   .about-section p{
     text-align: left;
-    padding-bottom: 23px;
+    padding-bottom: 0px;
   }
 }
 
