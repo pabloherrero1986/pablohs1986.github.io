@@ -92,10 +92,11 @@ $(function(){
 
 $(function(){
 	$(".typed3").typed({
-		strings: ["Development student", "Back-end developer", "Front-end developer"],
+		strings: ["Development student", "Back-end developer", "Front-end developer", "Full-stack developer", "Clean code lover", "Geek"],
 		typeSpeed: 70,
     startDelay: 2500,
-		loop: true,
+    loop: true,
+    shuffle: true,
     showCursor: true,
 		contentType: 'html',
 		// call when done callback function
