@@ -123,7 +123,6 @@ document.addEventListener('DOMContentLoaded', () => {
           themeIcon.toggleClass('fas fa-sun');
           themeIcon.toggleClass('fas fa-moon');
 
-
       } else {
           // if it's dark -> go light
           themeStylesheet.href = 'css/light-theme.css';
