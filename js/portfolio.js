@@ -92,7 +92,7 @@ $(function(){
 
 $(function(){
 	$(".typed3").typed({
-		strings: ["Development student", "Back-end developer", "Front-end developer", "Full-stack developer", "Clean code lover", "Geek"],
+		strings: ["Development student", "Back-end developer", "Front-end developer", "Full-stack developer", "Clean code defender", "Geek"],
 		typeSpeed: 70,
     startDelay: 2500,
     loop: true,
