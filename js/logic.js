@@ -1,13 +1,15 @@
 // UI controller
 var DOMSections = {
-    header: '#header',
-    about: '#about'
+    header: document.getElementById('#header'),
+    about: document.getElementById('#about')
 };
 
 var UIController = (function() {
-    var hideSection = function(){
-        document.getElementById(header).style.display= 'none';
-    };
+    return{
+        hideSection: function(){
+            about.style.display= 'none';
+        }
+    }
 })();
 
 // Global controller
