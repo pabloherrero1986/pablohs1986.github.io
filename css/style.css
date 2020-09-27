@@ -83,7 +83,6 @@ body::-webkit-scrollbar {
 #header {
     width: 100%;
     height: 100vh;
-    background-color: #ffffff;
 }
 
 #header .col-lg-12 {
@@ -133,6 +132,10 @@ body::-webkit-scrollbar {
 
 
 /* About */
+about {
+    width: 100%;
+    height: 100vh;
+}
 
 /* Recent works */
 
@@ -156,6 +159,11 @@ footer #social a{
 
 footer #social i:hover{
     color: #bd93f9;
+}
+
+footer #social i:active {
+    color: #50fa7b;
+    outline: none;
 }
 
 @media (min-width: 992px) {
