@@ -52,6 +52,7 @@ body::-webkit-scrollbar {
 
 #navbar .nav-link {
     font-size: 14px;
+    font-family: 'fira_codemedium';
     padding: 1rem 1.5rem;
     text-align: center;
     color:#ffffff;
@@ -75,10 +76,6 @@ body::-webkit-scrollbar {
         padding: 0.5rem 1.5rem 0.5rem;
         color:#000000;
         background-color: transparent;
-    }
-
-    #navbar .nav-link:hover {
-        background-color: #000000;
     }
 }
 
@@ -142,3 +139,34 @@ body::-webkit-scrollbar {
 /* Contact */
 
 /* Footer */
+footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    padding-bottom: 5px;
+    background-color: transparent;
+    color: #000000;
+    text-align: center;
+}
+
+footer #social a{
+    font-size: 15px;
+    color: #000000;
+}
+
+footer #social i:hover{
+    color: #bd93f9;
+}
+
+@media (min-width: 992px) {
+    footer #copy {
+        float: left;
+    }
+    
+    footer #social a{
+        font-size: 20px;
+        float: right;
+        padding: 0.5rem 1.5rem 0.5rem 0rem;
+
+    }
+}
