@@ -132,9 +132,46 @@ body::-webkit-scrollbar {
 
 
 /* About */
-about {
+#about {
     width: 100%;
     height: 100vh;
+}
+
+#about .container {
+    min-height: 100%;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+}
+
+#about .row {
+    background-color: #000000;
+    padding: 100px 100px 100px 100px;
+}
+
+#about .col-lg-12 {
+    text-align: center;
+    align-items: center;
+
+}
+
+
+#about h2 {
+    width: 100%;
+    text-align: left;
+    margin-bottom: 30px;
+    font-family: 'fira_codemedium';
+    font-size: 24px;
+    color: #ffffff;
+    letter-spacing: 0.05rem;
+}
+
+#about p {
+    width: 100%;
+    text-align: left;
+    font-family: 'fira_coderegular';
+    font-size: 14px;
+    color: #ffffff;
 }
 
 /* Recent works */
