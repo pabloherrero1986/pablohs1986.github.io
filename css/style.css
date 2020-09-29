@@ -29,6 +29,7 @@ body {
     letter-spacing: normal;
     overflow-y: scroll;
     background-color:#ffffff;
+    position: relative; 
 }
   
 body::-webkit-scrollbar {
