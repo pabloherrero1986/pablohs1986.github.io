@@ -25,11 +25,11 @@
 
 /* General */
 body {
+    position: relative;
     font-family: 'fira_coderegular';
     letter-spacing: normal;
     overflow-y: scroll;
     background-color:#ffffff;
-    position: relative; 
 }
   
 body::-webkit-scrollbar {
@@ -51,6 +51,14 @@ body::-webkit-scrollbar {
     outline: none;
 }
 
+#h {
+    font-size: 25px;
+    font-family: 'fira_codebold';
+    text-align: center;
+    color: #000000;
+    outline: none;
+}
+
 #navbar .nav-link {
     font-size: 14px;
     font-family: 'fira_codemedium';
@@ -67,6 +75,16 @@ body::-webkit-scrollbar {
 }
 
 #navbar .nav-link:active {
+    color: #50fa7b;
+    outline: none;
+}
+
+#navbar #h:hover {
+    color: #bd93f9;
+    outline: none;
+}
+
+#navbar #h:active {
     color: #50fa7b;
     outline: none;
 }
