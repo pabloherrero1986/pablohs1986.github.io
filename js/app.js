@@ -1,4 +1,3 @@
-$('body').scrollspy({ target: '.navbar', offset: 50 });
 
 
 // // UI controller

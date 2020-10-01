@@ -165,15 +165,13 @@ body::-webkit-scrollbar {
 
 #about .row {
     background-color: #000000;
-    padding: 100px 100px 100px 100px;
+    padding: 10vh 10vh 10vh 10vh;
 }
 
 #about .col-lg-12 {
     text-align: center;
     align-items: center;
-
 }
-
 
 #about h2 {
     width: 100%;
