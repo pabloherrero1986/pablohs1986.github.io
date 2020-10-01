@@ -165,7 +165,7 @@ body::-webkit-scrollbar {
 
 #about .row {
     background-color: #000000;
-    padding: 10vh 10vh 10vh 10vh;
+    padding: 15vh 10vh 15vh 10vh;
 }
 
 #about .col-lg-12 {
@@ -210,6 +210,16 @@ body::-webkit-scrollbar {
     padding: 10vh 10vh 10vh 10vh;
     background-color: #000000;
     margin: 10px 10px 10px 10px;
+}
+
+#works h2 {
+    width: 100%;
+    text-align: center;
+    margin-bottom: 30px;
+    font-family: 'fira_codemedium';
+    font-size: 30px;
+    color: #000000;
+    letter-spacing: 0.05rem;
 }
 
 #works h3 {
