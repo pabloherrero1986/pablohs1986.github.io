@@ -236,7 +236,6 @@ body::-webkit-scrollbar {
 #contact .container {
     min-height: 100%;
     min-height: 100vh;
-    align-items: center;
 }
 
 #contact h2 {
