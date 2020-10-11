@@ -169,6 +169,7 @@ body::-webkit-scrollbar {
 #about .row {
     background-color: #000000;
     padding: 15vh 10vh 15vh 10vh;
+    margin: 1vh 0vh 1vh 0vh;
 }
 
 #about h2 {
@@ -246,6 +247,11 @@ body::-webkit-scrollbar {
     font-size: 34px;
     color: #000000;
     letter-spacing: 0.05rem;
+}
+
+#contactForm {
+    background-color: black;
+
 }
 
 #contactForm input, #contactForm textarea {
