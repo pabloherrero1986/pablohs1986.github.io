@@ -168,7 +168,7 @@ body::-webkit-scrollbar {
 
 #about .row {
     background-color: #000000;
-    padding: 15vh 10vh 15vh 10vh;
+    padding: 5vh 0vh 5vh 0vh;
     margin: 1vh 0vh 1vh 0vh;
 }
 
@@ -190,6 +190,25 @@ body::-webkit-scrollbar {
     color: #ffffff;
 }
 
+@media (min-width: 992px) {
+    #about .row {
+        background-color: #000000;
+        padding: 15vh 10vh 15vh 10vh;
+        margin: 1vh 0vh 1vh 0vh;
+    }
+
+    #about h2 {
+        text-align: left;
+        margin-bottom: 30px;
+        font-size: 24px;
+    }
+    
+    #about p {
+        text-align: left;
+        font-size: 18px;
+    }
+}
+
 /* Works */
 #works {
     width: 100%;
@@ -200,6 +219,12 @@ body::-webkit-scrollbar {
     min-height: 100%;
     min-height: 100vh;
     align-items: center;
+}
+
+#works .col-sm-3 {
+    height: 35vh;
+    background-color: #000000;
+    border: 3vh solid white;
 }
 
 #works h2 {
@@ -214,11 +239,11 @@ body::-webkit-scrollbar {
 
 #works h3 {
     width: 100%;
+    padding-top: 10px;
     text-align: left;
-    margin-bottom: 30px;
     font-family: 'fira_codemedium';
     font-size: 24px;
-    color: #000000;
+    color: #ffffff;
     letter-spacing: 0.05rem;
 }
 
@@ -226,6 +251,39 @@ body::-webkit-scrollbar {
     text-align: left;
     font-family: 'fira_coderegular';
     font-size: 18px;
+    color: #ffffff;
+}
+
+#works i {
+    font-size: 18px;
+    color: #ffffff;
+}
+
+#works hr {
+    border-color: #ffffff;
+}
+
+#works a, #works a i  {
+    color: #000000;
+    text-decoration: unset;
+}
+
+@media (min-width: 992px) {
+    #works h2 {
+        text-align: center;
+        margin-bottom: 30px;
+        font-size: 34px;
+    }
+    
+    #works h3 {
+        text-align: left;
+        font-size: 24px;
+    }
+    
+    #works p {
+        text-align: left;
+        font-size: 18px;
+    }
 }
 
 /* Contact */
