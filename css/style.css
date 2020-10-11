@@ -249,17 +249,12 @@ body::-webkit-scrollbar {
     letter-spacing: 0.05rem;
 }
 
-#contactForm {
-    background-color: black;
-
-}
-
-#contactForm input, #contactForm textarea {
+#contactForm input, #contactForm textarea, #contactForm button {
     background-color: #000000;
     border-radius: 0%;
 }
 
-#contactForm input::placeholder, #contactForm textarea::placeholder {
+#contactForm input::placeholder, #contactForm textarea::placeholder, #contactForm button {
     color: white;
 }
 
