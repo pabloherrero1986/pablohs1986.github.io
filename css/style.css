@@ -248,6 +248,15 @@ body::-webkit-scrollbar {
     letter-spacing: 0.05rem;
 }
 
+#contactForm input, #contactForm textarea {
+    background-color: #000000;
+    border-radius: 0%;
+}
+
+#contactForm input::placeholder, #contactForm textarea::placeholder {
+    color: white;
+}
+
 /* Footer */
 footer {
     position: fixed;
