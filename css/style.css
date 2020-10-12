@@ -52,7 +52,7 @@ body::-webkit-scrollbar {
 }
 
 #h {
-    font-size: 25px;
+    font-size: 28px;
     font-family: 'fira_codebold';
     text-align: center;
     color: #000000;
@@ -90,8 +90,12 @@ body::-webkit-scrollbar {
 }
 
 @media (min-width: 992px) {
+    #h {
+        font-size: 32px;
+    }
+
     #navbar .nav-link {
-        font-size: 14px;
+        font-size: 16px;
         padding: 0.5rem 0rem 0.5rem 3rem;
         color:#000000;
         background-color: transparent;
@@ -125,7 +129,7 @@ body::-webkit-scrollbar {
     text-align: center;
     text-transform: uppercase;
     font-family: 'fira_codebold';
-    font-size: 58px;
+    font-size: 64px;
     line-height: 3.3rem;
     letter-spacing: 0.05rem;
 }
@@ -136,7 +140,7 @@ body::-webkit-scrollbar {
     text-align: center;
     text-transform: uppercase;
     font-family: 'fira_codemedium';
-    font-size: 24px;
+    font-size: 32px;
     letter-spacing: 0.05rem;
 }
 
@@ -147,8 +151,14 @@ body::-webkit-scrollbar {
 
     #header h1 {
         margin: 25px 0px 0px 0px;
-        font-size: 64px;
+        font-size: 72px;
         line-height: 3.3rem;
+        letter-spacing: 0.05rem;
+    }
+
+    #header h2 {
+        margin: 15px 0px 0px 0px;
+        font-size: 36px;
         letter-spacing: 0.05rem;
     }
 }
@@ -177,7 +187,7 @@ body::-webkit-scrollbar {
     text-align: left;
     margin-bottom: 30px;
     font-family: 'fira_codemedium';
-    font-size: 24px;
+    font-size: 32px;
     color: #ffffff;
     letter-spacing: 0.05rem;
 }
@@ -186,7 +196,7 @@ body::-webkit-scrollbar {
     width: 100%;
     text-align: left;
     font-family: 'fira_coderegular';
-    font-size: 18px;
+    font-size: 16px;
     color: #ffffff;
 }
 
@@ -200,7 +210,7 @@ body::-webkit-scrollbar {
     #about h2 {
         text-align: left;
         margin-bottom: 30px;
-        font-size: 24px;
+        font-size: 36px;
     }
     
     #about p {
@@ -221,7 +231,7 @@ body::-webkit-scrollbar {
     align-items: center;
 }
 
-#works .col-sm-3 {
+#works .col-sm-4 {
     height: 35vh;
     background-color: #000000;
     border: 3vh solid white;
@@ -232,7 +242,7 @@ body::-webkit-scrollbar {
     text-align: center;
     margin-bottom: 30px;
     font-family: 'fira_codemedium';
-    font-size: 34px;
+    font-size: 32px;
     color: #000000;
     letter-spacing: 0.05rem;
 }
@@ -242,7 +252,7 @@ body::-webkit-scrollbar {
     padding-top: 10px;
     text-align: left;
     font-family: 'fira_codemedium';
-    font-size: 24px;
+    font-size: 26px;
     color: #ffffff;
     letter-spacing: 0.05rem;
 }
@@ -250,12 +260,12 @@ body::-webkit-scrollbar {
 #works p {
     text-align: left;
     font-family: 'fira_coderegular';
-    font-size: 18px;
+    font-size: 16px;
     color: #ffffff;
 }
 
-#works i {
-    font-size: 18px;
+#works .col-sm-4 i {
+    font-size: 16px;
     color: #ffffff;
 }
 
@@ -268,20 +278,33 @@ body::-webkit-scrollbar {
     text-decoration: unset;
 }
 
+#works h3:hover {
+    color: #bd93f9;
+}
+
+#works h3:active {
+    color: #50fa7b;
+    outline: none;
+}
+
 @media (min-width: 992px) {
     #works h2 {
         text-align: center;
         margin-bottom: 30px;
-        font-size: 34px;
+        font-size: 36px;
     }
     
     #works h3 {
         text-align: left;
-        font-size: 24px;
+        font-size: 30px;
     }
     
     #works p {
         text-align: left;
+        font-size: 18px;
+    }
+
+    #works i {
         font-size: 18px;
     }
 }
@@ -302,7 +325,7 @@ body::-webkit-scrollbar {
     text-align: center;
     margin-bottom: 30px;
     font-family: 'fira_codemedium';
-    font-size: 34px;
+    font-size: 32px;
     color: #000000;
     letter-spacing: 0.05rem;
 }
@@ -314,10 +337,31 @@ body::-webkit-scrollbar {
 
 #contactForm input::placeholder, #contactForm textarea::placeholder, #contactForm button {
     color: white;
+    font-size: 16px;
+}
+
+#contactForm button:hover {
+    color: #bd93f9;
+}
+
+#contactForm button:active {
+    color: #50fa7b;
+    outline: none;
+}
+
+@media (min-width: 992px) {
+    #contact h2 {
+        font-size: 36px;
+    }
+
+    #contactForm input::placeholder, #contactForm textarea::placeholder, #contactForm button {
+        color: white;
+        font-size: 18px;
+    }
 }
 
 /* Footer */
-footer {
+#footer {
     position: fixed;
     bottom: 0;
     width: 100%;
@@ -327,29 +371,37 @@ footer {
     text-align: center;
 }
 
-footer #social a{
-    font-size: 15px;
+#footer #social a{
+    font-size: 14px;
     color: #000000;
 }
 
-footer #social i:hover{
+#footer #social i:hover{
     color: #bd93f9;
 }
 
-footer #social i:active {
+#footer #social i:active {
     color: #50fa7b;
     outline: none;
 }
 
+#footer small {
+    font-size: 14px;
+}
+
 @media (min-width: 992px) {
-    footer #copy {
+    #footer #copy {
         float: left;
     }
     
-    footer #social a{
-        font-size: 20px;
+    #footer #social a{
+        font-size: 21px;
         float: right;
-        padding: 0.5rem 0rem 0.5rem 2rem;
+        padding: 0.5rem 0rem 0.5rem 2.5rem;
 
+    }
+
+    #footer small {
+        font-size: 16px;
     }
 }
