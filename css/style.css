@@ -235,7 +235,7 @@ body::-webkit-scrollbar {
     align-items: center;
 }
 
-#works .col-sm-4 {
+#works #project {
     height: 35vh;
     background-color: #000000;
     border: 3vh solid white;
@@ -269,7 +269,7 @@ body::-webkit-scrollbar {
     color: #ffffff;
 }
 
-#works .col-sm-4 i {
+#works #project i {
     font-size: 16px;
     color: #ffffff;
 }
@@ -283,11 +283,11 @@ body::-webkit-scrollbar {
     text-decoration: unset;
 }
 
-#works .col-sm-4:hover { 
+#works #project:hover { 
     border: 3vh solid #bd93f9;
 }
 
-#works .col-sm-4:active { 
+#works #project:active { 
     border: 3vh solid #50fa7b;
 }
 
