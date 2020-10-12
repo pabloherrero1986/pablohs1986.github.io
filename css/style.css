@@ -168,7 +168,6 @@ body::-webkit-scrollbar {
     }
 }
 
-
 /* About */
 #about {
     width: 100%;
@@ -264,6 +263,7 @@ body::-webkit-scrollbar {
 
 #works p {
     text-align: left;
+    padding-top: 16px;
     font-family: 'fira_coderegular';
     font-size: 16px;
     color: #ffffff;
@@ -283,13 +283,12 @@ body::-webkit-scrollbar {
     text-decoration: unset;
 }
 
-#works h3:hover {
-    color: #bd93f9;
+#works .col-sm-4:hover { 
+    border: 3vh solid #bd93f9;
 }
 
-#works h3:active {
-    color: #50fa7b;
-    outline: none;
+#works .col-sm-4:active { 
+    border: 3vh solid #50fa7b;
 }
 
 #works a:hover {
@@ -354,12 +353,16 @@ body::-webkit-scrollbar {
     font-size: 16px;
 }
 
+#contactForm button {
+    border: 3vh solid #ffffff;
+}
+
 #contactForm button:hover {
-    color: #bd93f9;
+    border: 3vh solid #bd93f9;
 }
 
 #contactForm button:active {
-    color: #50fa7b;
+    border: 3vh solid #50fa7b;
     outline: none;
 }
 
