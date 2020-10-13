@@ -344,6 +344,11 @@ body::-webkit-scrollbar {
     letter-spacing: 0.05rem;
 }
 
+#contactForm {
+    border-top: 3vh solid #ffffff;
+
+}
+
 #contactForm input, #contactForm textarea, #contactForm button {
     background-color: #000000;
     border-radius: 0%;
