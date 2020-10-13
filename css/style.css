@@ -239,6 +239,7 @@ body::-webkit-scrollbar {
     height: 35vh;
     background-color: #000000;
     border: 3vh solid white;
+    padding: 4vh 5vh 4vh 5vh;
 }
 
 #works h2 {
