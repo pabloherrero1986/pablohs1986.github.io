@@ -356,6 +356,7 @@ body::-webkit-scrollbar {
 
 #contactForm button {
     border: 3vh solid #ffffff;
+    padding: 2vh 3vh 2vh 3vh;
 }
 
 #contactForm button:hover {
