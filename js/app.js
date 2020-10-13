@@ -18,16 +18,14 @@ $("#navbar a").on('click', function(event) {
 });
 
 // UI controller
-var activeProject;
 
 var uiController = (function() {
-    function expandProject() {
-      document.getElementById // Seguir aquí
-    }
-
     return{
         expandProjectOnClick : function() {
-          document.getElementsByClassName('project').addEventListener("click", expandProject())
+          document.getElementsByClassName('project').addEventListener("mouseover", function(e) {
+            document.getElementById(e.target.id).classList.add('col-sm-12');
+            document.getElementById(e.target.id).classList.remove('col-sm-4');
+          })
         },
     }
 })();
