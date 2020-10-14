@@ -29,7 +29,7 @@ var uiController = (function() {
             document.getElementById(e.target.id).classList.add('col-sm-12');
             document.getElementById(e.target.id).classList.remove('col-sm-4');
           })
-          projects[i].addEventListener("onmouseout", function(e) {
+          projects[i].addEventListener("mouseout", function(e) {
             document.getElementById(e.target.id).classList.remove('col-sm-12');
             document.getElementById(e.target.id).classList.add('col-sm-4');
           })
