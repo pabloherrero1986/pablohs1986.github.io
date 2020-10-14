@@ -20,13 +20,27 @@ $("#navbar a").on('click', function(event) {
 // UI controller
 
 var uiController = (function() {
+  var projects = document.getElementsByClassName('project');
+
     return{
-        expandProjectOnClick : function() {
-          document.getElementsByClassName('project').addEventListener("mouseover", function(e) {
+      prueba: function() {
+        for (let i = 0; i < projects.length; i++) {
+          projects[i].addEventListener("mouseover", function(e) {
             document.getElementById(e.target.id).classList.add('col-sm-12');
             document.getElementById(e.target.id).classList.remove('col-sm-4');
           })
-        },
+          projects[i].addEventListener("onmouseout", function(e) {
+            document.getElementById(e.target.id).classList.remove('col-sm-12');
+            document.getElementById(e.target.id).classList.add('col-sm-4');
+          })
+        }
+      }
+        // expandProjectOnClick : function() {
+        //   document.getElementsByClassName('.project').addEventListener("mouseover", function(e) {
+        //     document.getElementById(e.target.id).classList.add('col-sm-12');
+        //     document.getElementById(e.target.id).classList.remove('col-sm-4');
+        //   })
+        // },
     }
 })();
 
@@ -35,7 +49,7 @@ var controller = (function(uiController) {
     return {
         init: function(){
             console.log('App has started');
-            uiController.expandProjectOnClick();
+            uiController.prueba();
         }
     };
 })(uiController);
