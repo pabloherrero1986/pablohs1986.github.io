@@ -20,21 +20,21 @@ $("#navbar a").on('click', function(event) {
 // UI controller
 
 var uiController = (function() {
-  var projects = document.getElementsByClassName('project');
+  // var projects = document.getElementsByClassName('project');
 
     return{
-      prueba: function() {
-        for (let i = 0; i < projects.length; i++) {
-          projects[i].addEventListener("mouseover", function(e) {
-            document.getElementById(e.target.id).classList.add('col-sm-12');
-            document.getElementById(e.target.id).classList.remove('col-sm-4');
-          })
-          projects[i].addEventListener("mouseout", function(e) {
-            document.getElementById(e.target.id).classList.remove('col-sm-12');
-            document.getElementById(e.target.id).classList.add('col-sm-4');
-          })
-        }
-      }
+      // prueba: function() {
+      //   for (let i = 0; i < projects.length; i++) {
+      //     projects[i].addEventListener("mouseover", function(e) {
+      //       document.getElementById(e.target.id).classList.add('col-sm-12');
+      //       document.getElementById(e.target.id).classList.remove('col-sm-4');
+      //     })
+      //     projects[i].addEventListener("mouseout", function(e) {
+      //       document.getElementById(e.target.id).classList.remove('col-sm-12');
+      //       document.getElementById(e.target.id).classList.add('col-sm-4');
+      //     })
+      //   }
+      // }
         // expandProjectOnClick : function() {
         //   document.getElementsByClassName('.project').addEventListener("mouseover", function(e) {
         //     document.getElementById(e.target.id).classList.add('col-sm-12');
