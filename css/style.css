@@ -203,6 +203,10 @@ body::-webkit-scrollbar {
     color: #ffffff;
 }
 
+#about .typed3 {
+    color: #bd93f9;
+}
+
 @media (min-width: 992px) {
     #about .row {
         background-color: #000000;

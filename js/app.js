@@ -18,7 +18,7 @@ $("#navbar a").on('click', function(event) {
 });
 
 $(function(){
-	$(".typed3").typed({
+	$(".typed1").typed({
 		strings: [
       "Developer", 
       "Development student", 
@@ -53,6 +53,54 @@ $(function(){
 		resetCallback: function() {}
 	});
 });
+
+$(window).scroll(function() {
+  if ($('#about').is(':visible')) {
+    $(function(){
+      $(".typed2").typed({
+        strings: [
+          "Hi! I'm a "],
+        typeSpeed: 50,
+        startDelay: 0,
+        showCursor: false,
+        contentType: 'html',
+        // call when done callback function
+        callback: function() {},
+        // starting callback function before each string
+        preStringTyped: function() {},
+        //callback for every typed string
+        onStringTyped: function() {},
+        // callback for reset
+        resetCallback: function() {}
+      });
+    });
+  }
+});
+
+$(window).scroll(function() {
+  if ($('#about').is(':visible')) {
+    $(function(){
+      $(".typed3").typed({
+        strings: [
+          "developer"],
+        typeSpeed: 50,
+        startDelay: 1000,
+        showCursor: true,
+        contentType: 'html',
+        // call when done callback function
+        callback: function() {},
+        // starting callback function before each string
+        preStringTyped: function() {},
+        //callback for every typed string
+        onStringTyped: function() {},
+        // callback for reset
+        resetCallback: function() {}
+      });
+    });
+  }
+});
+
+
 
 
 // // UI controller
