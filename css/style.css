@@ -304,7 +304,7 @@ body::-webkit-scrollbar {
 }
 
 #works .projectModal {
-    height: 90vh;
+    min-height: 90vh;
     background-color: #000000;
     border: 3vh solid white;
     padding: 4vh 5vh 4vh 5vh;
@@ -337,7 +337,9 @@ body::-webkit-scrollbar {
     color: #50fa7b;
 }
 
-
+#works .projectModal img {
+    width: 80%;   
+}
 
 
 @media (min-width: 992px) {
@@ -359,6 +361,10 @@ body::-webkit-scrollbar {
 
     #works i {
         font-size: 18px;
+    }
+
+    #works #projectIMG {
+        text-align: right;
     }
 }
 
