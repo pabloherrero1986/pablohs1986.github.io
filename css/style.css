@@ -143,7 +143,6 @@ body::-webkit-scrollbar {
     margin: 15px 0px 0px 0px;
     width: 100%;
     text-align: center;
-    text-transform: uppercase;
     font-family: 'fira_codemedium';
     font-size: 32px;
     letter-spacing: 0.05rem;

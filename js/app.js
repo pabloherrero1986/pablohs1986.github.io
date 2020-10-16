@@ -17,41 +17,79 @@ $("#navbar a").on('click', function(event) {
     }
 });
 
-// UI controller
+$(function(){
+	$(".typed3").typed({
+		strings: [
+      "Developer", 
+      "Development student", 
+      String.fromCodePoint(0x2764) + " Java",
+      String.fromCodePoint(0x2764) + " coffee",
+      String.fromCodePoint(0x2764) + " JavaScript",
+      String.fromCodePoint(0x2764) + " web design",
+      String.fromCodePoint(0x2764) + " developing software",
+      String.fromCodePoint(0x2764) + " Angular",
+      String.fromCodePoint(0x2764) + " Android",
+      String.fromCodePoint(0x2764) + " beer",
+      String.fromCodePoint(0x2764) + " guitars",
+      String.fromCodePoint(0x2764) + " learning new technologies",
+      "Front-end developer", 
+      "Full-stack developer", 
+      "Clean Code defender",
+      "Pragmatic Programmer", 
+      "Geek"],
+		typeSpeed: 50,
+    startDelay: 250,
+    loop: true,
+    shuffle: true,
+    showCursor: true,
+		contentType: 'html',
+		// call when done callback function
+		callback: function() {},
+		// starting callback function before each string
+		preStringTyped: function() {},
+		//callback for every typed string
+		onStringTyped: function() {},
+		// callback for reset
+		resetCallback: function() {}
+	});
+});
 
-var uiController = (function() {
-  // var projects = document.getElementsByClassName('project');
 
-    return{
-      // prueba: function() {
-      //   for (let i = 0; i < projects.length; i++) {
-      //     projects[i].addEventListener("mouseover", function(e) {
-      //       document.getElementById(e.target.id).classList.add('col-sm-12');
-      //       document.getElementById(e.target.id).classList.remove('col-sm-4');
-      //     })
-      //     projects[i].addEventListener("mouseout", function(e) {
-      //       document.getElementById(e.target.id).classList.remove('col-sm-12');
-      //       document.getElementById(e.target.id).classList.add('col-sm-4');
-      //     })
-      //   }
-      // }
-        // expandProjectOnClick : function() {
-        //   document.getElementsByClassName('.project').addEventListener("mouseover", function(e) {
-        //     document.getElementById(e.target.id).classList.add('col-sm-12');
-        //     document.getElementById(e.target.id).classList.remove('col-sm-4');
-        //   })
-        // },
-    }
-})();
+// // UI controller
 
-// Global controller
-var controller = (function(uiController) {
-    return {
-        init: function(){
-            console.log('App has started');
-            uiController.prueba();
-        }
-    };
-})(uiController);
+// var uiController = (function() {
+//   // var projects = document.getElementsByClassName('project');
 
-controller.init();
+//     return{
+//       // prueba: function() {
+//       //   for (let i = 0; i < projects.length; i++) {
+//       //     projects[i].addEventListener("mouseover", function(e) {
+//       //       document.getElementById(e.target.id).classList.add('col-sm-12');
+//       //       document.getElementById(e.target.id).classList.remove('col-sm-4');
+//       //     })
+//       //     projects[i].addEventListener("mouseout", function(e) {
+//       //       document.getElementById(e.target.id).classList.remove('col-sm-12');
+//       //       document.getElementById(e.target.id).classList.add('col-sm-4');
+//       //     })
+//       //   }
+//       // }
+//         // expandProjectOnClick : function() {
+//         //   document.getElementsByClassName('.project').addEventListener("mouseover", function(e) {
+//         //     document.getElementById(e.target.id).classList.add('col-sm-12');
+//         //     document.getElementById(e.target.id).classList.remove('col-sm-4');
+//         //   })
+//         // },
+//     }
+// })();
+
+// // Global controller
+// var controller = (function(uiController) {
+//     return {
+//         init: function(){
+//             console.log('App has started');
+//             uiController.prueba();
+//         }
+//     };
+// })(uiController);
+
+// controller.init();
