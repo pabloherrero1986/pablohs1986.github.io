@@ -253,6 +253,7 @@ body::-webkit-scrollbar {
 }
 
 /* Works */
+/* Revisar tamaño fuentes en modal */
 #works {
     width: 100%;
     min-height: 100vh;
