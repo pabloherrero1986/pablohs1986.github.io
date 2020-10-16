@@ -17,6 +17,8 @@ $("#navbar a").on('click', function(event) {
     }
 });
 
+
+// Typed.js
 $(function(){
 	$(".typedHeader").typed({
 		strings: [
