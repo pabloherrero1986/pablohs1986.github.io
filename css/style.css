@@ -242,6 +242,19 @@ body::-webkit-scrollbar {
     padding: 4vh 5vh 4vh 5vh;
 }
 
+#works .modal-header button {
+    color: #ffffff;
+    font-size: 56px;
+}
+
+#works .modal-header button:hover {
+    color: #bd93f9;
+}
+
+#works .modal-header button:active {
+    color: #50fa7b;
+}
+
 #works .projectModal {
     height: 90vh;
     background-color: #000000;
