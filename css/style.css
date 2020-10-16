@@ -148,7 +148,10 @@ body::-webkit-scrollbar {
     letter-spacing: 0.05rem;
 }
 
-
+#header a {
+    color: #000000;
+    outline: none;
+}
 
 #header #downArrow {
     font-size: 40px;
