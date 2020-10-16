@@ -242,8 +242,6 @@ body::-webkit-scrollbar {
     padding: 4vh 5vh 4vh 5vh;
 }
 
-
-
 #works h2 {
     width: 100%;
     text-align: center;
@@ -266,7 +264,7 @@ body::-webkit-scrollbar {
 
 #works p {
     text-align: left;
-    padding-top: 16px;
+    padding-top: 8px;
     font-family: 'fira_coderegular';
     font-size: 16px;
     color: #ffffff;
