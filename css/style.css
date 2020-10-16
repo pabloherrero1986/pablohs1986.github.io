@@ -148,6 +148,24 @@ body::-webkit-scrollbar {
     letter-spacing: 0.05rem;
 }
 
+
+
+#header #downArrow {
+    font-size: 40px;
+    -webkit-animation: arrow-jump 1s infinite;
+    -moz-animation:    arrow-jump 1s infinite
+}
+
+@-webkit-keyframes arrow-jump {
+    0%   { opacity: 0;}
+    100% { opacity: 1; 
+      -webkit-transform: translateY(10px);
+      -moz-transform: translateY(10px);
+      -o-transform: translateY(10px);
+      transform: translateY(10px);
+      }  
+  }
+
 @media (min-width: 992px) {
     #header #headerPhoto {
         max-width: 35%;
@@ -164,6 +182,11 @@ body::-webkit-scrollbar {
         margin: 15px 0px 0px 0px;
         font-size: 36px;
         letter-spacing: 0.05rem;
+    }
+
+    #header #downArrow {
+        padding-top: 32px;
+        font-size: 40px;
     }
 }
 
