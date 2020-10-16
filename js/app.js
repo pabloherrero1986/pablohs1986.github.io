@@ -18,7 +18,7 @@ $("#navbar a").on('click', function(event) {
 });
 
 $(function(){
-	$(".typed1").typed({
+	$(".typedHeader").typed({
 		strings: [
       "Developer", 
       "Development student", 
@@ -37,7 +37,7 @@ $(function(){
       "Clean Code defender",
       "Pragmatic Programmer", 
       "Geek"],
-		typeSpeed: 50,
+		typeSpeed: 70,
     startDelay: 250,
     loop: true,
     shuffle: true,
@@ -57,10 +57,10 @@ $(function(){
 $(window).scroll(function() {
   if ($('#about').is(':visible')) {
     $(function(){
-      $(".typed2").typed({
+      $(".typedAboutA").typed({
         strings: [
           "Hi! I'm a "],
-        typeSpeed: 50,
+        typeSpeed: 70,
         startDelay: 0,
         showCursor: false,
         contentType: 'html',
@@ -80,11 +80,11 @@ $(window).scroll(function() {
 $(window).scroll(function() {
   if ($('#about').is(':visible')) {
     $(function(){
-      $(".typed3").typed({
+      $(".typedAboutB").typed({
         strings: [
           "developer"],
-        typeSpeed: 50,
-        startDelay: 1000,
+        typeSpeed: 70,
+        startDelay: 1250,
         showCursor: true,
         contentType: 'html',
         // call when done callback function
@@ -99,45 +99,3 @@ $(window).scroll(function() {
     });
   }
 });
-
-
-
-
-// // UI controller
-
-// var uiController = (function() {
-//   // var projects = document.getElementsByClassName('project');
-
-//     return{
-//       // prueba: function() {
-//       //   for (let i = 0; i < projects.length; i++) {
-//       //     projects[i].addEventListener("mouseover", function(e) {
-//       //       document.getElementById(e.target.id).classList.add('col-sm-12');
-//       //       document.getElementById(e.target.id).classList.remove('col-sm-4');
-//       //     })
-//       //     projects[i].addEventListener("mouseout", function(e) {
-//       //       document.getElementById(e.target.id).classList.remove('col-sm-12');
-//       //       document.getElementById(e.target.id).classList.add('col-sm-4');
-//       //     })
-//       //   }
-//       // }
-//         // expandProjectOnClick : function() {
-//         //   document.getElementsByClassName('.project').addEventListener("mouseover", function(e) {
-//         //     document.getElementById(e.target.id).classList.add('col-sm-12');
-//         //     document.getElementById(e.target.id).classList.remove('col-sm-4');
-//         //   })
-//         // },
-//     }
-// })();
-
-// // Global controller
-// var controller = (function(uiController) {
-//     return {
-//         init: function(){
-//             console.log('App has started');
-//             uiController.prueba();
-//         }
-//     };
-// })(uiController);
-
-// controller.init();
