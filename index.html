@@ -12,9 +12,6 @@
         <!-- Bootstrap style sheet -->
         <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css">
 
-        <!-- AOS style sheet -->
-        <link rel="stylesheet" href="node_modules/aos/dist/aos.css">
-
         <!-- Custom styles -->
         <link rel="stylesheet" href="css/style.css">
 
@@ -41,7 +38,7 @@
     <body id="top">
 
         <!-- Navbar -->
-        <nav id="navbar" class="navbar navbar-expand-lg navbar-light fixed-top">
+        <nav id="navbar" class="navbar navbar-expand-lg navbar-light fixed-top wow slideInLeft">
             <a class="navbar-brand" href="#top" data-aos="fade-right">
                 <div id="h" class="align-self-center">H</div>
             </a>
@@ -49,11 +46,10 @@
                 type="button" data-toggle="collapse" 
                 data-target="#navbarResponsive" 
                 aria-controls="navbarResponsive" 
-                aria-expanded="false" aria-label="Toggle navigation"
-                data-aos="fade-left">
+                aria-expanded="false" aria-label="Toggle navigation">
                 <i class="fas fa-bars"></i>
             </button>
-            <div id="navbarResponsive" class="collapse navbar-collapse" data-aos="fade-left">
+            <div id="navbarResponsive" class="collapse navbar-collapse">
                 <ul class="navbar-nav ml-auto">
                   <li class="nav-item">
                     <a class="nav-link" href="#about">About</a>
@@ -71,7 +67,7 @@
         <!-- Header -->
         <header id="header">
             <div class="container d-flex flex-column justify-content-center align-items-center">
-                <div class="row align-items-center" data-aos="fade-in">
+                <div class="row align-items-center">
                     <div class="col-sm-12">
                         <img src="img/pabloHerrero.jpg" alt="Pablo Herrero" id= "headerPhoto">
                     </div>
@@ -89,7 +85,7 @@
         </header>
 
         <!-- About -->
-        <section id="about" data-aos="fade-up">
+        <section id="about">
             <div class="container d-flex flex-column justify-content-center align-items-center">
                 <div class="row">
                     <div class="col-sm-12 align-self-center">
@@ -103,7 +99,7 @@
         </section>
 
         <!-- Works -->
-        <section id="works" data-aos="fade-up">
+        <section id="works">
             <div class="container d-flex flex-column justify-content-center">
                 <div >
                     <h2>Works</h2>
@@ -474,7 +470,7 @@
         </section>
 
         <!-- Contact -->
-        <section id="contact" data-aos="fade-up">
+        <section id="contact">
             <div class="container d-flex flex-column justify-content-center">
                 <div>
                     <h2>Contact</h2>
@@ -528,22 +524,9 @@
         
         <!-- Bootstrap js -->
         <script src="node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
-
-        <!-- AOS -->
-        <script src="node_modules/aos/dist/aos.js"></script>
         
         <!-- Own script -->
         <script src="js/app.js"></script>
 
-        <!-- AOS init -->
-        <script>
-              AOS.init({
-                offset: 120,
-                duration: 400,
-                easing: 'ease-in-out-quart',
-                delay: 100,
-                once: true
-              });
-        </script>
     </body>
 </html>
