@@ -13,7 +13,6 @@ My portfolio, handmade with love. It's a one page, flat design web. These are it
   - Some amazing libraries:
     - Typed.js JavaScript typing animation (thanks @mattboldt https://github.com/mattboldt/typed.js/).
     - Animate On Scroll (thanks @michalsnik https://github.com/michalsnik/aos/tree/v2).
-    - CSS animations (thanks @daneden https://github.com/daneden/animate.css).
     
 Use my design if you want, always with love and under MIT license :metal:
 
