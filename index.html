@@ -12,6 +12,9 @@
         <!-- Bootstrap style sheet -->
         <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css">
 
+        <!-- AOS style sheet -->
+        <link rel="stylesheet" href="node_modules/aos/dist/aos.css">
+
         <!-- Custom styles -->
         <link rel="stylesheet" href="css/style.css">
 
@@ -39,17 +42,18 @@
 
         <!-- Navbar -->
         <nav id="navbar" class="navbar navbar-expand-lg navbar-light fixed-top">
-            <a class="navbar-brand" href="#top">
+            <a class="navbar-brand" href="#top" data-aos="fade-right">
                 <div id="h" class="align-self-center">H</div>
             </a>
             <button class="navbar-toggler navbar-toggler-right" 
                 type="button" data-toggle="collapse" 
                 data-target="#navbarResponsive" 
                 aria-controls="navbarResponsive" 
-                aria-expanded="false" aria-label="Toggle navigation">
+                aria-expanded="false" aria-label="Toggle navigation"
+                data-aos="fade-left">
                 <i class="fas fa-bars"></i>
             </button>
-            <div id="navbarResponsive" class="collapse navbar-collapse">
+            <div id="navbarResponsive" class="collapse navbar-collapse" data-aos="fade-left">
                 <ul class="navbar-nav ml-auto">
                   <li class="nav-item">
                     <a class="nav-link" href="#about">About</a>
@@ -67,7 +71,7 @@
         <!-- Header -->
         <header id="header">
             <div class="container d-flex flex-column justify-content-center align-items-center">
-                <div class="row align-items-center">
+                <div class="row align-items-center" data-aos="fade-in">
                     <div class="col-sm-12">
                         <img src="img/pabloHerrero.jpg" alt="Pablo Herrero" id= "headerPhoto">
                     </div>
@@ -85,7 +89,7 @@
         </header>
 
         <!-- About -->
-        <section id="about">
+        <section id="about" data-aos="fade-up">
             <div class="container d-flex flex-column justify-content-center align-items-center">
                 <div class="row">
                     <div class="col-sm-12 align-self-center">
@@ -99,7 +103,7 @@
         </section>
 
         <!-- Works -->
-        <section id="works">
+        <section id="works" data-aos="fade-up">
             <div class="container d-flex flex-column justify-content-center">
                 <div >
                     <h2>Works</h2>
@@ -470,7 +474,7 @@
         </section>
 
         <!-- Contact -->
-        <section id="contact">
+        <section id="contact" data-aos="fade-up">
             <div class="container d-flex flex-column justify-content-center">
                 <div>
                     <h2>Contact</h2>
@@ -494,10 +498,10 @@
         <footer id="footer">
             <div class="container-fluid">
                 <div class="row">
-                    <div class="col-sm-12 col-lg-6 align-self-center">
+                    <div class="col-sm-12 col-lg-6 align-self-center" data-aos="fade-right" data-aos-offset="0">
                         <small id="copy">&copy; 2020 Pablo Herrero</small>
                     </div>
-                    <div class="col-sm-12 col-lg-6 align-self-center">
+                    <div class="col-sm-12 col-lg-6 align-self-center" data-aos="fade-left" data-aos-offset="0">
                         <div id="social">
                             <a href="https://twitter.com/pablohs1986" target="_blank"><i class="fab fa-twitter"></i></a>
                             <a href="https://dev.to/pablohs1986" target="_blank"><i class="fab fa-dev"></i></a>
@@ -525,7 +529,21 @@
         <!-- Bootstrap js -->
         <script src="node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
 
+        <!-- AOS -->
+        <script src="node_modules/aos/dist/aos.js"></script>
+        
         <!-- Own script -->
         <script src="js/app.js"></script>
+
+        <!-- AOS init -->
+        <script>
+              AOS.init({
+                offset: 120,
+                duration: 400,
+                easing: 'ease-in-out-quart',
+                delay: 100,
+                once: true
+              });
+        </script>
     </body>
 </html>
