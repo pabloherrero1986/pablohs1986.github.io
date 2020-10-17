@@ -35,7 +35,7 @@ $(function(){
 	$(".typedHeader").typed({
 		strings: [
       "Developer", 
-      "Development student", 
+      "Student", 
       String.fromCodePoint(0x2764) + " Java",
       String.fromCodePoint(0x2764) + " coffee",
       String.fromCodePoint(0x2764) + " JavaScript",
@@ -46,13 +46,11 @@ $(function(){
       String.fromCodePoint(0x2764) + " beer",
       String.fromCodePoint(0x2764) + " guitars",
       String.fromCodePoint(0x2764) + " learning new technologies",
-      "Front-end developer", 
-      "Full-stack developer", 
       "Clean Code defender",
       "Pragmatic Programmer", 
       "Geek"],
 		typeSpeed: 70,
-    startDelay: 250,
+    startDelay: 0,
     loop: true,
     shuffle: true,
     showCursor: true,
