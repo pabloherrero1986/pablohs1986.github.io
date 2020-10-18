@@ -137,7 +137,7 @@ body::-webkit-scrollbar {
 }
 
 #header h1 {
-    margin: 50px 0px 0px 0px;
+    margin: 25px 0px 0px 0px;
     width: 100%;
     text-align: center;
     text-transform: uppercase;
@@ -376,6 +376,14 @@ body::-webkit-scrollbar {
     width: 80%;   
 }
 
+@media (min-width: 768px) and (orientation: portrait) {
+    #works .project {
+        height: 37vh;
+        background-color: #000000;
+        border: 3vh solid white;
+        padding: 4vh 5vh 4vh 5vh;
+    }
+}
 
 @media (min-width: 992px) {
     #works h2 {
@@ -408,15 +416,6 @@ body::-webkit-scrollbar {
     }
 
     #works .projectModal {
-        border: 3vh solid white;
-        padding: 4vh 5vh 4vh 5vh;
-    }
-}
-
-@media (min-width: 768px) and (orientation: portrait) {
-    #works .project {
-        height: 37vh;
-        background-color: #000000;
         border: 3vh solid white;
         padding: 4vh 5vh 4vh 5vh;
     }
@@ -511,7 +510,7 @@ body::-webkit-scrollbar {
     font-size: 14px;
 }
 
-@media (min-width: 768px) and (orientation: portrait) {
+@media (min-width: 768px) and (orientation: landscape) {
     #footer {
         position: fixed;
     }
