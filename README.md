@@ -1,5 +1,7 @@
 # **MY PORTFOLIO** ![GitHub release](https://img.shields.io/badge/release-v.5.0-brightgreen) ![GitHub license](https://img.shields.io/badge/license-MIT-blue)
 
+<img align="right" src="img/projects/portfolio.png"/>
+
 My portfolio, handmade with love. It's a one page, flat design web. These are its features:
   - HTML5 + CSS3 + Bootstrap 4.
   - Mobile first design.
