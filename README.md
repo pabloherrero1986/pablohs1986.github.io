@@ -11,8 +11,8 @@ My portfolio, handmade with love. It's a one page, flat design web. These are it
   - Scrollspy
   - Custom button styles.
   - Some amazing libraries:
-    - Typed.js JavaScript typing animation (thanks @mattboldt https://github.com/mattboldt/typed.js/).
-    - Animate On Scroll (thanks @michalsnik https://github.com/michalsnik/aos/tree/v2).
+    - Typed.js JavaScript typing animation (https://github.com/mattboldt/typed.js/).
+    - Animate.css (https://github.com/animate-css/animate.css).
     
 Use my design if you want, always with love and under MIT license :metal:
 
