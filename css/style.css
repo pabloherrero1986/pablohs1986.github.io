@@ -49,7 +49,7 @@ body::-webkit-scrollbar {
 }
 
 #navbar .navbar-toggler {
-    color: #000000;
+    color: #282a36;
 }
 
 #navbar .navbar-toggler:focus {
@@ -68,7 +68,7 @@ body::-webkit-scrollbar {
     font-size: 28px;
     font-family: 'fira_codebold';
     text-align: center;
-    color: #000000;
+    color: #282a36;
     outline: none;
 }
 
@@ -78,7 +78,7 @@ body::-webkit-scrollbar {
     padding: 1rem 1.5rem;
     text-align: center;
     color:#ffffff;
-    background-color: #000000;
+    background-color: #282a36;
     outline: none;
 }
 
@@ -110,7 +110,7 @@ body::-webkit-scrollbar {
     #navbar .nav-link {
         font-size: 16px;
         padding: 0.5rem 0rem 0.5rem 3rem;
-        color:#000000;
+        color:#282a36;
         background-color: transparent;
     }
 }
@@ -143,6 +143,7 @@ body::-webkit-scrollbar {
     text-transform: uppercase;
     font-family: 'fira_codebold';
     font-size: 64px;
+    color: #282a36;
     line-height: 3.3rem;
     letter-spacing: 0.05rem;
 }
@@ -153,11 +154,12 @@ body::-webkit-scrollbar {
     text-align: center;
     font-family: 'fira_codemedium';
     font-size: 32px;
+    color: #282a36;
     letter-spacing: 0.05rem;
 }
 
-#header a {
-    color: #000000;
+#header #downArrow a {
+    color: #282a36;
     outline: none;
 }
 
@@ -223,7 +225,7 @@ body::-webkit-scrollbar {
 }
 
 #about .row {
-    background-color: #000000;
+    background-color: #282a36;
     padding: 5vh 0vh 5vh 0vh;
     margin: 1vh 0vh 1vh 0vh;
 }
@@ -258,7 +260,6 @@ body::-webkit-scrollbar {
 
 @media (min-width: 992px) {
     #about .row {
-        background-color: #000000;
         padding: 15vh 10vh 15vh 10vh;
         margin: 1vh 0vh 1vh 0vh;
     }
@@ -290,7 +291,7 @@ body::-webkit-scrollbar {
 
 #works .project {
     height: 37vh;
-    background-color: #000000;
+    background-color: #282a36;
     border: 3vh solid white;
     padding: 4vh 5vh 4vh 5vh;
 }
@@ -301,7 +302,7 @@ body::-webkit-scrollbar {
     margin-bottom: 30px;
     font-family: 'fira_codemedium';
     font-size: 32px;
-    color: #000000;
+    color: #282a36;
     letter-spacing: 0.05rem;
 }
 
@@ -333,7 +334,7 @@ body::-webkit-scrollbar {
 }
 
 #works a, #works a i  {
-    color: #000000;
+    color: #282a36;
     text-decoration: unset;
 }
 
@@ -356,7 +357,7 @@ body::-webkit-scrollbar {
 
 #works .projectModal {
     min-height: 90vh;
-    background-color: #000000;
+    background-color: #282a36;
     border: 3px solid white;
 }
 
@@ -394,7 +395,7 @@ body::-webkit-scrollbar {
 @media (min-width: 768px) and (orientation: portrait) {
     #works .project {
         height: 37vh;
-        background-color: #000000;
+        background-color: #282a36;
         border: 3vh solid white;
         padding: 4vh 5vh 4vh 5vh;
     }
@@ -453,7 +454,7 @@ body::-webkit-scrollbar {
     margin-bottom: 30px;
     font-family: 'fira_codemedium';
     font-size: 32px;
-    color: #000000;
+    color: #282a36;
     letter-spacing: 0.05rem;
 }
 
@@ -464,7 +465,7 @@ body::-webkit-scrollbar {
 
 #contactForm input, #contactForm textarea, #contactForm button {
     color: #ffffff;
-    background-color: #000000;
+    background-color: #282a36;
     border-radius: 0%;
 }
 
@@ -503,13 +504,13 @@ body::-webkit-scrollbar {
     width: 100%;
     padding-bottom: 5px;
     background-color: transparent;
-    color: #000000;
+    color: #282a36;
     text-align: center;
 }
 
 #footer #social a{
     font-size: 19px;
-    color: #000000;
+    color: #282a36;
 }
 
 #footer #social i:hover{

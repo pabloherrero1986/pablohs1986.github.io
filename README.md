@@ -11,6 +11,7 @@ My portfolio, handmade with love. It's a one page, flat design web. These are it
   - Fixed footer section with social links and copyright reference.
   - Scrollspy
   - Custom button styles.
+  - Dracula color palete (https://github.com/dracula/dracula-theme).
   - Some amazing libraries:
     - Typed.js JavaScript typing animation (https://github.com/mattboldt/typed.js/).
     - Animate.css (https://github.com/animate-css/animate.css).
