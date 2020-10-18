@@ -212,6 +212,10 @@ body::-webkit-scrollbar {
     min-height: 100vh;
 }
 
+#about .lineBreak {
+    display: static;
+}
+
 #about .container {
     min-height: 100%;
     min-height: 100vh;
@@ -244,6 +248,12 @@ body::-webkit-scrollbar {
 
 #about .typedAboutB {
     color: #bd93f9;
+}
+
+@media (min-width: 768px) and (orientation: landscape) {
+    #about .lineBreak {
+        display: none;
+    }
 }
 
 @media (min-width: 992px) {
