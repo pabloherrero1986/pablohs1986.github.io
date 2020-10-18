@@ -29,7 +29,6 @@ $("#header a").on('click', function(event) {
     }
 });
 
-
 // Typed.js
 $(function(){
 	$(".typedHeader").typed({

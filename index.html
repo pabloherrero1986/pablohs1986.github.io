@@ -12,6 +12,9 @@
         <!-- Bootstrap style sheet -->
         <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css">
 
+        <!-- Animate.css style sheet -->
+        <link rel="stylesheet" href="node_modules/animate.css/animate.css">
+
         <!-- Custom styles -->
         <link rel="stylesheet" href="css/style.css">
 
@@ -38,18 +41,18 @@
     <body id="top">
 
         <!-- Navbar -->
-        <nav id="navbar" class="navbar navbar-expand-lg navbar-light fixed-top wow slideInLeft">
-            <a class="navbar-brand" href="#top" data-aos="fade-right">
+        <nav id="navbar" class="navbar navbar-expand-lg navbar-light fixed-top">
+            <a class="navbar-brand  animate__animated animate__backInLeft" href="#top" data-aos="fade-right">
                 <div id="h" class="align-self-center">H</div>
             </a>
-            <button class="navbar-toggler navbar-toggler-right" 
+            <button class="navbar-toggler navbar-toggler-right animate__animated animate__fadeInRight" 
                 type="button" data-toggle="collapse" 
                 data-target="#navbarResponsive" 
                 aria-controls="navbarResponsive" 
                 aria-expanded="false" aria-label="Toggle navigation">
                 <i class="fas fa-bars"></i>
             </button>
-            <div id="navbarResponsive" class="collapse navbar-collapse">
+            <div id="navbarResponsive" class="collapse navbar-collapse animate__animated animate__fadeInRight">
                 <ul class="navbar-nav ml-auto">
                   <li class="nav-item">
                     <a class="nav-link" href="#about">About</a>
@@ -67,7 +70,7 @@
         <!-- Header -->
         <header id="header">
             <div class="container d-flex flex-column justify-content-center align-items-center">
-                <div class="row align-items-center">
+                <div class="row align-items-center animate__animated animate__fadeIn">
                     <div class="col-sm-12">
                         <img src="img/pabloHerrero.jpg" alt="Pablo Herrero" id= "headerPhoto">
                     </div>
@@ -494,10 +497,10 @@
         <footer id="footer">
             <div class="container-fluid">
                 <div class="row">
-                    <div class="col-sm-12 col-lg-6 align-self-center" data-aos="fade-right" data-aos-offset="0">
+                    <div class="col-sm-12 col-lg-6 align-self-center animate__animated animate__fadeInLeft">
                         <small id="copy">&copy; 2020 Pablo Herrero</small>
                     </div>
-                    <div class="col-sm-12 col-lg-6 align-self-center" data-aos="fade-left" data-aos-offset="0">
+                    <div class="col-sm-12 col-lg-6 align-self-center animate__animated animate__fadeInRight">
                         <div id="social">
                             <a href="https://twitter.com/pablohs1986" target="_blank"><i class="fab fa-twitter"></i></a>
                             <a href="https://dev.to/pablohs1986" target="_blank"><i class="fab fa-dev"></i></a>
@@ -521,12 +524,12 @@
 
         <!-- Typed.js -->
         <script src="js/typed.min.js"></script>
-        
+
         <!-- Bootstrap js -->
         <script src="node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
         
         <!-- Own script -->
         <script src="js/app.js"></script>
-
+       
     </body>
 </html>
