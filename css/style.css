@@ -122,8 +122,8 @@ body::-webkit-scrollbar {
 }
 
 #header .container {
-    min-height: 100%;
-    min-height: 100vh;
+    min-height: 90%;
+    min-height: 90vh;
     align-items: center;
 }
 
@@ -178,6 +178,11 @@ body::-webkit-scrollbar {
   }
 
 @media (min-width: 992px) {
+    #header .container {
+        min-height: 100%;
+        min-height: 100vh;
+    }
+
     #header #headerPhoto {
         max-width: 35%;
     }
@@ -448,12 +453,13 @@ body::-webkit-scrollbar {
 }
 
 #contactForm input, #contactForm textarea, #contactForm button {
+    color: #ffffff;
     background-color: #000000;
     border-radius: 0%;
 }
 
 #contactForm input::placeholder, #contactForm textarea::placeholder, #contactForm button {
-    color: white;
+    color: #ffffffaf;
     font-size: 16px;
 }
 
@@ -477,7 +483,6 @@ body::-webkit-scrollbar {
     }
 
     #contactForm input::placeholder, #contactForm textarea::placeholder, #contactForm button {
-        color: white;
         font-size: 18px;
     }
 }
