@@ -1,0 +1,37 @@
+/* Fonts */
+@font-face {
+    font-family: 'fira_coderegular';
+    src: url('../assets/fonts/firacode-regular-webfont.woff2') format('woff2'),
+         url('../assets/fonts/firacode-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'fira_codebold';
+    src: url('../assets/fonts/firacode-bold-webfont.woff2') format('woff2'),
+         url('../assets/fonts/firacode-bold-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'fira_codemedium';
+    src: url('../assets/fonts/firacode-medium-webfont.woff2') format('woff2'),
+         url('../assets/fonts/firacode-medium-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+/* General */
+body {
+    position: relative;
+    font-family: 'fira_coderegular';
+    letter-spacing: normal;
+    overflow-y: scroll;
+    background-color:#ffffff;
+}
+  
+body::-webkit-scrollbar {
+    display: none;
+}

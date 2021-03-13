@@ -1,0 +1,41 @@
+<!-- Detail -->
+<section id="detail">
+    <div class="container d-flex flex-column justify-content-center align-items-center">
+        <div class="row animate__animated animate__fadeIn animate__faster">
+            <div class="col-sm-12 align-self-center">
+                <h2>{{selectedWork.tittle}}</h2>
+            </div>
+            <div class="col-sm-12 align-self-center">
+                <p>Description: {{selectedWork.description}}</p>
+            </div>
+            <div class="col-sm-12 align-self-center" >
+                <p>Stack:
+                    <ng-container *ngFor='let technology of selectedWork.technologies' [ngSwitch]="technology">
+                        <i *ngSwitchCase="'Angular'" class="fab fa-angular"></i>
+                        <i *ngSwitchCase="'Bootstrap 4'" class="fab fa-bootstrap"></i>
+                        <i *ngSwitchCase="'JavaScript'" class="fab fa-js"></i>
+                        <i *ngSwitchCase="'Node.js'" class="fab fa-node"></i>
+                        <i *ngSwitchCase="'Java'" class="fab fa-java"></i>
+                        <i *ngSwitchCase="'React'" class="fab fa-react"></i>
+                        <i *ngSwitchCase="'HTML5'" class="fab fa-html5"></i>
+                        <i *ngSwitchCase="'CSS3'" class="fab fa-css3"></i>
+                        <i *ngSwitchCase="'Database'" class="fas fa-database"></i>
+                        <i *ngSwitchDefault class="fas fa-file-code"></i>
+                    </ng-container>
+                </p>
+            </div>
+            <div class="col-sm-12 align-self-center" >
+                <p>Status:
+                    <span [ngClass]="getStatusColor()">{{selectedWork.status ? "Finished" : "In progress"}}</span>
+                </p>
+            </div>
+            <div class="col-sm-12 align-self-center" >
+                <p><i class="fas fa-link"></i><a href="{{selectedWork.livelinkUrl}}" target="_blank">Live link</a></p>
+            </div>
+            <div class="col-sm-12 align-self-center" >
+                <p><i class="fas fa-link"></i><a href="{{selectedWork.linkUrl}}" target="_blank">Link</a></p>
+            </div>
+            <p class="btn pt-3 text-center" (click)="goBack()"><i class="back fas fa-undo-alt"></i></p>
+        </div>
+    </div>
+</section>

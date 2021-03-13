@@ -1,27 +1,22 @@
-# PorfolioPHerrero
+# **MY PORTFOLIO** ![GitHub release](https://img.shields.io/badge/release-v.5.0-brightgreen) ![GitHub license](https://img.shields.io/badge/license-MIT-blue)
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 11.1.2.
+<img align="right" src="img/projects/portfolio.png"/>
 
-## Development server
+My portfolio, handmade with love. It's a one page, flat design web. These are its features:
+  - HTML5 + CSS3 + Bootstrap 4.
+  - Mobile first design.
+  - Black & White + touches of Dracula.
+  - Portfolio grid showing details when click.
+  - Contact section with a form that send you to the thanks page when submit.
+  - Fixed footer section with social links and copyright reference.
+  - Scrollspy
+  - Custom button styles.
+  - Dracula color palete (https://github.com/dracula/dracula-theme).
+  - Some amazing libraries:
+    - Typed.js JavaScript typing animation (https://github.com/mattboldt/typed.js/).
+    - Animate.css (https://github.com/animate-css/animate.css).
+    - Typeform (https://www.typeform.com/).
+    
+Use my design if you want, always with love and under MIT license :metal:
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
-
-## Code scaffolding
-
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
-
-## Build
-
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `--prod` flag for a production build.
-
-## Running unit tests
-
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
-
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+> © 2020 Pablo Herrero

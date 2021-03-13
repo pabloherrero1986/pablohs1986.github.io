@@ -1,0 +1,79 @@
+/* Navbar */
+#navbar {
+    min-height: 56px;
+    background-color: transparent;
+    border-bottom: none;
+}
+
+#navbar .navbar-toggler {
+    color: #282a36;
+}
+
+#navbar .navbar-toggler:focus {
+    outline: none;
+}
+
+#navbar .navbar-toggler:hover {
+    color: #bd93f9
+}
+
+#navbar .navbar-toggler:active {
+    color: #50fa7b
+}
+
+#h {
+    font-size: 28px;
+    font-family: 'fira_codebold';
+    text-align: center;
+    color: #282a36;
+    outline: none;
+}
+
+#navbar .nav-link {
+    font-size: 14px;
+    font-family: 'fira_codemedium';
+    padding: 1rem 1.5rem;
+    text-align: center;
+    color:#ffffff;
+    background-color: #282a36;
+    outline: none;
+}
+
+#navbar .nav-link:hover {
+    color: #bd93f9;
+    outline: none;
+    font-weight: 500;
+}
+
+#navbar .nav-link.active {
+    color: #50fa7b;
+    outline: none;
+    font-weight: 500;
+}
+
+#navbar #h:hover {
+    color: #bd93f9;
+    outline: none;
+}
+
+#navbar #h:active {
+    color: #50fa7b;
+    outline: none;
+}
+
+@media (min-width: 992px) {
+    #navbar {
+        padding: 8px 30px 0px 30px;
+    }
+   
+    #h {
+        font-size: 32px;
+    }
+
+    #navbar .nav-link {
+        font-size: 16px;
+        padding: 0.5rem 0rem 0.5rem 3rem;
+        color:#282a36;
+        background-color: transparent;
+    }
+}

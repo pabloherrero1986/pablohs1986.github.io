@@ -1,0 +1,20 @@
+<!-- Header -->
+<header id="header">
+    <div class="container d-flex flex-column justify-content-center align-items-center">
+        <div class="row btnEnterWrapper align-items-center animate__animated animate__fadeIn" routerLink="/about" routerLinkActive="active">
+            <div class="col-sm-12">
+                <img src="../../assets/img/pabloHerrero_Dracula.jpg" alt="Pablo Herrero" id= "headerPhoto">
+            </div>
+            <div class="col-sm-12">
+                <h1>Pablo Herrero</h1>
+            </div>
+            <div class="col-sm-12">
+                <ngx-typed-js [strings]=typedStrings [shuffle]="true" [fadeOut]="true"
+                [typeSpeed]="80" [backSpeed]="60" [loop]="true" [showCursor]="true">
+                    <h2>Developer</h2>
+                    <h3><span class="typing"></span></h3>
+                </ngx-typed-js>
+            </div>
+        </div>
+    </div>
+</header>

@@ -1,0 +1,79 @@
+/* About */
+#about {
+    width: 100%;
+    min-height: 100vh;
+}
+
+#about .lineBreak {
+    display: static;
+}
+
+#about .container {
+    min-height: 100%;
+    min-height: 100vh;
+    align-items: center;
+}
+
+#about .row {
+    background-color: #282a36;
+    padding: 5vh 0vh 5vh 0vh;
+    margin: 1vh 0vh 1vh 0vh;
+}
+
+#about h2 {
+    width: 100%;
+    text-align: left;
+    margin-bottom: 30px;
+    font-family: 'fira_codemedium';
+    font-size: 24px;
+    color: #ffffff;
+    letter-spacing: 0.05rem;
+}
+
+#about p {
+    width: 100%;
+    text-align: left;
+    font-family: 'fira_coderegular';
+    font-size: 16px;
+    color: #ffffff;
+}
+
+#about .draculaGreen {
+    color: #50fa7b;
+}
+
+#about .draculaPurple {
+    color: #bd93f9;
+}
+
+#about span {
+    outline: none;
+}
+
+#about span:hover {
+    color: #50fa7b;
+}
+
+@media (min-width: 768px) and (orientation: landscape) {
+    #about .lineBreak {
+        display: none;
+    }
+}
+
+@media (min-width: 992px) {
+    #about .row {
+        padding: 15vh 10vh 15vh 10vh;
+        margin: 1vh 0vh 1vh 0vh;
+    }
+
+    #about h2 {
+        text-align: left;
+        margin-bottom: 30px;
+        font-size: 36px;
+    }
+    
+    #about p {
+        text-align: left;
+        font-size: 18px;
+    }
+}

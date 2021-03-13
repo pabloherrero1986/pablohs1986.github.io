@@ -1,0 +1,27 @@
+<!-- Navbar -->
+<nav id="navbar" class="navbar navbar-expand-lg navbar-light fixed-top">
+    <a class="navbar-brand  animate__animated animate__backInLeft" routerLink="/home" routerLinkActive="active" data-aos="fade-right">
+        <div id="h" class="align-self-center">H</div>
+    </a>
+    <button (click)="toggleCollapse()" class="navbar-toggler navbar-toggler-right animate__animated animate__fadeInRight" 
+        type="button" data-toggle="collapse" 
+        data-target="#navbarResponsive" 
+        aria-controls="navbarResponsive" 
+        aria-expanded="false" aria-label="Toggle navigation">
+        <i class="fas fa-bars"></i>
+    </button>
+    <div id="navbarResponsive" class="collapse navbar-collapse animate__animated animate__slideInRight animate__faster"
+        [class.show]="show">
+        <ul class="navbar-nav ml-auto">
+            <li class="nav-item">
+            <a class="nav-link" routerLink="/about" routerLinkActive="active" (click)="toggleCollapse()">About</a>
+            </li>
+            <li class="nav-item">
+            <a class="nav-link" routerLink="/works" routerLinkActive="active" (click)="toggleCollapse()">Works</a>
+            </li>
+            <li class="nav-item">
+            <a class="nav-link" routerLink="/contact" routerLinkActive="active" (click)="toggleCollapse()">Contact</a>
+            </li>
+        </ul>
+    </div>
+</nav>

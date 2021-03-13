@@ -1,0 +1,21 @@
+<!-- Works -->
+<section id="works">
+    <div class="container pt-5 d-flex flex-column justify-content-center animate__animated animate__fadeIn animate__faster">
+        <div >
+            <h2>{{worksCounter}} of my works</h2>
+        </div>
+        <div class="projects d-flex justify-content-center">
+            <app-item-work class="project"
+                *ngFor='let work of works'
+                [work]='work'
+                [routerLink]="['/works',work.id]"
+                routerLinkActivated="active">
+            </app-item-work>
+        </div>
+        <div>
+            <a href="https://github.com/pablohs1986" target="_blank"><i class="link fab fa-github"></i></a>
+            <p class="btn pt-3" (click)="goBack()"><i class="link fas fa-undo-alt"></i></p>
+        </div>
+        
+    </div>
+</section>

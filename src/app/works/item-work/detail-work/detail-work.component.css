@@ -1,0 +1,116 @@
+/* Detail */
+#detail {
+    width: 100%;
+    min-height: 100vh;
+}
+
+#detail .container {
+    min-height: 100%;
+    min-height: 100vh;
+    align-items: center;
+}
+
+#detail .row {
+    background-color: white;
+    padding: 5vh 0vh 5vh 0vh;
+    margin: 1vh 0vh 1vh 0vh;
+    border-color: #282a36;
+    border-width: 3vh;
+    border-style: solid;
+}
+
+#detail h2 {
+    width: 100%;
+    text-align: left;
+    margin-bottom: 30px;
+    font-family: 'fira_codemedium';
+    font-size: 32px;
+    color: #282a36;
+    letter-spacing: 0.05rem;
+}
+
+#detail p {
+    width: 100%;
+    text-align: left;
+    font-family: 'fira_coderegular';
+    font-size: 16px;
+    color: #282a36;
+}
+
+#detail i {
+    text-align: left;
+    padding-right: 1vh;
+    font-size: 26px;
+    color: #282a36;
+}
+
+#detail a {
+    color: #282a36;
+    text-decoration: none;
+}
+
+#detail p a:hover {
+    color: #bd93f9;
+}
+
+#detail p a:active {
+    color: #50fa7b;
+}
+
+#detail li {
+    text-align: left;
+    font-size: 16px;
+}
+
+#detail .draculaGreen {
+    color: #50fa7b;
+}
+
+#detail .draculaPurple {
+    color: #bd93f9;
+}
+
+.draculaRed {
+    color: #ff5555;
+}
+
+#detail span {
+    outline: none;
+}
+
+#detail .back:hover {
+    color: #bd93f9;
+}
+
+#detail .back:active {
+    color: #50fa7b;
+}
+
+@media (min-width: 768px) and (orientation: landscape) {
+    #detail .lineBreak {
+        display: none;
+    }
+}
+
+@media (min-width: 992px) {
+    #detail .row {
+        padding: 5vh 10vh 5vh 10vh;
+        margin: 1vh 0vh 1vh 0vh;
+    }
+
+    #detail h2 {
+        text-align: left;
+        margin-bottom: 30px;
+        font-size: 36px;
+    }
+    
+    #detail p {
+        text-align: left;
+        font-size: 18px;
+    }
+    
+    #detail li {
+        text-align: left;
+        font-size: 18px;
+    }
+}
