@@ -1,0 +1,504 @@
+/*
+ * Pablo Herrero's portfolio | Made with love by Pablo Herrero | pabloherrero.me
+ * Copyright 2020 Pablo Herrero | MIT License
+ */
+
+/* Fonts */
+@font-face {
+    font-family: 'fira_coderegular';
+    src: url('fonts/firacode-regular-webfont.woff2') format('woff2'),
+         url('fonts/firacode-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'fira_codebold';
+    src: url('fonts/firacode-bold-webfont.woff2') format('woff2'),
+         url('fonts/firacode-bold-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'fira_codemedium';
+    src: url('fonts/firacode-medium-webfont.woff2') format('woff2'),
+         url('fonts/firacode-medium-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+/* General */
+body {
+    position: relative;
+    font-family: 'fira_coderegular';
+    letter-spacing: normal;
+    overflow-y: scroll;
+    background-color:#ffffff;
+}
+  
+body::-webkit-scrollbar {
+    display: none;
+}
+
+/* Navbar */
+#navbar {
+    min-height: 56px;
+    background-color: transparent;
+    border-bottom: none;
+}
+
+#navbar .navbar-toggler {
+    color: #000000;
+}
+
+#navbar .navbar-toggler:focus {
+    outline: none;
+}
+
+#h {
+    font-size: 28px;
+    font-family: 'fira_codebold';
+    text-align: center;
+    color: #000000;
+    outline: none;
+}
+
+#navbar .nav-link {
+    font-size: 14px;
+    font-family: 'fira_codemedium';
+    padding: 1rem 1.5rem;
+    text-align: center;
+    color:#ffffff;
+    background-color: #000000;
+    outline: none;
+}
+
+#navbar .nav-link:hover {
+    color: #bd93f9;
+    outline: none;
+}
+
+#navbar .nav-link.active {
+    color: #50fa7b;
+    outline: none;
+}
+
+#navbar #h:hover {
+    color: #bd93f9;
+    outline: none;
+}
+
+#navbar #h:active {
+    color: #50fa7b;
+    outline: none;
+}
+
+@media (min-width: 992px) {
+    #h {
+        font-size: 32px;
+    }
+
+    #navbar .nav-link {
+        font-size: 16px;
+        padding: 0.5rem 0rem 0.5rem 3rem;
+        color:#000000;
+        background-color: transparent;
+    }
+}
+
+/* Header */
+#header {
+    width: 100%;
+    min-height: 100vh;
+}
+
+#header .container {
+    min-height: 100%;
+    min-height: 100vh;
+    align-items: center;
+}
+
+#header .col-sm-12 {
+    text-align: center;
+}
+
+#header #headerPhoto {
+    text-align: center;
+    max-width: 100%;
+}
+
+#header h1 {
+    margin: 50px 0px 0px 0px;
+    width: 100%;
+    text-align: center;
+    text-transform: uppercase;
+    font-family: 'fira_codebold';
+    font-size: 64px;
+    line-height: 3.3rem;
+    letter-spacing: 0.05rem;
+}
+
+#header h2 {
+    margin: 15px 0px 0px 0px;
+    width: 100%;
+    text-align: center;
+    font-family: 'fira_codemedium';
+    font-size: 32px;
+    letter-spacing: 0.05rem;
+}
+
+#header a {
+    color: #000000;
+    outline: none;
+}
+
+#header #downArrow {
+    font-size: 40px;
+    -webkit-animation: arrow-jump 1s infinite;
+    -moz-animation:    arrow-jump 1s infinite
+}
+
+@-webkit-keyframes arrow-jump {
+    0%   { opacity: 0;}
+    100% { opacity: 1; 
+      -webkit-transform: translateY(10px);
+      -moz-transform: translateY(10px);
+      -o-transform: translateY(10px);
+      transform: translateY(10px);
+      }  
+  }
+
+@media (min-width: 992px) {
+    #header #headerPhoto {
+        max-width: 35%;
+    }
+
+    #header h1 {
+        margin: 25px 0px 0px 0px;
+        font-size: 72px;
+        line-height: 3.3rem;
+        letter-spacing: 0.05rem;
+    }
+
+    #header h2 {
+        margin: 15px 0px 0px 0px;
+        font-size: 36px;
+        letter-spacing: 0.05rem;
+    }
+
+    #header #downArrow {
+        padding-top: 32px;
+        font-size: 40px;
+    }
+}
+
+/* About */
+#about {
+    width: 100%;
+    min-height: 100vh;
+}
+
+#about .container {
+    min-height: 100%;
+    min-height: 100vh;
+    align-items: center;
+}
+
+#about .row {
+    background-color: #000000;
+    padding: 5vh 0vh 5vh 0vh;
+    margin: 1vh 0vh 1vh 0vh;
+}
+
+#about h2 {
+    width: 100%;
+    text-align: left;
+    margin-bottom: 30px;
+    font-family: 'fira_codemedium';
+    font-size: 32px;
+    color: #ffffff;
+    letter-spacing: 0.05rem;
+}
+
+#about p {
+    width: 100%;
+    text-align: left;
+    font-family: 'fira_coderegular';
+    font-size: 16px;
+    color: #ffffff;
+}
+
+#about .typedAboutB {
+    color: #bd93f9;
+}
+
+@media (min-width: 992px) {
+    #about .row {
+        background-color: #000000;
+        padding: 15vh 10vh 15vh 10vh;
+        margin: 1vh 0vh 1vh 0vh;
+    }
+
+    #about h2 {
+        text-align: left;
+        margin-bottom: 30px;
+        font-size: 36px;
+    }
+    
+    #about p {
+        text-align: left;
+        font-size: 18px;
+    }
+}
+
+/* Works */
+/* Revisar tamaño fuentes en modal */
+#works {
+    width: 100%;
+    min-height: 100vh;
+}
+
+#works .container {
+    min-height: 100%;
+    min-height: 100vh;
+    align-items: center;
+}
+
+#works .project {
+    height: 35vh;
+    background-color: #000000;
+    border: 3vh solid white;
+    padding: 4vh 5vh 4vh 5vh;
+}
+
+#works h2 {
+    width: 100%;
+    text-align: center;
+    margin-bottom: 30px;
+    font-family: 'fira_codemedium';
+    font-size: 32px;
+    color: #000000;
+    letter-spacing: 0.05rem;
+}
+
+#works h3 {
+    width: 100%;
+    padding-top: 10px;
+    text-align: left;
+    font-family: 'fira_codemedium';
+    font-size: 26px;
+    color: #ffffff;
+    letter-spacing: 0.05rem;
+}
+
+#works p {
+    text-align: left;
+    padding-top: 8px;
+    font-family: 'fira_coderegular';
+    font-size: 16px;
+    color: #ffffff;
+}
+
+#works .project i {
+    font-size: 16px;
+    color: #ffffff;
+}
+
+#works hr {
+    border-color: #ffffff;
+}
+
+#works a, #works a i  {
+    color: #000000;
+    text-decoration: unset;
+}
+
+#works .project:hover { 
+    border: 3vh solid #bd93f9;
+}
+
+#works .project:active { 
+    border: 3vh solid #50fa7b;
+}
+
+#works a:hover {
+    color: #bd93f9;
+}
+
+#works a:active {
+    color: #50fa7b;
+    outline: none;
+}
+
+#works .projectModal {
+    min-height: 90vh;
+    background-color: #000000;
+    border: 3vh solid white;
+    padding: 4vh 5vh 4vh 5vh;
+}
+
+#works .modal-header button {
+    color: #ffffff;
+    font-size: 56px;
+    outline: none;
+}
+
+#works .modal-header button:hover {
+    color: #bd93f9;
+}
+
+#works .modal-header button:active {
+    color: #50fa7b;
+}
+
+#works .modal-body, #works .modal-footer a {
+    color: #ffffff;
+}
+
+#works .modal-body a:hover, #works .modal-footer a:hover  {
+    color: #bd93f9;
+
+}
+
+#works .modal-body a:active, #works .modal-footer a:active  {
+    color: #50fa7b;
+}
+
+#works .projectModal img {
+    width: 80%;   
+}
+
+
+@media (min-width: 992px) {
+    #works h2 {
+        text-align: center;
+        margin-bottom: 30px;
+        font-size: 36px;
+    }
+    
+    #works h3 {
+        text-align: left;
+        font-size: 30px;
+    }
+    
+    #works p {
+        text-align: left;
+        font-size: 18px;
+    }
+
+    #works i {
+        font-size: 18px;
+    }
+
+    #works #projectIMG {
+        text-align: right;
+    }
+}
+
+/* Contact */
+#contact {
+    width: 100%;
+    min-height: 100vh;
+}
+
+#contact .container {
+    min-height: 100%;
+    min-height: 100vh;
+}
+
+#contact h2 {
+    width: 100%;
+    text-align: center;
+    margin-bottom: 30px;
+    font-family: 'fira_codemedium';
+    font-size: 32px;
+    color: #000000;
+    letter-spacing: 0.05rem;
+}
+
+#contactForm {
+    border-top: 3vh solid #ffffff;
+
+}
+
+#contactForm input, #contactForm textarea, #contactForm button {
+    background-color: #000000;
+    border-radius: 0%;
+}
+
+#contactForm input::placeholder, #contactForm textarea::placeholder, #contactForm button {
+    color: white;
+    font-size: 16px;
+}
+
+#contactForm button {
+    border: 3vh solid #ffffff;
+    padding: 2vh 3vh 2vh 3vh;
+}
+
+#contactForm button:hover {
+    border: 3vh solid #bd93f9;
+}
+
+#contactForm button:active {
+    border: 3vh solid #50fa7b;
+    outline: none;
+}
+
+@media (min-width: 992px) {
+    #contact h2 {
+        font-size: 36px;
+    }
+
+    #contactForm input::placeholder, #contactForm textarea::placeholder, #contactForm button {
+        color: white;
+        font-size: 18px;
+    }
+}
+
+/* Footer */
+#footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    padding-bottom: 5px;
+    background-color: transparent;
+    color: #000000;
+    text-align: center;
+}
+
+#footer #social a{
+    font-size: 14px;
+    color: #000000;
+}
+
+#footer #social i:hover{
+    color: #bd93f9;
+}
+
+#footer #social i:active {
+    color: #50fa7b;
+    outline: none;
+}
+
+#footer small {
+    font-size: 14px;
+}
+
+@media (min-width: 992px) {
+    #footer #copy {
+        float: left;
+    }
+    
+    #footer #social a{
+        font-size: 21px;
+        float: right;
+        padding: 0.5rem 0rem 0.5rem 2.5rem;
+
+    }
+
+    #footer small {
+        font-size: 16px;
+    }
+}
