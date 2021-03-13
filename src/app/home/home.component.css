@@ -50,6 +50,12 @@
     outline:none;
 }
 
+@media (min-width: 768px) and (orientation: portrait) {
+    #header #headerPhoto {
+        max-width: 50vh;
+    }
+}
+
 @media (min-width: 992px) {
     #header .container {
         min-height: 100%;
@@ -57,7 +63,6 @@
     }
 
     #header #headerPhoto {
-        /* max-width: 35%; */
         max-width: 55vh;
     }
 

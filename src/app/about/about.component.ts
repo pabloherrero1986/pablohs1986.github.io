@@ -41,7 +41,7 @@ export class AboutComponent implements OnInit {
       'I ' + String.fromCodePoint(0x2764) + ' problems',
       'I ' + String.fromCodePoint(0x2764) + ' guitars',
       "I'm a developer"
-  ];
+    ];
 
   }
 

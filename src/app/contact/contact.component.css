@@ -79,7 +79,13 @@ textarea::content, input::content {
     -webkit-border-radius: 0;
        -moz-border-radius: 0;
             border-radius: 0;
-  }
+}
+
+@media(min-width: 768px) {
+    .errors {
+        padding-top: 2vh;
+    }
+}
 
 @media (min-width: 992px) {
     #contact h2 {

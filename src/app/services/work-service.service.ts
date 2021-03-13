@@ -8,12 +8,11 @@ let works: Work[] = [
     'My portfolio, handmade with love, is a SPA made with Angular and inspired on Dracula theme colors.',
     [
       'Angular',
-      'TypeScript',
       'Bootstrap 4'
     ],
     'https://github.com/pablohs1986/pablohs1986.github.io',
     'https://pabloherrero.me/',
-    false
+    true
     ),
   new Work(
     'Addicted Bot',
@@ -58,7 +57,7 @@ let works: Work[] = [
     ,
   new Work(
     'miTiempo',
-    'Productivity app made stack MERN.',
+    'Productivity app made with MERN stack.',
     'Productivity app that integrates a task manager, a Pomodoro timer and a time tracker. Developed with MERN stack and available for Android and web-app.',
     [
       'React',

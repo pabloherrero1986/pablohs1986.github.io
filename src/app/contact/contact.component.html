@@ -24,13 +24,13 @@
                     <small>*I'll only use your data to reply you.</small>
 
                     <!-- Validation -->
-                    <div *ngIf="form.get('name').errors || form.get('message').errors 
+                    <div class="errors" *ngIf="form.get('name').errors || form.get('message').errors 
                         || form.get('email').hasError('email') || form.get('email').hasError('required')">
                         <p class="formError">
                             All fields are required
                         </p>
                     </div>
-                    <div *ngIf="form.get('name').valid && form.get('email').valid 
+                    <div class="errors" *ngIf="form.get('name').valid && form.get('email').valid 
                         && form.get('message').valid">
                         <p class="formValid">
                             Well done, send it!

@@ -1,6 +1,6 @@
 import { Location } from '@angular/common';
 import { Component, OnInit } from '@angular/core';
-import { ActivatedRoute, Router } from '@angular/router';
+import { ActivatedRoute } from '@angular/router';
 import { Work } from 'src/app/model/work';
 import { WorkServiceService } from 'src/app/services/work-service.service';
 
@@ -14,7 +14,7 @@ export class DetailWorkComponent implements OnInit {
   selectedWork: Work;
   workId: string;
 
-  constructor(private _workService: WorkServiceService, private _router: Router, private _route: ActivatedRoute, private _location: Location) { }
+  constructor(private _workService: WorkServiceService, private _route: ActivatedRoute, private _location: Location) { }
 
   ngOnInit(): void {
     this.workId = this._route.snapshot.paramMap.get('id');

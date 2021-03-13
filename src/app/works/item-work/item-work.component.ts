@@ -16,7 +16,4 @@ export class ItemWorkComponent implements OnInit {
   ngOnInit(): void {
   }
 
- 
-  
-
 }
