@@ -17,27 +17,27 @@ import { DetailWorkComponent } from './works/item-work/detail-work/detail-work.c
 import { HttpClientModule } from '@angular/common/http';
 
 @NgModule({
-  declarations: [
-    AppComponent,
-    NavbarComponent,
-    FooterComponent,
-    HomeComponent,
-    AboutComponent,
-    WorksComponent,
-    ContactComponent,
-    ItemWorkComponent,
-    DetailWorkComponent
-  ],
-  imports: [
-    FormsModule,
-    ReactiveFormsModule,
-    BrowserModule,
-    AppRoutingModule,
-    HttpClientModule,
-    NgbModule,
-    NgxTypedJsModule
-  ],
-  providers: [],
-  bootstrap: [AppComponent]
+    declarations: [
+        AppComponent,
+        NavbarComponent,
+        FooterComponent,
+        HomeComponent,
+        AboutComponent,
+        WorksComponent,
+        ContactComponent,
+        ItemWorkComponent,
+        DetailWorkComponent,
+    ],
+    imports: [
+        FormsModule,
+        ReactiveFormsModule,
+        BrowserModule,
+        AppRoutingModule,
+        HttpClientModule,
+        NgbModule,
+        NgxTypedJsModule,
+    ],
+    providers: [],
+    bootstrap: [AppComponent],
 })
-export class AppModule { }
+export class AppModule {}

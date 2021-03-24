@@ -14,16 +14,16 @@
 }
 
 #navbar .navbar-toggler:hover {
-    color: #bd93f9
+    color: #bd93f9;
 }
 
 #navbar .navbar-toggler:active {
-    color: #50fa7b
+    color: #50fa7b;
 }
 
 #h {
     font-size: 28px;
-    font-family: 'fira_codebold';
+    font-family: "fira_codebold";
     text-align: center;
     color: #282a36;
     outline: none;
@@ -31,10 +31,10 @@
 
 #navbar .nav-link {
     font-size: 14px;
-    font-family: 'fira_codemedium';
+    font-family: "fira_codemedium";
     padding: 1rem 1.5rem;
     text-align: center;
-    color:#ffffff;
+    color: #ffffff;
     background-color: #282a36;
     outline: none;
 }
@@ -65,7 +65,7 @@
     #navbar {
         padding: 8px 30px 0px 30px;
     }
-   
+
     #h {
         font-size: 32px;
     }
@@ -73,7 +73,7 @@
     #navbar .nav-link {
         font-size: 16px;
         padding: 0.5rem 0rem 0.5rem 3rem;
-        color:#282a36;
+        color: #282a36;
         background-color: transparent;
     }
 }

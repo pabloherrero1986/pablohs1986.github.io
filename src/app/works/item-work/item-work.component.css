@@ -3,7 +3,7 @@
     background-color: #282a36;
     border: 3vh solid white;
     padding: 20px;
-    max-height: 50vh;  
+    max-height: 50vh;
     min-height: 35vh;
     outline: none;
 }
@@ -12,7 +12,7 @@ h3 {
     width: 100%;
     padding-top: 10px;
     text-align: left;
-    font-family: 'fira_codemedium';
+    font-family: "fira_codemedium";
     font-size: 26px;
     color: #ffffff;
     letter-spacing: 0.05rem;
@@ -21,7 +21,7 @@ h3 {
 p {
     text-align: left;
     padding-top: 8px;
-    font-family: 'fira_coderegular';
+    font-family: "fira_coderegular";
     font-size: 16px;
     color: #ffffff;
 }
@@ -35,17 +35,18 @@ hr {
     border-color: #ffffff;
 }
 
-a, a i  {
+a,
+a i {
     color: #282a36;
     text-decoration: unset;
     outline: none;
 }
 
-.project:hover { 
+.project:hover {
     border: 3vh solid #bd93f9;
 }
 
-.project:active { 
+.project:active {
     border: 3vh solid #50fa7b;
 }
 
@@ -71,7 +72,7 @@ a:active {
         text-align: left;
         font-size: 30px;
     }
-    
+
     p {
         text-align: left;
         font-size: 18px;
@@ -86,4 +87,3 @@ a:active {
         color: #ffffff;
     }
 }
-

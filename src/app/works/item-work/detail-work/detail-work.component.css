@@ -23,7 +23,7 @@
     width: 100%;
     text-align: left;
     margin-bottom: 30px;
-    font-family: 'fira_codemedium';
+    font-family: "fira_codemedium";
     font-size: 32px;
     color: #282a36;
     letter-spacing: 0.05rem;
@@ -32,7 +32,7 @@
 #detail p {
     width: 100%;
     text-align: left;
-    font-family: 'fira_coderegular';
+    font-family: "fira_coderegular";
     font-size: 16px;
     color: #282a36;
 }
@@ -103,12 +103,12 @@
         margin-bottom: 30px;
         font-size: 36px;
     }
-    
+
     #detail p {
         text-align: left;
         font-size: 18px;
     }
-    
+
     #detail li {
         text-align: left;
         font-size: 18px;

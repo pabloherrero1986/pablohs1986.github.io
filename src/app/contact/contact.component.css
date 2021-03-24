@@ -1,118 +1,118 @@
 /* Contact */
 #contact {
-  width: 100%;
-  min-height: 100vh;
+    width: 100%;
+    min-height: 100vh;
 }
 
 #contact .container {
-  min-height: 100%;
-  min-height: 100vh;
+    min-height: 100%;
+    min-height: 100vh;
 }
 
 #contact h2 {
-  width: 100%;
-  text-align: center;
-  margin-bottom: 30px;
-  font-family: "fira_codemedium";
-  font-size: 32px;
-  color: #282a36;
-  letter-spacing: 0.05rem;
+    width: 100%;
+    text-align: center;
+    margin-bottom: 30px;
+    font-family: "fira_codemedium";
+    font-size: 32px;
+    color: #282a36;
+    letter-spacing: 0.05rem;
 }
 
 #contact input,
 textarea {
-  width: 100%;
-  text-align: left;
-  font-family: "fira_coderegular";
-  font-size: 16px;
+    width: 100%;
+    text-align: left;
+    font-family: "fira_coderegular";
+    font-size: 16px;
 }
 
 p {
-  width: 100%;
-  text-align: center;
-  font-family: "fira_codemedium";
-  font-size: 16px;
+    width: 100%;
+    text-align: center;
+    font-family: "fira_codemedium";
+    font-size: 16px;
 }
 
 #contact ::placeholder {
-  color: #ffffff;
+    color: #ffffff;
 }
 
 #contact input,
 textarea {
-  background-color: #282a36 !important;
+    background-color: #282a36 !important;
 }
 
 textarea:focus,
 input:focus {
-  color: #bd93f9;
+    color: #bd93f9;
 }
 
 textarea::content,
 input::content {
-  color: #50fa7b;
+    color: #50fa7b;
 }
 
 #contact .back,
 .send {
-  font-size: 26px;
-  color: #282a36;
+    font-size: 26px;
+    color: #282a36;
 }
 
 #contact .back:hover,
 .send:hover {
-  color: #bd93f9;
+    color: #bd93f9;
 }
 
 #contact .back:active,
 .send:active {
-  color: #50fa7b;
+    color: #50fa7b;
 }
 
 .formError {
-  color: #ff5555;
+    color: #ff5555;
 }
 
 .formValid {
-  color: #50fa7b;
+    color: #50fa7b;
 }
 
 #contactForm {
-  border-top: 3vh solid #ffffff;
+    border-top: 3vh solid #ffffff;
 }
 
 .form-control {
-  -webkit-border-radius: 0;
-  -moz-border-radius: 0;
-  border-radius: 0;
+    -webkit-border-radius: 0;
+    -moz-border-radius: 0;
+    border-radius: 0;
 }
 
 .btn {
-  border: none;
-  outline: none;
+    border: none;
+    outline: none;
 }
 
 @media (min-width: 768px) {
-  .errors {
-    padding-top: 2vh;
-  }
+    .errors {
+        padding-top: 2vh;
+    }
 }
 
 @media (min-width: 992px) {
-  #contact h2 {
-    font-size: 36px;
-  }
+    #contact h2 {
+        font-size: 36px;
+    }
 
-  #contact h2 {
-    margin-bottom: 15px;
-  }
+    #contact h2 {
+        margin-bottom: 15px;
+    }
 
-  #contact input,
-  textarea {
-    font-size: 18px;
-  }
+    #contact input,
+    textarea {
+        font-size: 18px;
+    }
 
-  p {
-    font-size: 18px;
-  }
+    p {
+        font-size: 18px;
+    }
 }

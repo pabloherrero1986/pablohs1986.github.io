@@ -15,7 +15,7 @@
     width: 100%;
     text-align: center;
     margin-bottom: 30px;
-    font-family: 'fira_codemedium';
+    font-family: "fira_codemedium";
     font-size: 32px;
     color: #282a36;
     letter-spacing: 0.05rem;
@@ -40,26 +40,29 @@
     color: #282a36;
 }
 
-#works .link:hover, .git:hover, i:hover {
+#works .link:hover,
+.git:hover,
+i:hover {
     color: #bd93f9;
 }
 
-#works .link:active, .git:active {
+#works .link:active,
+.git:active {
     color: #50fa7b;
 }
 
-@media(min-width: 768px) {
+@media (min-width: 768px) {
     #works {
         margin-top: 0vh;
     }
 
-    #works .container { 
+    #works .container {
         padding-top: 6vh;
     }
 
     .projects {
-      flex-direction: row;
-      flex-wrap: wrap;
+        flex-direction: row;
+        flex-wrap: wrap;
     }
 
     .project {
@@ -71,7 +74,7 @@
     #works .container {
         padding-top: 3vh;
     }
-    
+
     #works h2 {
         text-align: center;
         margin-bottom: 15px;

@@ -1,5 +1,4 @@
 export class Work {
-
     static worksCounter: number = 0;
     id: number;
     tittle: string;
@@ -29,5 +28,4 @@ export class Work {
         this.linkUrl = linkUrl;
         this.status = status;
     }
-
 }
