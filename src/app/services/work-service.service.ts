@@ -3,13 +3,13 @@ import { Work } from '../model/work';
 
 let works: Work[] = [
     new Work(
-        'My portfolio',
-        'My portfolio, handmade with love.',
-        'My portfolio, handmade with love, is a SPA made with Angular and inspired on Dracula theme colors.',
-        ['Angular', 'Bootstrap 4'],
-        'https://github.com/pablohs1986/pablohs1986.github.io',
-        'https://pabloherrero.me/',
-        true
+        'miTiempo',
+        'Productivity app made with MERN stack.',
+        'Productivity app that integrates a task manager, a Pomodoro timer and a time tracker. Developed with MERN stack and available for Android and web-app.',
+        ['React', 'Bootstrap 4', 'Node.js', 'Database'],
+        'https://github.com/users/pablohs1986/projects/1',
+        'https://mitiempoapp.netlify.app/',
+        false
     ),
     new Work(
         'Addicted Bot',
@@ -39,13 +39,13 @@ let works: Work[] = [
         true
     ),
     new Work(
-        'miTiempo',
-        'Productivity app made with MERN stack.',
-        'Productivity app that integrates a task manager, a Pomodoro timer and a time tracker. Developed with MERN stack and available for Android and web-app.',
-        ['React', 'Bootstrap 4', 'Node.js', 'Database'],
-        '',
-        '',
-        false
+        'My portfolio',
+        'My portfolio, handmade with love.',
+        'My portfolio, handmade with love, is a SPA made with Angular and inspired on Dracula theme colors.',
+        ['Angular', 'Bootstrap 4'],
+        'https://github.com/pablohs1986/pablohs1986.github.io',
+        'https://pabloherrero.me/',
+        true
     ),
 ];
 
