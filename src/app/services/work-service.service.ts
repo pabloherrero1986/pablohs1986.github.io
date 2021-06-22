@@ -9,7 +9,7 @@ let works: Work[] = [
         ['React', 'Bootstrap 4', 'Node.js', 'Database'],
         'https://github.com/users/pablohs1986/projects/1',
         'https://mitiempoapp.netlify.app/',
-        false
+        true
     ),
     new Work(
         'Addicted Bot',
